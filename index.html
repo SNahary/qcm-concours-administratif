@@ -1,0 +1,590 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>QCM de culture générale – entraînement aux concours</title>
+<meta name="description" content="Entraînement en ligne aux QCM de culture générale des concours malgaches, avec correction commentée.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#EDF0F3; --sheet:#FFFFFF; --text:#232C36; --muted:#5B6773; --rule:#D3D9E0;
+  --ink:#1F3F99; --ink-soft:#E4EAF8; --red:#B3261E; --green:#1D7447; --hl:#FFE14D;
+  --margin:rgba(179,38,30,.32);
+  --font:"Atkinson Hyperlegible","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root{--paper:#111519;--sheet:#1A2026;--text:#E4E8EC;--muted:#9AA6B2;--rule:#2E3741;
+    --ink:#A3BAFF;--ink-soft:#232F4D;--red:#FF8C82;--green:#7AD6A2;--hl:rgba(255,225,77,.34);
+    --margin:rgba(255,140,130,.28);color-scheme:dark}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--text);font:400 1.0625rem/1.55 var(--font);
+  padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+button,input,select{font:inherit;color:inherit}
+a{color:var(--ink)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:2px;border-radius:6px}
+.wrap{max-width:46rem;margin:0 auto;padding:0 1rem}
+
+/* En-tête */
+header.top{background:var(--sheet);border-bottom:1px solid var(--rule)}
+header.top .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem 1.25rem;padding-top:.75rem;padding-bottom:.75rem}
+.brand{font-weight:700;font-size:1.05rem;margin-right:auto;display:flex;align-items:center;gap:.55rem}
+.brand svg{flex:none}
+nav.tabs{display:flex;gap:.25rem}
+nav.tabs button{background:none;border:0;padding:.45rem .7rem;border-radius:8px;cursor:pointer;color:var(--muted)}
+nav.tabs button[aria-current="page"]{color:var(--text);background:var(--ink-soft);font-weight:700}
+
+main{padding:1.25rem 0 3rem}
+.sheet{background:var(--sheet);border:1px solid var(--rule);border-radius:12px;padding:1.25rem 1.1rem 1.4rem}
+h1,h2,h3{line-height:1.25;margin:0 0 .6rem}
+h1{font-size:1.55rem}
+h2{font-size:1.2rem}
+h3{font-size:1rem}
+p{margin:0 0 .8rem}
+.muted{color:var(--muted)}
+.small{font-size:.9rem}
+.stack>*+*{margin-top:1.4rem}
+fieldset{border:0;margin:0;padding:0}
+legend{font-weight:700;margin-bottom:.5rem;padding:0}
+
+/* Choix de la série */
+.intro h1{margin-bottom:.35rem}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chip{border:1px solid var(--rule);background:var(--sheet);border-radius:999px;padding:.4rem .8rem;cursor:pointer;font-size:.95rem}
+.chip[aria-pressed="true"]{border-color:var(--ink);background:var(--ink-soft);color:var(--text);font-weight:700}
+.chip .n{color:var(--muted);font-weight:400;margin-left:.3rem}
+.modes{display:grid;gap:.6rem}
+.mode{display:flex;gap:.75rem;align-items:flex-start;border:1px solid var(--rule);border-radius:10px;padding:.75rem .85rem;cursor:pointer}
+.mode input{margin-top:.3rem;accent-color:var(--ink);width:1.05rem;height:1.05rem}
+.mode:has(input:checked){border-color:var(--ink);background:var(--ink-soft)}
+.mode:has(input:disabled){opacity:.55;cursor:not-allowed}
+.mode b{display:block}
+.row{display:flex;flex-wrap:wrap;gap:.6rem 1rem;align-items:center}
+.seg{display:inline-flex;border:1px solid var(--rule);border-radius:9px;overflow:hidden}
+.seg button{border:0;background:var(--sheet);padding:.45rem .85rem;cursor:pointer;border-right:1px solid var(--rule)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--ink);color:#fff;font-weight:700}
+@media (prefers-color-scheme:dark){.seg button[aria-pressed="true"]{color:#0E1420}}
+select{border:1px solid var(--rule);border-radius:8px;padding:.45rem .6rem;background:var(--sheet);max-width:100%}
+label.check{display:flex;gap:.55rem;align-items:center;cursor:pointer}
+label.check input{accent-color:var(--ink);width:1.05rem;height:1.05rem}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.4rem;border-radius:9px;padding:.7rem 1.15rem;
+  border:1px solid var(--ink);background:var(--ink);color:#fff;font-weight:700;cursor:pointer;text-decoration:none}
+@media (prefers-color-scheme:dark){.btn{color:#0E1420}}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn:disabled{opacity:.45;cursor:not-allowed}
+.btn.wide{width:100%}
+.actions{display:flex;flex-wrap:wrap;gap:.6rem;align-items:center}
+
+/* Écran de question : la marge rouge d'une copie d'examen */
+.quiz-head{display:flex;align-items:center;gap:.75rem;margin-bottom:.9rem;flex-wrap:wrap}
+.progress{flex:1 1 12rem;height:4px;background:var(--rule);border-radius:4px;overflow:hidden}
+.progress i{display:block;height:100%;background:var(--ink);width:0;transition:width .25s ease}
+.counter{font-variant-numeric:tabular-nums;color:var(--muted);font-size:.95rem}
+.timer{font-variant-numeric:tabular-nums;font-weight:700}
+.timer.low{color:var(--red)}
+.copy{position:relative;padding-left:3.4rem;
+  background-image:linear-gradient(to right,transparent 2.6rem,var(--margin) 2.6rem,var(--margin) calc(2.6rem + 1px),transparent calc(2.6rem + 1px))}
+.qnum{position:absolute;left:0;top:.1rem;width:2.3rem;text-align:right;font-weight:700;font-size:1.25rem;color:var(--ink);font-variant-numeric:tabular-nums}
+.theme{color:var(--muted);font-size:.9rem;margin-bottom:.35rem}
+.qtext{font-size:1.28rem;line-height:1.45;font-weight:700;margin:0 0 1.1rem}
+.opts{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+.opt{width:100%;display:flex;gap:.8rem;align-items:flex-start;text-align:left;background:transparent;
+  border:1px solid var(--rule);border-radius:10px;padding:.7rem .8rem;cursor:pointer;line-height:1.4}
+.opt:hover:not(:disabled){border-color:var(--ink)}
+.opt:disabled{cursor:default}
+.bubble{flex:none;width:1.75rem;height:1.75rem;border-radius:50%;border:2px solid var(--muted);display:grid;place-items:center;
+  font-weight:700;font-size:.9rem;line-height:1;margin-top:-.08rem}
+.otext{padding:.05rem .15rem;border-radius:3px}
+.opt.is-picked .bubble{background:var(--ink);border-color:var(--ink);color:var(--sheet)}
+.opt.is-picked .otext{text-decoration:underline 2px var(--ink);text-underline-offset:4px}
+.opt.is-right{border-color:var(--green)}
+.opt.is-right .bubble{border-color:var(--green);background:var(--green);color:var(--sheet)}
+.opt.is-right .otext{background:linear-gradient(100deg,transparent 0,var(--hl) .15em,var(--hl) calc(100% - .15em),transparent 100%) no-repeat left center/100% 88%;
+  animation:swipe .45s ease-out both}
+.opt.is-wrong{border-color:var(--red)}
+.opt.is-wrong .bubble{border-color:var(--red);background:var(--red);color:var(--sheet)}
+.opt.is-wrong .otext{text-decoration:line-through 2px var(--red)}
+@keyframes swipe{from{background-size:0% 88%}to{background-size:100% 88%}}
+@media (prefers-reduced-motion:reduce){.opt.is-right .otext{animation:none}.progress i{transition:none}}
+
+.feedback{margin-top:1.1rem;border-top:1px dashed var(--rule);padding-top:1rem}
+.verdict{font-weight:700;margin-bottom:.35rem}
+.verdict.ok{color:var(--green)}
+.verdict.ko{color:var(--red)}
+.badge{display:inline-block;font-size:.82rem;font-weight:700;border-radius:6px;padding:.12rem .5rem;margin:0 .4rem .4rem 0;border:1px solid currentColor}
+.badge.nuance{color:var(--ink)}
+.badge.corrigee{color:var(--green)}
+.badge.erronee,.badge.averifier{color:var(--red)}
+.note{border-left:3px solid var(--rule);padding:.15rem 0 .15rem .7rem;color:var(--muted);font-size:.95rem;margin:.6rem 0 0}
+.src{font-size:.85rem;color:var(--muted);margin-top:.6rem}
+.quiz-nav{display:flex;justify-content:space-between;gap:.6rem;margin-top:1.3rem;flex-wrap:wrap}
+.kbd{font-size:.82rem;color:var(--muted)}
+.kbd kbd{font:inherit;border:1px solid var(--rule);border-bottom-width:2px;border-radius:4px;padding:0 .3rem}
+
+/* Résultats */
+.score{display:flex;align-items:baseline;gap:.6rem;flex-wrap:wrap;margin:.2rem 0 .8rem}
+.score strong{font-size:3.2rem;line-height:1;color:var(--ink);font-variant-numeric:tabular-nums}
+.bars{display:grid;gap:.55rem}
+.bar{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:.2rem .8rem;font-size:.95rem}
+.bar .track{grid-column:1/-1;height:6px;background:var(--rule);border-radius:6px;overflow:hidden}
+.bar .track i{display:block;height:100%;background:var(--ink)}
+.review{list-style:none;padding:0;margin:0;display:grid;gap:.8rem}
+.review li{border:1px solid var(--rule);border-radius:10px;padding:.8rem .9rem}
+.review .q{font-weight:700;margin-bottom:.35rem}
+.review .you{color:var(--red)}
+.review .good{color:var(--green)}
+.hl{background:linear-gradient(transparent 12%,var(--hl) 12%,var(--hl) 88%,transparent 88%);padding:0 .15em}
+
+/* Banque */
+.search{width:100%;border:1px solid var(--rule);border-radius:9px;padding:.65rem .8rem;background:var(--sheet)}
+.bank{list-style:none;padding:0;margin:0;display:grid;gap:.75rem}
+.bank li{border:1px solid var(--rule);border-radius:10px;padding:.8rem .9rem}
+.bank ol{margin:.35rem 0 .2rem;padding-left:1.4rem}
+.bank ol li{border:0;padding:.08rem 0}
+.bank ol li::marker{font-weight:700;color:var(--muted)}
+.empty{padding:1rem;border:1px dashed var(--rule);border-radius:10px;color:var(--muted)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(9rem,1fr));gap:.7rem}
+.stat{border:1px solid var(--rule);border-radius:10px;padding:.7rem .8rem}
+.stat b{display:block;font-size:1.6rem;font-variant-numeric:tabular-nums;color:var(--ink)}
+footer{color:var(--muted);font-size:.85rem;padding:0 0 2rem}
+[hidden]{display:none!important}
+@media (min-width:40rem){.sheet{padding:1.6rem 1.8rem 1.8rem}.modes{grid-template-columns:repeat(3,1fr)}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <svg width="26" height="26" viewBox="0 0 26 26" aria-hidden="true"><circle cx="13" cy="13" r="11" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="13" cy="13" r="5.5" fill="currentColor"/></svg>
+      QCM concours
+    </div>
+    <nav class="tabs" aria-label="Sections">
+      <button type="button" data-go="setup" aria-current="page">S'entraîner</button>
+      <button type="button" data-go="bank">Banque</button>
+      <button type="button" data-go="stats">Progression</button>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+  <!-- Préparer une série -->
+  <section id="v-setup" class="sheet stack" aria-labelledby="t-setup">
+    <div class="intro">
+      <h1 id="t-setup">Préparer une série</h1>
+      <p class="muted" id="bank-summary"></p>
+    </div>
+    <fieldset>
+      <legend>Sujets</legend>
+      <div class="chips" id="series-chips"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Thèmes</legend>
+      <div class="chips" id="theme-chips"></div>
+    </fieldset>
+    <fieldset>
+      <legend>Mode</legend>
+      <div class="modes">
+        <label class="mode"><input type="radio" name="mode" value="train" checked><span><b>Entraînement</b><span class="small muted">Correction après chaque question.</span></span></label>
+        <label class="mode"><input type="radio" name="mode" value="exam"><span><b>Examen blanc</b><span class="small muted">Chronométré, correction à la fin.</span></span></label>
+        <label class="mode"><input type="radio" name="mode" value="errors" id="mode-errors"><span><b>Mes erreurs</b><span class="small muted" id="errors-hint">Les questions ratées lors de vos séries.</span></span></label>
+      </div>
+    </fieldset>
+    <div class="row">
+      <fieldset>
+        <legend>Nombre de questions</legend>
+        <div class="seg" id="count-seg">
+          <button type="button" data-n="10">10</button><button type="button" data-n="20" aria-pressed="true">20</button><button type="button" data-n="50">50</button><button type="button" data-n="0">Toutes</button>
+        </div>
+      </fieldset>
+      <fieldset id="pace-box">
+        <legend>Temps par question</legend>
+        <select id="pace">
+          <option value="72">72 s (2 h pour 100 questions)</option>
+          <option value="108">108 s (3 h pour 100 questions)</option>
+          <option value="45">45 s (rythme serré)</option>
+        </select>
+      </fieldset>
+    </div>
+    <label class="check"><input type="checkbox" id="shuffle-opts" checked> Mélanger l'ordre des réponses</label>
+    <div class="actions">
+      <button type="button" class="btn wide" id="start">Commencer</button>
+    </div>
+    <p class="small muted" id="flag-summary"></p>
+  </section>
+
+  <!-- Question -->
+  <section id="v-quiz" class="sheet" hidden aria-labelledby="qtext">
+    <div class="quiz-head">
+      <div class="progress" aria-hidden="true"><i id="bar"></i></div>
+      <span class="counter" id="counter"></span>
+      <span class="timer" id="timer" hidden role="timer" aria-live="off"></span>
+    </div>
+    <div class="copy">
+      <span class="qnum" id="qnum" aria-hidden="true"></span>
+      <div class="theme" id="qtheme"></div>
+      <p class="qtext" id="qtext" tabindex="-1"></p>
+      <ul class="opts" id="opts"></ul>
+      <div class="feedback" id="feedback" aria-live="polite" hidden></div>
+    </div>
+    <div class="quiz-nav">
+      <button type="button" class="btn ghost" id="prev" hidden>Question précédente</button>
+      <button type="button" class="btn ghost" id="quit">Arrêter la série</button>
+      <button type="button" class="btn" id="next" disabled>Question suivante</button>
+    </div>
+    <p class="kbd" id="kbd-help">Clavier : <kbd>A</kbd> à <kbd>D</kbd> ou <kbd>1</kbd> à <kbd>4</kbd> pour répondre, <kbd>Entrée</kbd> pour continuer.</p>
+  </section>
+
+  <!-- Résultats -->
+  <section id="v-result" class="sheet stack" hidden aria-labelledby="t-result">
+    <div>
+      <h1 id="t-result">Résultat de la série</h1>
+      <div class="score"><strong id="score"></strong><span class="muted" id="score-detail"></span></div>
+      <p id="score-msg"></p>
+    </div>
+    <div>
+      <h2>Par thème</h2>
+      <div class="bars" id="theme-bars"></div>
+    </div>
+    <div>
+      <div class="row" style="justify-content:space-between">
+        <h2 style="margin:0">Correction</h2>
+        <label class="check small"><input type="checkbox" id="show-all"> Afficher aussi les bonnes réponses</label>
+      </div>
+      <ul class="review" id="review" style="margin-top:.8rem"></ul>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn" id="redo-errors">Refaire les questions ratées</button>
+      <button type="button" class="btn ghost" id="new-series">Nouvelle série</button>
+    </div>
+  </section>
+
+  <!-- Banque -->
+  <section id="v-bank" class="sheet stack" hidden aria-labelledby="t-bank">
+    <div>
+      <h1 id="t-bank">Banque de questions</h1>
+      <p class="muted small">Toutes les questions transcrites, avec la réponse retenue et son explication. Idéal pour réviser avant une série.</p>
+    </div>
+    <div class="row">
+      <input type="search" class="search" id="bank-q" placeholder="Rechercher un mot, un nom, une date…" aria-label="Rechercher dans la banque">
+    </div>
+    <div class="row">
+      <select id="bank-theme" aria-label="Filtrer par thème"></select>
+      <select id="bank-status" aria-label="Filtrer par statut">
+        <option value="">Toutes les questions</option>
+        <option value="flag">Questions signalées</option>
+        <option value="miss">Mes questions ratées</option>
+      </select>
+      <span class="small muted" id="bank-count"></span>
+    </div>
+    <ul class="bank" id="bank-list"></ul>
+  </section>
+
+  <!-- Progression -->
+  <section id="v-stats" class="sheet stack" hidden aria-labelledby="t-stats">
+    <div>
+      <h1 id="t-stats">Ma progression</h1>
+      <p class="muted small">Enregistrée dans ce navigateur uniquement.</p>
+    </div>
+    <div class="stats" id="stats-cards"></div>
+    <div>
+      <h2>Maîtrise par thème</h2>
+      <p class="small muted">Part des questions du thème dont votre dernière réponse était juste.</p>
+      <div class="bars" id="stats-bars"></div>
+    </div>
+    <div class="actions">
+      <button type="button" class="btn ghost" id="reset">Effacer ma progression</button>
+    </div>
+  </section>
+</main>
+<footer class="wrap" id="foot"></footer>
+
+<script id="qcm-data" type="application/json">{"series": [{"id": "EO2025", "court": "Élèves-officiers 2025", "titre": "Concours de recrutement d'élèves-officiers d'active, XLVIIIe promotion de l'Académie militaire d'Antsirabe", "detail": "épreuve de culture générale du 19 juin 2025 (100 QCM, 3 heures, coefficient 3)"}], "questions": [{"id": "EO2025-001", "serie": "EO2025", "num": 1, "theme": "Histoire militaire et générale", "q": "La deuxième Guerre mondiale date de :", "o": ["1914 – 1918", "1939 – 1940", "1939 – 1945"], "a": 2, "st": "ok", "x": "La Seconde Guerre mondiale commence le 1er septembre 1939 avec l'invasion de la Pologne et s'achève en 1945 (capitulation de l'Allemagne en mai, du Japon en septembre)."}, {"id": "EO2025-002", "serie": "EO2025", "num": 2, "theme": "Histoire militaire et générale", "q": "La bombe atomique a été inventée par :", "o": ["Albert Einstein", "Charles Darwin", "Robert Oppenheimer"], "a": 2, "st": "ok", "x": "Robert Oppenheimer dirigea le laboratoire de Los Alamos du projet Manhattan, qui mit au point la bombe en 1945 ; Einstein n'y participa pas directement."}, {"id": "EO2025-003", "serie": "EO2025", "num": 3, "theme": "Histoire militaire et générale", "q": "L'indépendance américaine a été proclamée en :", "o": ["1775", "1776", "1777"], "a": 1, "st": "ok", "x": "La Déclaration d'indépendance des États-Unis fut adoptée le 4 juillet 1776."}, {"id": "EO2025-004", "serie": "EO2025", "num": 4, "theme": "Histoire militaire et générale", "q": "La première guerre franco-malgache avant la colonisation date de :", "o": ["1883 – 1885", "1895 – 1896", "1987"], "a": 0, "st": "ok", "x": "La première guerre franco-merina (1883-1885) s'acheva par le traité du 17 décembre 1885 ; l'expédition de 1895 aboutit ensuite à la colonisation.", "n": "L'option c « 1987 » est vraisemblablement une coquille du sujet."}, {"id": "EO2025-005", "serie": "EO2025", "num": 5, "theme": "Histoire militaire et générale", "q": "La Révolution française a commencé en :", "o": ["1789", "1790", "1792"], "a": 0, "st": "ok", "x": "La Révolution française débute en 1789 : réunion des États généraux en mai, prise de la Bastille le 14 juillet."}, {"id": "EO2025-006", "serie": "EO2025", "num": 6, "theme": "Histoire militaire et générale", "q": "La guerre froide s'est terminée en :", "o": ["1989", "1990", "1991"], "a": 2, "st": "nuance", "x": "On date généralement la fin de la guerre froide de la dissolution de l'URSS, le 26 décembre 1991. La chute du mur de Berlin (1989) en est une étape, et un piège fréquent."}, {"id": "EO2025-007", "serie": "EO2025", "num": 7, "theme": "Histoire militaire et générale", "q": "L'armistice de 1918, qui a mis fin à la Première Guerre mondiale, a été signé le :", "o": ["10 novembre", "11 novembre", "12 novembre"], "a": 1, "st": "ok", "x": "L'armistice fut signé le 11 novembre 1918 à Rethondes, dans la forêt de Compiègne."}, {"id": "EO2025-008", "serie": "EO2025", "num": 8, "theme": "Histoire militaire et générale", "q": "Le président Barack Obama est devenu, pour la première fois, président noir de l'histoire des États-Unis en :", "o": ["2004", "2008", "2012"], "a": 1, "st": "ok", "x": "Barack Obama fut élu en novembre 2008 et investi en janvier 2009 ; 2012 est l'année de sa réélection."}, {"id": "EO2025-009", "serie": "EO2025", "num": 9, "theme": "Histoire militaire et générale", "q": "« L'art de la guerre » est l'œuvre de :", "o": ["Sun Tzu", "Jomini", "Foch"], "a": 0, "st": "ok", "x": "« L'Art de la guerre » est un traité de stratégie attribué au général chinois Sun Tzu (VIe-Ve siècle av. J.-C.)."}, {"id": "EO2025-010", "serie": "EO2025", "num": 10, "theme": "Histoire militaire et générale", "q": "C'est ___ qui commande le pays pendant le directoire militaire de 1972 à Madagascar :", "o": ["Le président de la République", "Le général le plus haut gradé", "La personne élue par l'Assemblée nationale"], "a": 1, "st": "corrigee", "x": "Après l'assassinat du colonel Ratsimandrava, le Directoire militaire fut présidé du 12 février au 15 juin 1975 par le général Gilles Andriamahazo, alors militaire le plus gradé.", "n": "Le sujet indique « 1972 » : le Directoire militaire date de 1975. En 1972, c'est le général Ramanantsoa qui avait reçu les pleins pouvoirs."}, {"id": "EO2025-011", "serie": "EO2025", "num": 11, "theme": "Géographie et géopolitique", "q": "La nationalisation du canal de Suez est l'œuvre de :", "o": ["Mouammar Kadhafi", "Gamal Abdel Nasser", "Saddam Hussein"], "a": 1, "st": "ok", "x": "Le président égyptien Gamal Abdel Nasser nationalisa la Compagnie du canal de Suez le 26 juillet 1956.", "n": "Orthographe corrigée : le sujet écrit « Mohammad Kadhafi » pour Mouammar Kadhafi."}, {"id": "EO2025-012", "serie": "EO2025", "num": 12, "theme": "Géographie et géopolitique", "q": "L'océan le plus vaste est :", "o": ["L'océan Atlantique", "L'océan Indien", "L'océan Pacifique", "L'océan Arctique"], "a": 2, "st": "ok", "x": "Le Pacifique couvre environ un tiers de la surface du globe, soit plus que l'ensemble des terres émergées."}, {"id": "EO2025-013", "serie": "EO2025", "num": 13, "theme": "Géographie et géopolitique", "q": "La monnaie du Royaume-Uni est :", "o": ["L'euro", "La livre sterling", "La couronne"], "a": 1, "st": "ok", "x": "La livre sterling est la monnaie du Royaume-Uni, qui n'a jamais adopté l'euro."}, {"id": "EO2025-014", "serie": "EO2025", "num": 14, "theme": "Géographie et géopolitique", "q": "L'Afrique compte ___ États indépendants et souverains :", "o": ["52", "54", "56", "58"], "a": 1, "st": "ok", "x": "L'Afrique compte 54 États souverains membres de l'ONU."}, {"id": "EO2025-015", "serie": "EO2025", "num": 15, "theme": "Géographie et géopolitique", "q": "L'Himalaya se trouve entre :", "o": ["L'Inde et la Chine", "L'Inde et le Pakistan", "La Chine et la Mongolie"], "a": 0, "st": "ok", "x": "La chaîne s'étend surtout entre l'Inde et la Chine (Tibet), en traversant aussi le Népal et le Bhoutan."}, {"id": "EO2025-016", "serie": "EO2025", "num": 16, "theme": "Géographie et géopolitique", "q": "La langue la plus parlée au monde est :", "o": ["L'anglais", "L'espagnol", "Le chinois mandarin"], "a": 2, "st": "nuance", "x": "Le mandarin compte le plus grand nombre de locuteurs natifs ; en nombre total de locuteurs (langue seconde comprise), l'anglais arrive toutefois en tête."}, {"id": "EO2025-017", "serie": "EO2025", "num": 17, "theme": "Géographie et géopolitique", "q": "Quel est le deuxième pays le plus peuplé du globe ?", "o": ["États-Unis", "Inde", "Chine", "Russie"], "a": 2, "st": "ok", "x": "Depuis 2023, l'Inde est le pays le plus peuplé du monde ; la Chine est désormais deuxième."}, {"id": "EO2025-018", "serie": "EO2025", "num": 18, "theme": "Géographie et géopolitique", "q": "Les États-Unis achetèrent le territoire de l'Alaska à la :", "o": ["Russie", "Canada", "France"], "a": 0, "st": "ok", "x": "Les États-Unis achetèrent l'Alaska à l'Empire russe en 1867, pour 7,2 millions de dollars."}, {"id": "EO2025-019", "serie": "EO2025", "num": 19, "theme": "Géographie et géopolitique", "q": "La capitale de la Pologne est :", "o": ["Varsovie", "Strasbourg", "Vienne"], "a": 0, "st": "ok", "x": "Varsovie est la capitale de la Pologne ; Strasbourg est une ville française et Vienne la capitale de l'Autriche."}, {"id": "EO2025-020", "serie": "EO2025", "num": 20, "theme": "Géographie et géopolitique", "q": "Les Blancs d'Afrique du Sud (d'origine néerlandaise) s'appellent :", "o": ["Zoulous", "Bantous", "Boers"], "a": 2, "st": "ok", "x": "Les Boers (ou Afrikaners) descendent surtout des colons néerlandais installés au Cap à partir du XVIIe siècle ; Zoulous et Bantous désignent des peuples africains."}, {"id": "EO2025-021", "serie": "EO2025", "num": 21, "theme": "Institutions et droit", "q": "La réunion annuelle de l'Assemblée générale de l'ONU se déroule à :", "o": ["La Haye", "La Havane", "New Delhi", "New York"], "a": 3, "st": "ok", "x": "La session annuelle de l'Assemblée générale s'ouvre chaque septembre au siège de l'ONU, à New York ; La Haye accueille la Cour internationale de Justice."}, {"id": "EO2025-022", "serie": "EO2025", "num": 22, "theme": "Institutions et droit", "q": "La Ire République malgache a été instaurée en :", "o": ["1956", "1958", "1960"], "a": 1, "st": "ok", "x": "La République malgache fut proclamée le 14 octobre 1958 ; la Constitution de la Ire République fut adoptée le 29 avril 1959 et l'indépendance proclamée le 26 juin 1960."}, {"id": "EO2025-023", "serie": "EO2025", "num": 23, "theme": "Institutions et droit", "q": "Le mandat présidentiel à Madagascar dure :", "o": ["5 ans", "6 ans", "7 ans"], "a": 0, "st": "ok", "x": "Selon la Constitution de 2010, le président est élu au suffrage universel direct pour cinq ans, et n'est rééligible qu'une fois."}, {"id": "EO2025-024", "serie": "EO2025", "num": 24, "theme": "Institutions et droit", "q": "L'Union européenne compte actuellement :", "o": ["25 membres", "27 membres", "28 membres"], "a": 1, "st": "ok", "x": "L'Union européenne compte 27 États membres depuis la sortie du Royaume-Uni, le 31 janvier 2020."}, {"id": "EO2025-025", "serie": "EO2025", "num": 25, "theme": "Institutions et droit", "q": "La démocratie est apparue pour la première fois dans le monde :", "o": ["Dans la Grèce antique", "Après la chute de la Rome antique", "Après la guerre de Sécession en Amérique"], "a": 0, "st": "ok", "x": "La démocratie est née à Athènes, avec les réformes de Clisthène à la fin du VIe siècle av. J.-C."}, {"id": "EO2025-026", "serie": "EO2025", "num": 26, "theme": "Institutions et droit", "q": "Le droit de grâce appartient au :", "o": ["Premier ministre", "Président de la République", "Ministre de la Justice"], "a": 1, "st": "ok", "x": "À Madagascar, comme dans la plupart des républiques, le droit de grâce est une prérogative du président de la République."}, {"id": "EO2025-027", "serie": "EO2025", "num": 27, "theme": "Institutions et droit", "q": "La Déclaration universelle des droits de l'homme (DUDH) date de :", "o": ["1946", "1948", "1950"], "a": 1, "st": "ok", "x": "La DUDH a été adoptée par l'Assemblée générale de l'ONU le 10 décembre 1948, à Paris."}, {"id": "EO2025-028", "serie": "EO2025", "num": 28, "theme": "Institutions et droit", "q": "Le Secrétaire général de l'ONU actuel est :", "o": ["António Guterres", "Kofi Annan", "Ban Ki-moon"], "a": 0, "st": "ok", "x": "António Guterres est secrétaire général depuis le 1er janvier 2017 ; son second mandat s'achève le 31 décembre 2026.", "n": "Orthographe corrigée : le sujet écrit « Antonio Guteres » et « Koffi Anan »."}, {"id": "EO2025-029", "serie": "EO2025", "num": 29, "theme": "Institutions et droit", "q": "Le sommet de la COI de 2025 s'est déroulé à Antananarivo le :", "o": ["24 mars 2025", "14 avril 2025", "24 avril 2025"], "a": 2, "st": "ok", "x": "Le Ve Sommet des chefs d'État et de gouvernement de la COI s'est tenu le jeudi 24 avril 2025 au Centre de conférences internationales d'Ivato, à Antananarivo."}, {"id": "EO2025-030", "serie": "EO2025", "num": 30, "theme": "Institutions et droit", "q": "La SADC regroupe ___ membres :", "o": ["5 membres", "16 membres", "27 membres"], "a": 1, "st": "ok", "x": "La SADC compte 16 États membres, dont Madagascar."}, {"id": "EO2025-031", "serie": "EO2025", "num": 31, "theme": "Sciences et technologies", "q": "L'agriculture biologique exclut :", "o": ["Les pesticides chimiques", "Les engrais de synthèse", "Les OGM", "Toutes les réponses"], "a": 3, "st": "ok", "x": "L'agriculture biologique proscrit à la fois les pesticides chimiques de synthèse, les engrais de synthèse et les OGM."}, {"id": "EO2025-032", "serie": "EO2025", "num": 32, "theme": "Sciences et technologies", "q": "La loi de la gravitation universelle a été énoncée par :", "o": ["Newton", "Einstein", "Kepler"], "a": 0, "st": "ok", "x": "Isaac Newton énonça la loi de la gravitation universelle en 1687, dans ses « Principia »."}, {"id": "EO2025-033", "serie": "EO2025", "num": 33, "theme": "Sciences et technologies", "q": "Un escargot parcourt 12 m à la vitesse de 4 m/min. Quelle est la durée de son parcours ?", "o": ["12 min", "3 min", "4 min"], "a": 1, "st": "ok", "x": "Durée = distance ÷ vitesse = 12 m ÷ 4 m/min = 3 min.", "n": "La fin de l'énoncé est en partie masquée sur la photo ; la question porte sur la durée du parcours."}, {"id": "EO2025-034", "serie": "EO2025", "num": 34, "theme": "Sciences et technologies", "q": "___ a inventé le téléphone ?", "o": ["Edison", "Bell", "Tesla"], "a": 1, "st": "ok", "x": "Alexander Graham Bell déposa le brevet du téléphone en 1876."}, {"id": "EO2025-035", "serie": "EO2025", "num": 35, "theme": "Sciences et technologies", "q": "Quelle particule subatomique a une charge positive ?", "o": ["L'électron", "Le neutron", "Le proton"], "a": 2, "st": "ok", "x": "Le proton porte une charge positive, l'électron une charge négative ; le neutron est neutre."}, {"id": "EO2025-036", "serie": "EO2025", "num": 36, "theme": "Sciences et technologies", "q": "Le principe d'Archimède concerne :", "o": ["La gravité", "La poussée hydrostatique", "L'électricité"], "a": 1, "st": "ok", "x": "Tout corps plongé dans un fluide subit une poussée verticale, vers le haut, égale au poids du volume de fluide déplacé."}, {"id": "EO2025-037", "serie": "EO2025", "num": 37, "theme": "Sciences et technologies", "q": "L'unité de mesure de la fréquence est :", "o": ["Le watt", "Le hertz", "L'ampère"], "a": 1, "st": "ok", "x": "Le hertz (Hz) mesure la fréquence ; le watt mesure la puissance et l'ampère l'intensité électrique."}, {"id": "EO2025-038", "serie": "EO2025", "num": 38, "theme": "Sciences et technologies", "q": "Le cresson contient plus de :", "o": ["Fer", "Zinc", "Cuivre"], "a": 0, "st": "ok", "x": "Des trois minéraux proposés, c'est le fer que le cresson contient en plus grande quantité ; il est réputé pour sa richesse en fer et en vitamine C."}, {"id": "EO2025-039", "serie": "EO2025", "num": 39, "theme": "Sciences et technologies", "q": "Photoshop est un outil informatique qui sert à :", "o": ["Graver des films", "Manipuler les photos", "Construire un plan"], "a": 1, "st": "ok", "x": "Photoshop, logiciel de l'éditeur Adobe, sert à retoucher et manipuler des images."}, {"id": "EO2025-040", "serie": "EO2025", "num": 40, "theme": "Sciences et technologies", "q": "Steve Jobs est le fondateur de :", "o": ["Facebook", "Microsoft", "Apple"], "a": 2, "st": "ok", "x": "Steve Jobs a cofondé Apple en 1976 avec Steve Wozniak ; Facebook a été créé par Mark Zuckerberg et Microsoft par Bill Gates et Paul Allen.", "n": "Orthographe corrigée : le sujet écrit « Steeve Jobs »."}, {"id": "EO2025-041", "serie": "EO2025", "num": 41, "theme": "Arts, littérature et philosophie", "q": "« Père riche, père pauvre » est l'œuvre de :", "o": ["Robert Kiyosaki", "Shonda Rhimes", "Michelle Obama"], "a": 0, "st": "ok", "x": "« Père riche, père pauvre » (1997) est un livre d'éducation financière de l'Américain Robert Kiyosaki.", "n": "Orthographe corrigée : le sujet écrit « Shonda Rimes »."}, {"id": "EO2025-042", "serie": "EO2025", "num": 42, "theme": "Arts, littérature et philosophie", "q": "Les philosophes des Lumières correspondent aux philosophes du :", "o": ["XVIIe siècle", "XVIIIe siècle", "XIXe siècle"], "a": 1, "st": "ok", "x": "Le siècle des Lumières est le XVIIIe siècle : Voltaire, Montesquieu, Rousseau, Diderot."}, {"id": "EO2025-043", "serie": "EO2025", "num": 43, "theme": "Arts, littérature et philosophie", "q": "Qui a écrit « La Richesse des nations » ?", "o": ["Karl Marx", "Adam Smith", "John Keynes"], "a": 1, "st": "ok", "x": "L'économiste écossais Adam Smith publia « La Richesse des nations » en 1776."}, {"id": "EO2025-044", "serie": "EO2025", "num": 44, "theme": "Arts, littérature et philosophie", "q": "L'existentialisme a été développé par :", "o": ["Sartre", "Camus", "Nietzsche"], "a": 0, "st": "nuance", "x": "Jean-Paul Sartre a théorisé l'existentialisme athée (« l'existence précède l'essence ») ; Camus est plutôt associé à la philosophie de l'absurde."}, {"id": "EO2025-045", "serie": "EO2025", "num": 45, "theme": "Arts, littérature et philosophie", "q": "« La Joconde » a été peinte par :", "o": ["Michel-Ange", "Léonard de Vinci", "Donatello"], "a": 1, "st": "ok", "x": "« La Joconde » a été peinte par Léonard de Vinci au début du XVIe siècle ; elle est exposée au Louvre."}, {"id": "EO2025-046", "serie": "EO2025", "num": 46, "theme": "Arts, littérature et philosophie", "q": "Quel philosophe a écrit « Du contrat social » ?", "o": ["Voltaire", "Diderot", "Rousseau"], "a": 2, "st": "ok", "x": "Jean-Jacques Rousseau publia « Du contrat social » en 1762."}, {"id": "EO2025-047", "serie": "EO2025", "num": 47, "theme": "Arts, littérature et philosophie", "q": "Darwin a développé la théorie de :", "o": ["La relativité", "L'évolution", "La gravitation"], "a": 1, "st": "ok", "x": "Charles Darwin exposa la théorie de l'évolution par la sélection naturelle dans « L'Origine des espèces » (1859)."}, {"id": "EO2025-048", "serie": "EO2025", "num": 48, "theme": "Arts, littérature et philosophie", "q": "« Fasana faharoa » est une poésie de :", "o": ["Dox", "J.-J. Rabearivelo", "J. P. Andriamangatiana"], "a": null, "st": "averifier", "x": "Auteur non confirmé par une source fiable : à vérifier dans un manuel de littérature malgache avant de retenir une réponse."}, {"id": "EO2025-049", "serie": "EO2025", "num": 49, "theme": "Arts, littérature et philosophie", "q": "Lequel de ces instruments n'est pas un instrument à cordes ?", "o": ["Violon", "Piano", "Batterie"], "a": 2, "st": "ok", "x": "La batterie est un instrument à percussion ; le piano, instrument à clavier, produit ses sons avec des cordes frappées."}, {"id": "EO2025-050", "serie": "EO2025", "num": 50, "theme": "Arts, littérature et philosophie", "q": "Lequel de ces acteurs n'a pas joué James Bond 007 ?", "o": ["Roger Moore", "Daniel Craig", "Harrison Ford"], "a": 2, "st": "ok", "x": "Harrison Ford n'a jamais incarné James Bond, contrairement à Roger Moore et Daniel Craig."}, {"id": "EO2025-051", "serie": "EO2025", "num": 51, "theme": "Économie et société", "q": "Le PIB signifie :", "o": ["Produit intérieur brut", "Produit interne brut", "Production intérieure brute"], "a": 0, "st": "ok", "x": "Le PIB (produit intérieur brut) mesure la valeur de la production réalisée sur le territoire national en un an."}, {"id": "EO2025-052", "serie": "EO2025", "num": 52, "theme": "Économie et société", "q": "L'inflation mesure :", "o": ["La baisse des prix", "La hausse des prix", "La stagnation économique"], "a": 1, "st": "ok", "x": "L'inflation désigne la hausse générale et durable des prix."}, {"id": "EO2025-053", "serie": "EO2025", "num": 53, "theme": "Économie et société", "q": "Madagascar fait partie de quelle zone économique ?", "o": ["COMESA", "SADC", "COI", "Toutes les réponses"], "a": 3, "st": "ok", "x": "Madagascar est membre à la fois du COMESA, de la SADC (depuis 2005) et de la COI."}, {"id": "EO2025-054", "serie": "EO2025", "num": 54, "theme": "Économie et société", "q": "L'indice de développement humain (IDH) mesure :", "o": ["Le PIB uniquement", "L'espérance de vie, l'éducation et le niveau de vie", "La situation de la population uniquement", "L'environnement uniquement"], "a": 1, "st": "ok", "x": "L'IDH, calculé par le PNUD, combine espérance de vie, niveau d'éducation et revenu par habitant."}, {"id": "EO2025-055", "serie": "EO2025", "num": 55, "theme": "Économie et société", "q": "La révolution verte consiste à :", "o": ["Protéger l'environnement", "Moderniser l'agriculture", "Développer les énergies vertes"], "a": 1, "st": "ok", "x": "La révolution verte désigne la modernisation de l'agriculture (semences à haut rendement, engrais, irrigation) à partir des années 1960."}, {"id": "EO2025-056", "serie": "EO2025", "num": 56, "theme": "Religion", "q": "« La religion est l'opium du peuple » est une citation de :", "o": ["Hegel", "Marx", "Engels"], "a": 1, "st": "ok", "x": "La formule est de Karl Marx, dans l'introduction à la « Critique de la philosophie du droit de Hegel » (1843-1844)."}, {"id": "EO2025-057", "serie": "EO2025", "num": 57, "theme": "Religion", "q": "Quelle religion est pratiquée par la majorité des habitants de l'Inde ?", "o": ["L'hindouisme", "Le christianisme", "L'islam"], "a": 0, "st": "ok", "x": "Environ 80 % des Indiens sont hindous."}, {"id": "EO2025-058", "serie": "EO2025", "num": 58, "theme": "Religion", "q": "Le pèlerinage est la visite de :", "o": ["Un lieu sacré", "Un musée", "Une mosquée"], "a": 0, "st": "ok", "x": "Un pèlerinage est un voyage vers un lieu considéré comme sacré : La Mecque, Jérusalem, Lourdes…"}, {"id": "EO2025-059", "serie": "EO2025", "num": 59, "theme": "Religion", "q": "Le polythéisme est défini comme :", "o": ["La croyance en un seul Dieu", "La croyance en plusieurs dieux", "La croyance en des dieux différents"], "a": 1, "st": "ok", "x": "Le polythéisme est la croyance en plusieurs dieux ; la croyance en un Dieu unique est le monothéisme."}, {"id": "EO2025-060", "serie": "EO2025", "num": 60, "theme": "Religion", "q": "Quel est le texte fondateur pour les juifs ?", "o": ["La Torah", "Le Coran", "La Toundra"], "a": 0, "st": "ok", "x": "La Torah, les cinq premiers livres de la Bible hébraïque, est le texte fondateur du judaïsme."}, {"id": "EO2025-061", "serie": "EO2025", "num": 61, "theme": "Madagascar", "q": "L'Assemblée nationale malgache compte :", "o": ["163 députés", "165 députés", "180 députés"], "a": 0, "st": "ok", "x": "L'Assemblée nationale malgache compte 163 députés."}, {"id": "EO2025-062", "serie": "EO2025", "num": 62, "theme": "Madagascar", "q": "La reine Ranavalona Ire a régné de :", "o": ["1828 – 1861", "1861 – 1868", "1868 – 1895"], "a": 0, "st": "ok", "x": "Ranavalona Ire régna de 1828 à sa mort, en 1861 ; son fils Radama II lui succéda."}, {"id": "EO2025-063", "serie": "EO2025", "num": 63, "theme": "Madagascar", "q": "L'idée d'unification de Madagascar vient de :", "o": ["Radama Ier", "Andrianampoinimerina", "Andriambelomasina", "Ranavalona Ire"], "a": 1, "st": "ok", "x": "Andrianampoinimerina (vers 1787-1810) fixa l'objectif d'unifier l'île : « La mer est la limite de ma rizière »."}, {"id": "EO2025-064", "serie": "EO2025", "num": 64, "theme": "Madagascar", "q": "Qui était le Premier ministre malgache lors de l'indépendance ?", "o": ["Norbert Zafimahova", "André Resampa", "Jacques Rabemananjara"], "a": null, "st": "erronee", "x": "Aucune proposition n'est exacte : à l'indépendance (26 juin 1960), Philibert Tsiranana était à la fois président de la République et chef du gouvernement, la Constitution de 1959 ne prévoyant pas de Premier ministre."}, {"id": "EO2025-065", "serie": "EO2025", "num": 65, "theme": "Madagascar", "q": "La révolte de 1947 a été menée principalement par :", "o": ["Le PADESM", "Le MDRM", "Le PSD"], "a": 1, "st": "nuance", "x": "La répression coloniale a visé le MDRM, dont les députés furent tenus pour responsables ; les historiens soulignent aussi le rôle de sociétés secrètes nationalistes dans le déclenchement."}, {"id": "EO2025-066", "serie": "EO2025", "num": 66, "theme": "Madagascar", "q": "Le canal du Mozambique sépare Madagascar de :", "o": ["L'Afrique du Sud", "Le Mozambique", "Le continent africain"], "a": 2, "st": "nuance", "x": "Le canal du Mozambique sépare Madagascar du continent africain, dont la côte faisant face à l'île est celle du Mozambique : les options b et c sont acceptées.", "acc": [1, 2]}, {"id": "EO2025-067", "serie": "EO2025", "num": 67, "theme": "Madagascar", "q": "Le fleuve le plus long de Madagascar est :", "o": ["Mangoky", "Tsiribihina", "Betsiboka"], "a": 0, "st": "ok", "x": "Le Mangoky, long d'environ 560 km, est généralement présenté comme le plus long fleuve de Madagascar."}, {"id": "EO2025-068", "serie": "EO2025", "num": 68, "theme": "Madagascar", "q": "Combien de régimes transitoires Madagascar a-t-il connus depuis l'indépendance ?", "o": ["3", "4", "5"], "a": null, "st": "averifier", "x": "Réponse discutée selon le décompte : 3 transitions (1972-1975, 1991-1993, 2009-2014), ou 4 si l'on distingue le Directoire militaire de 1975. Une nouvelle transition s'est ouverte en octobre 2025, après la date du sujet."}, {"id": "EO2025-069", "serie": "EO2025", "num": 69, "theme": "Madagascar", "q": "Madagascar est membre de la SADC depuis :", "o": ["2007", "2008", "2009"], "a": null, "st": "erronee", "x": "Aucune proposition n'est exacte : Madagascar a adhéré à la SADC en 2005."}, {"id": "EO2025-070", "serie": "EO2025", "num": 70, "theme": "Madagascar", "q": "L'océan Indien compte combien d'États indépendants [fin de l'énoncé masquée sur la photo] ?", "o": ["4", "5", "6"], "a": 0, "st": "nuance", "x": "En supposant que l'énoncé vise les États membres de la COI : Comores, Madagascar, Maurice et Seychelles sont les quatre États indépendants, la France y siégeant au titre de La Réunion.", "n": "La fin de l'énoncé est masquée par un doigt sur la photo."}, {"id": "EO2025-071", "serie": "EO2025", "num": 71, "theme": "Madagascar", "q": "Madagascar utilise quelle monnaie ?", "o": ["Le FMG", "L'ariary", "L'euro"], "a": 1, "st": "ok", "x": "L'ariary a remplacé le franc malgache (FMG) comme monnaie officielle en 2005, au taux de 1 ariary pour 5 FMG."}, {"id": "EO2025-072", "serie": "EO2025", "num": 72, "theme": "Madagascar", "q": "Le régime politique de Madagascar est :", "o": ["République présidentielle", "République parlementaire", "République semi-présidentielle"], "a": 2, "st": "ok", "x": "La Constitution de 2010 organise un régime semi-présidentiel : un président élu au suffrage universel direct et un gouvernement responsable devant l'Assemblée nationale."}, {"id": "EO2025-073", "serie": "EO2025", "num": 73, "theme": "Madagascar", "q": "La principale exportation de Madagascar est :", "o": ["La vanille", "Les pierres précieuses", "Le textile"], "a": 0, "st": "nuance", "x": "La vanille est la réponse attendue ; selon les années, les produits miniers (nickel, cobalt) et le textile pèsent toutefois aussi lourd dans les exportations."}, {"id": "EO2025-074", "serie": "EO2025", "num": 74, "theme": "Madagascar", "q": "Madagascar est le ___ producteur mondial de vanille :", "o": ["1er", "2e", "3e"], "a": 0, "st": "ok", "x": "Madagascar est le premier producteur mondial de vanille, notamment grâce à la région SAVA."}, {"id": "EO2025-075", "serie": "EO2025", "num": 75, "theme": "Madagascar", "q": "Les Forces armées malgaches comprennent :", "o": ["2 armes", "3 armes", "4 armes"], "a": null, "st": "averifier", "x": "Réponse non confirmée : selon le décompte, on cite l'armée de terre, l'armée de l'air et la marine (3), voire la gendarmerie nationale (4)."}, {"id": "EO2025-076", "serie": "EO2025", "num": 76, "theme": "Madagascar", "q": "La devise actuelle de la République de Madagascar est :", "o": ["« Tanindrazana, Fahafahana, Fandrosoana »", "« Tanindrazana, Fahafahana, Fahamarinana »", "« Fitiavana, Tanindrazana, Fandrosoana »"], "a": 2, "st": "ok", "x": "L'article 4 de la Constitution de 2010 fixe la devise « Fitiavana – Tanindrazana – Fandrosoana » ; les deux autres sont d'anciennes devises."}, {"id": "EO2025-077", "serie": "EO2025", "num": 77, "theme": "Madagascar", "q": "Le point culminant de Madagascar est :", "o": ["Maromokotro", "Tsiafajavona", "Boby"], "a": 0, "st": "ok", "x": "Le Maromokotro (2 876 m), dans le massif du Tsaratanana, est le point culminant de l'île."}, {"id": "EO2025-078", "serie": "EO2025", "num": 78, "theme": "Madagascar", "q": "L'allée des Baobabs se trouve près de :", "o": ["Morondava", "Toliara", "Mahajanga"], "a": 0, "st": "ok", "x": "L'allée des Baobabs (Adansonia grandidieri) se trouve près de Morondava, dans la région Menabe."}, {"id": "EO2025-079", "serie": "EO2025", "num": 79, "theme": "Madagascar", "q": "Les « Mikea » sont une ethnie venant de :", "o": ["Toliara", "Kadreho", "Toamasina"], "a": 0, "st": "ok", "x": "Les Mikea vivent dans la forêt qui porte leur nom, dans le Sud-Ouest (région Atsimo-Andrefana, entre Morombe et Toliara).", "n": "« Kadreho » est retranscrit tel qu'il est imprimé."}, {"id": "EO2025-080", "serie": "EO2025", "num": 80, "theme": "Madagascar", "q": "Jean Laborde était le seul étranger autorisé par la reine à s'installer à Madagascar. Sa localité se trouve à :", "o": ["Andafiavaratra", "Ambohimanga", "Mantasoa"], "a": 2, "st": "ok", "x": "Sous Ranavalona Ire, Jean Laborde installa à Mantasoa un grand complexe industriel (fonderie, manufactures)."}, {"id": "EO2025-081", "serie": "EO2025", "num": 81, "theme": "Madagascar", "q": "Ratsimilaho est un roi :", "o": ["Bezanozano", "Betsimisaraka", "Betsileo"], "a": 1, "st": "ok", "x": "Ratsimilaho (vers 1694-1750) fonda la confédération betsimisaraka sur la côte est."}, {"id": "EO2025-082", "serie": "EO2025", "num": 82, "theme": "Madagascar", "q": "Le kabary est devenu patrimoine mondial à partir du :", "o": ["15 décembre 2021", "15 décembre 2022", "15 décembre 2023"], "a": 0, "st": "ok", "x": "Le kabary a été inscrit en décembre 2021 au patrimoine culturel immatériel de l'humanité, lors de la 16e session du Comité de l'UNESCO (13-18 décembre 2021)."}, {"id": "EO2025-083", "serie": "EO2025", "num": 83, "theme": "Madagascar", "q": "Le temple Tranovato Faravohitra est dédié à :", "o": ["Rasalama, martyre", "Aux quatre personnes brûlées vives", "Aux quatorze personnes dont l'une est rendue esclave"], "a": 1, "st": "ok", "x": "L'église commémorative de Faravohitra a été bâtie là où quatre chrétiens furent brûlés vifs en 1849 ; Rasalama, première martyre (1837), est honorée à Ambohipotsy."}, {"id": "EO2025-084", "serie": "EO2025", "num": 84, "theme": "Madagascar", "q": "Le mausolée des patriotes malagasy à Antananarivo se localise à :", "o": ["Fort Duchesne", "Fort Voyron", "Fort-Dauphin"], "a": null, "st": "averifier", "x": "Réponse non confirmée : le mausolée national se trouve à Avaratr'Ambohitsaina, mais son rattachement à l'une des options reste à vérifier. Fort-Dauphin, ville du Sud, est à exclure."}, {"id": "EO2025-085", "serie": "EO2025", "num": 85, "theme": "Madagascar", "q": "Didier Ignace Ratsiraka est décédé le :", "o": ["27 mars 2021", "28 mars 2021", "29 mars 2021"], "a": 1, "st": "ok", "x": "L'ancien président Didier Ratsiraka est mort le 28 mars 2021 à Antananarivo, à 84 ans."}, {"id": "EO2025-086", "serie": "EO2025", "num": 86, "theme": "Madagascar", "q": "Le nom du roi Radama II avant d'accéder au trône était :", "o": ["Ilaidama", "Rakotoseheno", "Raombana"], "a": 1, "st": "ok", "x": "Le futur Radama II, fils de Ranavalona Ire, était le prince Rakoto (Rakotosehenondradama)."}, {"id": "EO2025-087", "serie": "EO2025", "num": 87, "theme": "Madagascar", "q": "Quel quotidien malgache présente une phrase sarcastique nommée « Le naïf » dans son édition ?", "o": ["Midi Madagasikara", "La Gazette de la Grande Île", "Les Nouvelles"], "a": null, "st": "averifier", "x": "Réponse non confirmée par une source fiable : vérifiez dans des éditions récentes des quotidiens cités."}, {"id": "EO2025-088", "serie": "EO2025", "num": 88, "theme": "Madagascar", "q": "Une émission télévisée présentée par Haja Ratsimbazafy, rapportant des documentaires analysés, s'appelle :", "o": ["Voambolana", "E-see Magazine", "L'invité du Zoma"], "a": null, "st": "averifier", "x": "Réponse non confirmée par une source fiable : à vérifier auprès des chaînes de télévision concernées."}, {"id": "EO2025-089", "serie": "EO2025", "num": 89, "theme": "Madagascar", "q": "Le président de la IIIe République de Madagascar est :", "o": ["Albert Zafy", "Marc Ravalomanana", "Didier Ratsiraka", "Tous les trois"], "a": 3, "st": "ok", "x": "Sous la IIIe République (Constitution de 1992) se sont succédé Albert Zafy (1993-1996), Didier Ratsiraka (1997-2002) et Marc Ravalomanana (2002-2009)."}, {"id": "EO2025-090", "serie": "EO2025", "num": 90, "theme": "Madagascar", "q": "Quel animal n'est pas originaire de Madagascar ?", "o": ["Le cheval", "Le chameau", "La jument", "L'âne"], "a": 1, "st": "nuance", "x": "Aucune de ces espèces n'est originaire de Madagascar ; la réponse attendue est le chameau, absent de l'île, alors que chevaux et ânes y ont été introduits (la jument est la femelle du cheval)."}, {"id": "EO2025-091", "serie": "EO2025", "num": 91, "theme": "Culture générale et environnement", "q": "Le réchauffement climatique est dû principalement à :", "o": ["L'effet de serre", "La couche d'ozone", "Les rayons UV"], "a": 0, "st": "ok", "x": "Le réchauffement actuel est principalement dû au renforcement de l'effet de serre par les émissions humaines (CO₂, méthane)."}, {"id": "EO2025-092", "serie": "EO2025", "num": 92, "theme": "Culture générale et environnement", "q": "La couche d'ozone se trouve dans :", "o": ["La troposphère", "La stratosphère", "La mésosphère"], "a": 1, "st": "ok", "x": "L'essentiel de l'ozone se trouve dans la stratosphère, entre 15 et 35 km d'altitude environ."}, {"id": "EO2025-093", "serie": "EO2025", "num": 93, "theme": "Culture générale et environnement", "q": "Quel gaz représente 78 % de l'atmosphère terrestre ?", "o": ["L'oxygène", "L'azote", "Le dioxyde de carbone"], "a": 1, "st": "ok", "x": "L'atmosphère terrestre contient environ 78 % d'azote et 21 % d'oxygène."}, {"id": "EO2025-094", "serie": "EO2025", "num": 94, "theme": "Culture générale et environnement", "q": "La couche d'ozone nous protège des :", "o": ["Rayons infrarouges", "Rayons ultraviolets", "Rayons X", "Rayons gamma"], "a": 1, "st": "ok", "x": "La couche d'ozone absorbe la majeure partie du rayonnement ultraviolet du Soleil."}, {"id": "EO2025-095", "serie": "EO2025", "num": 95, "theme": "Culture générale et environnement", "q": "Les énergies renouvelables incluent :", "o": ["Solaire, éolienne, hydraulique", "Nucléaire, charbon, pétrole", "Gaz naturel, biomasse", "Géothermie uniquement"], "a": 0, "st": "ok", "x": "Solaire, éolien et hydraulique sont renouvelables ; nucléaire, charbon, pétrole et gaz naturel ne le sont pas, ce qui rend les options b et c inexactes."}, {"id": "EO2025-096", "serie": "EO2025", "num": 96, "theme": "Culture générale et environnement", "q": "Le développement durable vise :", "o": ["La croissance économique", "La protection environnementale", "L'équité sociale", "Toutes les réponses"], "a": 3, "st": "ok", "x": "Le développement durable concilie trois piliers : économique, social et environnemental."}, {"id": "EO2025-097", "serie": "EO2025", "num": 97, "theme": "Culture générale et environnement", "q": "Le fondateur du calendrier que nous utilisons actuellement est :", "o": ["Le pape Grégoire", "Le pape Julien", "Les Arabes", "Les Incas"], "a": 0, "st": "ok", "x": "Le calendrier grégorien fut promulgué par le pape Grégoire XIII en 1582 ; le calendrier julien, qui l'a précédé, doit son nom à Jules César et non à un pape."}, {"id": "EO2025-098", "serie": "EO2025", "num": 98, "theme": "Culture générale et environnement", "q": "La CAN 2024 était organisée par :", "o": ["Le Cameroun", "L'Égypte", "La Côte d'Ivoire"], "a": 2, "st": "ok", "x": "La CAN 2023 s'est disputée en Côte d'Ivoire du 13 janvier au 11 février 2024, et le pays hôte l'a remportée."}, {"id": "EO2025-099", "serie": "EO2025", "num": 99, "theme": "Culture générale et environnement", "q": "Le père de la médecine moderne est :", "o": ["Euclide", "Pythagore", "Hippocrate"], "a": 2, "st": "ok", "x": "Hippocrate (Ve-IVe siècle av. J.-C.) est considéré comme le père de la médecine ; Euclide et Pythagore étaient mathématiciens."}, {"id": "EO2025-100", "serie": "EO2025", "num": 100, "theme": "Culture générale et environnement", "q": "Par quelle lettre grecque désigne-t-on le rapport entre la circonférence d'un cercle et son diamètre ?", "o": ["Têta", "Lambda", "Pi"], "a": 2, "st": "corrigee", "x": "π (pi), environ 3,14159, est le rapport entre la circonférence d'un cercle et son diamètre.", "n": "Le sujet parle du rapport « entre le diamètre et la circonférence » : c'est l'inverse (circonférence ÷ diamètre). L'énoncé a été corrigé."}]}</script>
+<script>
+(() => {
+'use strict';
+const DATA = JSON.parse(document.getElementById('qcm-data').textContent);
+const QS = DATA.questions;
+const byId = new Map(QS.map(q => [q.id, q]));
+const L = ['a','b','c','d','e','f'];
+const STATUS = {nuance:'Réponse attendue, avec nuance', corrigee:'Énoncé corrigé', erronee:'Aucune option exacte', averifier:'Réponse à vérifier'};
+const KEY = 'qcm-concours-v1';
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const norm = s => String(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+const scorable = q => q.a !== null && q.a !== undefined;
+const accepted = q => Array.isArray(q.acc) ? q.acc : [q.a];
+const isRight = (q, i) => accepted(q).includes(i);
+const shuffle = a => { const r = a.slice(); for (let i = r.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [r[i], r[j]] = [r[j], r[i]]; } return r; };
+const seriesOf = id => DATA.series.find(s => s.id === id) || {court:id};
+
+let store = {stats:{}, prefs:{}};
+try { const raw = localStorage.getItem(KEY); if (raw) store = Object.assign(store, JSON.parse(raw)); } catch (e) {}
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} };
+const missed = () => QS.filter(q => scorable(q) && store.stats[q.id] && store.stats[q.id].last === 0);
+
+/* ---------- Navigation ---------- */
+const views = ['setup','quiz','result','bank','stats'];
+function show(v){
+  views.forEach(x => { $('#v-' + x).hidden = x !== v; });
+  const tab = v === 'quiz' || v === 'result' ? 'setup' : v;
+  document.querySelectorAll('nav.tabs button').forEach(b => b.setAttribute('aria-current', b.dataset.go === tab ? 'page' : 'false'));
+  if (v === 'bank') renderBank();
+  if (v === 'stats') renderStats();
+  if (v === 'setup') refreshSetup();
+  window.scrollTo(0, 0);
+}
+document.querySelectorAll('nav.tabs button').forEach(b => b.addEventListener('click', () => {
+  if (session && !session.done && !confirm('Quitter la série en cours ?')) return;
+  if (session && !session.done) stopTimer(), session = null;
+  show(b.dataset.go);
+}));
+
+/* ---------- Préparation ---------- */
+const themes = [...new Set(QS.map(q => q.theme))];
+const selSeries = new Set(DATA.series.map(s => s.id));
+const selThemes = new Set(themes);
+let count = 20;
+
+function chip(label, n, pressed, onToggle){
+  const b = document.createElement('button');
+  b.type = 'button'; b.className = 'chip'; b.setAttribute('aria-pressed', pressed ? 'true' : 'false');
+  b.innerHTML = esc(label) + '<span class="n">' + n + '</span>';
+  b.addEventListener('click', () => { const p = b.getAttribute('aria-pressed') !== 'true'; b.setAttribute('aria-pressed', p ? 'true' : 'false'); onToggle(p); refreshSetup(); });
+  return b;
+}
+function buildSetup(){
+  const sc = $('#series-chips'); sc.innerHTML = '';
+  DATA.series.forEach(s => sc.appendChild(chip(s.court, QS.filter(q => q.serie === s.id && scorable(q)).length, true, p => p ? selSeries.add(s.id) : selSeries.delete(s.id))));
+  const tc = $('#theme-chips'); tc.innerHTML = '';
+  themes.forEach(t => tc.appendChild(chip(t, QS.filter(q => q.theme === t && scorable(q)).length, true, p => p ? selThemes.add(t) : selThemes.delete(t))));
+  document.querySelectorAll('#count-seg button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('#count-seg button').forEach(x => x.setAttribute('aria-pressed', x === b ? 'true' : 'false'));
+    count = +b.dataset.n; refreshSetup();
+  }));
+  document.querySelectorAll('input[name="mode"]').forEach(r => r.addEventListener('change', refreshSetup));
+  const nOk = QS.filter(scorable).length, nFlag = QS.length - nOk;
+  $('#bank-summary').textContent = QS.length + ' questions transcrites, dont ' + nOk + ' avec une réponse retenue.';
+  $('#flag-summary').textContent = nFlag ? nFlag + ' questions signalées (aucune option exacte ou réponse à vérifier) sont exclues des séries et restent consultables dans la banque.' : '';
+  $('#foot').innerHTML = DATA.series.map(s => '<p>' + esc(s.titre) + ' : ' + esc(s.detail) + '</p>').join('') +
+    '<p>Questions transcrites depuis des photos du sujet ; réponses et explications ajoutées. Les corrections apportées au sujet sont signalées question par question.</p>';
+}
+function pool(mode){
+  const base = mode === 'errors' ? missed() : QS.filter(scorable);
+  return base.filter(q => selSeries.has(q.serie) && selThemes.has(q.theme));
+}
+function refreshSetup(){
+  const mode = document.querySelector('input[name="mode"]:checked').value;
+  const m = missed().length;
+  const er = $('#mode-errors'); er.disabled = m === 0;
+  $('#errors-hint').textContent = m ? m + ' question' + (m > 1 ? 's' : '') + ' à revoir.' : 'Aucune question ratée pour l\'instant.';
+  if (er.disabled && er.checked) { document.querySelector('input[name="mode"][value="train"]').checked = true; return refreshSetup(); }
+  $('#pace-box').hidden = mode !== 'exam';
+  const n = pool(mode).length, k = count ? Math.min(count, n) : n;
+  const st = $('#start'); st.disabled = k === 0;
+  st.textContent = k === 0 ? 'Aucune question ne correspond à ces filtres' : 'Commencer (' + k + ' question' + (k > 1 ? 's' : '') + ')';
+}
+
+/* ---------- Série ---------- */
+let session = null, tick = null;
+function start(mode, list){
+  const shuf = $('#shuffle-opts').checked;
+  let qs = list || shuffle(pool(mode));
+  if (!list && count) qs = qs.slice(0, count);
+  if (!qs.length) return;
+  session = {mode: mode === 'exam' ? 'exam' : 'train', items: qs.map(q => ({id:q.id, order: shuf ? shuffle(q.o.map((_, i) => i)) : q.o.map((_, i) => i), choice:null})), idx:0, done:false};
+  if (session.mode === 'exam') {
+    session.endAt = Date.now() + qs.length * (+$('#pace').value) * 1000;
+    $('#timer').hidden = false; tick = setInterval(updTimer, 500); updTimer();
+  } else { $('#timer').hidden = true; }
+  $('#prev').hidden = session.mode !== 'exam';
+  show('quiz'); renderQ();
+}
+$('#start').addEventListener('click', () => start(document.querySelector('input[name="mode"]:checked').value));
+
+function stopTimer(){ if (tick) clearInterval(tick); tick = null; }
+function updTimer(){
+  const left = Math.max(0, Math.round((session.endAt - Date.now()) / 1000));
+  const h = Math.floor(left / 3600), m = Math.floor(left % 3600 / 60), s = left % 60;
+  const t = $('#timer'); t.textContent = (h ? h + ' h ' : '') + String(m).padStart(2, '0') + ' min ' + String(s).padStart(2, '0') + ' s';
+  t.classList.toggle('low', left <= 60);
+  if (left === 0) finish();
+}
+
+function renderQ(){
+  const it = session.items[session.idx], q = byId.get(it.id), n = session.items.length;
+  $('#bar').style.width = (session.idx / n * 100) + '%';
+  $('#counter').textContent = 'Question ' + (session.idx + 1) + ' sur ' + n;
+  $('#qnum').textContent = session.idx + 1;
+  $('#qtheme').textContent = q.theme;
+  $('#qtext').textContent = q.q;
+  const ul = $('#opts'); ul.innerHTML = '';
+  it.order.forEach((orig, pos) => {
+    const li = document.createElement('li');
+    const b = document.createElement('button');
+    b.type = 'button'; b.className = 'opt'; b.dataset.orig = orig;
+    b.innerHTML = '<span class="bubble" aria-hidden="true">' + L[pos] + '</span><span class="otext">' + esc(q.o[orig]) + '</span>';
+    b.setAttribute('aria-label', 'Réponse ' + L[pos] + ' : ' + q.o[orig]);
+    b.addEventListener('click', () => choose(orig));
+    li.appendChild(b); ul.appendChild(li);
+  });
+  const fb = $('#feedback'); fb.hidden = true; fb.innerHTML = '';
+  const last = session.idx === n - 1;
+  $('#prev').disabled = session.idx === 0;
+  if (session.mode === 'exam') {
+    $('#next').textContent = last ? 'Terminer l\'examen' : 'Question suivante';
+    $('#next').disabled = false;
+    if (it.choice !== null) markPicked(it.choice);
+  } else {
+    $('#next').textContent = last ? 'Voir le résultat' : 'Question suivante';
+    $('#next').disabled = it.choice === null;
+    if (it.choice !== null) reveal(it.choice, false);
+  }
+  $('#qtext').focus({preventScroll:true});
+}
+function markPicked(orig){
+  document.querySelectorAll('#opts .opt').forEach(b => b.classList.toggle('is-picked', +b.dataset.orig === orig));
+}
+function choose(orig){
+  const it = session.items[session.idx];
+  if (session.mode === 'train') {
+    if (it.choice !== null) return;
+    it.choice = orig; record(byId.get(it.id), orig); reveal(orig, true);
+    $('#next').disabled = false; $('#next').focus({preventScroll:true});
+  } else { it.choice = orig; markPicked(orig); }
+}
+function explainHTML(q){
+  let h = '';
+  if (q.st && STATUS[q.st]) h += '<span class="badge ' + q.st + '">' + STATUS[q.st] + '</span>';
+  h += '<p>' + esc(q.x) + '</p>';
+  if (q.n) h += '<p class="note">' + esc(q.n) + '</p>';
+  h += '<p class="src">Source : ' + esc(seriesOf(q.serie).court) + ', question ' + q.num + '</p>';
+  return h;
+}
+function reveal(orig, fresh){
+  const q = byId.get(session.items[session.idx].id), ok = isRight(q, orig);
+  document.querySelectorAll('#opts .opt').forEach(b => {
+    const o = +b.dataset.orig; b.disabled = true;
+    if (isRight(q, o)) b.classList.add('is-right');
+    else if (o === orig) b.classList.add('is-wrong');
+  });
+  if (!fresh) document.querySelectorAll('#opts .opt.is-right .otext').forEach(s => s.style.animation = 'none');
+  const it = session.items[session.idx];
+  const goodPos = it.order.findIndex(o => o === q.a);
+  const fb = $('#feedback');
+  fb.innerHTML = '<p class="verdict ' + (ok ? 'ok">Bonne réponse.' : 'ko">Mauvaise réponse. La bonne réponse est ' + L[goodPos] + ') ' + esc(q.o[q.a]) + '.') + '</p>' + explainHTML(q);
+  fb.hidden = false;
+}
+function record(q, orig){
+  const s = store.stats[q.id] || {s:0, c:0, last:null};
+  const ok = isRight(q, orig);
+  s.s++; if (ok) s.c++; s.last = ok ? 1 : 0; s.t = Date.now();
+  store.stats[q.id] = s; save();
+}
+$('#next').addEventListener('click', () => {
+  if (session.idx < session.items.length - 1) { session.idx++; renderQ(); }
+  else if (session.mode === 'exam') {
+    const blank = session.items.filter(i => i.choice === null).length;
+    if (blank && !confirm(blank + ' question' + (blank > 1 ? 's sont restées' : ' est restée') + ' sans réponse. Terminer quand même ?')) return;
+    finish();
+  } else finish();
+});
+$('#prev').addEventListener('click', () => { if (session.idx > 0) { session.idx--; renderQ(); } });
+$('#quit').addEventListener('click', () => {
+  const answered = session.items.some(i => i.choice !== null);
+  if (!answered) { stopTimer(); session = null; return show('setup'); }
+  if (confirm('Arrêter la série ? Seules les questions auxquelles vous avez répondu seront corrigées.')) {
+    session.items = session.items.filter(i => i.choice !== null);
+    finish();
+  }
+});
+document.addEventListener('keydown', e => {
+  if ($('#v-quiz').hidden || !session || e.ctrlKey || e.metaKey || e.altKey) return;
+  if (/^(INPUT|SELECT|TEXTAREA)$/.test(document.activeElement.tagName)) return;
+  const it = session.items[session.idx];
+  let pos = -1;
+  if (/^[1-6]$/.test(e.key)) pos = +e.key - 1;
+  else if (/^[a-fA-F]$/.test(e.key)) pos = L.indexOf(e.key.toLowerCase());
+  if (pos >= 0 && pos < it.order.length) { e.preventDefault(); choose(it.order[pos]); return; }
+  if (e.key === 'Enter' && !$('#next').disabled && document.activeElement !== $('#next')) { e.preventDefault(); $('#next').click(); }
+  if (session.mode === 'exam' && e.key === 'ArrowRight' && session.idx < session.items.length - 1) { session.idx++; renderQ(); }
+  if (session.mode === 'exam' && e.key === 'ArrowLeft' && session.idx > 0) { session.idx--; renderQ(); }
+});
+
+/* ---------- Résultat ---------- */
+function finish(){
+  stopTimer(); if (!session || session.done) return;
+  session.done = true;
+  if (session.mode === 'exam') session.items.forEach(it => { if (it.choice !== null) record(byId.get(it.id), it.choice); else record(byId.get(it.id), -1); });
+  const items = session.items, n = items.length;
+  const good = items.filter(it => it.choice !== null && isRight(byId.get(it.id), it.choice)).length;
+  $('#score').textContent = good + ' / ' + n;
+  const pct = n ? Math.round(good / n * 100) : 0;
+  $('#score-detail').textContent = pct + ' % de bonnes réponses';
+  $('#score-msg').textContent = pct >= 80 ? 'Très solide : passez à un examen blanc plus long ou à d\'autres thèmes.' :
+    pct >= 50 ? 'Bonne base. Relisez la correction ci-dessous, puis refaites les questions ratées.' :
+    'Relisez la correction ci-dessous puis refaites les questions ratées : c\'est la répétition qui fixe les réponses.';
+  const per = {};
+  items.forEach(it => { const q = byId.get(it.id); per[q.theme] = per[q.theme] || [0, 0]; per[q.theme][1]++; if (it.choice !== null && isRight(q, it.choice)) per[q.theme][0]++; });
+  $('#theme-bars').innerHTML = Object.entries(per).map(([t, [g, k]]) => barHTML(t, g, k)).join('');
+  $('#show-all').checked = false; renderReview();
+  $('#redo-errors').hidden = good === n;
+  show('result');
+}
+function barHTML(label, g, k){
+  const p = k ? Math.round(g / k * 100) : 0;
+  return '<div class="bar"><span>' + esc(label) + '</span><span class="muted">' + g + ' / ' + k + '</span><span class="track"><i style="width:' + p + '%"></i></span></div>';
+}
+function renderReview(){
+  const all = $('#show-all').checked;
+  const rows = session.items.map((it, i) => ({it, i, q: byId.get(it.id)})).filter(r => all || !(r.it.choice !== null && isRight(r.q, r.it.choice)));
+  $('#review').innerHTML = rows.length ? rows.map(({it, i, q}) => {
+    const ok = it.choice !== null && isRight(q, it.choice);
+    const you = it.choice === null ? '<p class="you">Sans réponse.</p>' : ok ? '' : '<p class="you">Votre réponse : ' + esc(q.o[it.choice]) + '</p>';
+    return '<li><p class="q">' + (i + 1) + '. ' + esc(q.q) + '</p>' + you + '<p class="good">Bonne réponse : <span class="hl">' + esc(q.o[q.a]) + '</span></p>' + explainHTML(q) + '</li>';
+  }).join('') : '<li class="empty">Aucune erreur dans cette série.</li>';
+}
+$('#show-all').addEventListener('change', renderReview);
+$('#redo-errors').addEventListener('click', () => {
+  const wrong = session.items.filter(it => !(it.choice !== null && isRight(byId.get(it.id), it.choice))).map(it => byId.get(it.id));
+  start('train', shuffle(wrong));
+});
+$('#new-series').addEventListener('click', () => { session = null; show('setup'); });
+
+/* ---------- Banque ---------- */
+function renderBank(){
+  const sel = $('#bank-theme');
+  if (!sel.options.length) sel.innerHTML = '<option value="">Tous les thèmes</option>' + themes.map(t => '<option>' + esc(t) + '</option>').join('');
+  const term = norm($('#bank-q').value.trim()), th = sel.value, stf = $('#bank-status').value;
+  const list = QS.filter(q => (!th || q.theme === th) &&
+    (!stf || (stf === 'flag' ? !scorable(q) : store.stats[q.id] && store.stats[q.id].last === 0)) &&
+    (!term || norm(q.q + ' ' + q.o.join(' ') + ' ' + q.x).includes(term)));
+  $('#bank-count').textContent = list.length + ' question' + (list.length > 1 ? 's' : '');
+  $('#bank-list').innerHTML = list.length ? list.map(q => '<li><p class="q"><b>' + esc(q.q) + '</b></p><ol type="a">' +
+    q.o.map((o, i) => '<li>' + (scorable(q) && isRight(q, i) ? '<span class="hl">' + esc(o) + '</span>' : esc(o)) + '</li>').join('') +
+    '</ol>' + explainHTML(q) + '</li>').join('') : '<li class="empty">Aucune question ne correspond à cette recherche.</li>';
+}
+['#bank-q','#bank-theme','#bank-status'].forEach(s => $(s).addEventListener('input', renderBank));
+
+/* ---------- Progression ---------- */
+function renderStats(){
+  const ok = QS.filter(scorable), st = store.stats;
+  const seen = ok.filter(q => st[q.id]);
+  const att = seen.reduce((a, q) => a + st[q.id].s, 0), cor = seen.reduce((a, q) => a + st[q.id].c, 0);
+  const cards = [[seen.length + ' / ' + ok.length, 'questions déjà vues'], [att ? Math.round(cor / att * 100) + ' %' : '–', 'de bonnes réponses'], [missed().length, 'questions à revoir']];
+  $('#stats-cards').innerHTML = cards.map(([v, l]) => '<div class="stat"><b>' + v + '</b><span class="small muted">' + l + '</span></div>').join('');
+  $('#stats-bars').innerHTML = themes.map(t => { const qs = ok.filter(q => q.theme === t); return barHTML(t, qs.filter(q => st[q.id] && st[q.id].last === 1).length, qs.length); }).join('');
+}
+$('#reset').addEventListener('click', () => { if (confirm('Effacer toute votre progression enregistrée dans ce navigateur ?')) { store.stats = {}; save(); renderStats(); } });
+
+buildSetup(); show('setup');
+})();
+</script>
+</body>
+</html>
