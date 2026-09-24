@@ -24,6 +24,12 @@
    "ajout": true,
    "titre": "Quiz de culture générale au format questions-réponses (document imprimé, traduit de l'anglais)",
    "detail": "questions ouvertes transformées en QCM : les trois fausses réponses de chaque question ont été ajoutées pour l'entraînement"
+  },
+  {
+   "id": "CGT",
+   "court": "Test de culture générale par sections",
+   "titre": "Test de culture générale en sections (vocabulaire, littérature, beaux-arts et musique…)",
+   "detail": "QCM de trois à cinq options ; les cercles rouges des photos sont des réponses manuscrites, parfois fausses, et chaque réponse a été vérifiée"
   }
  ],
  "questions": [
@@ -4966,6 +4972,4315 @@
    "a": 0,
    "st": "ok",
    "x": "« Think Different » date de la campagne de 1997 ; « Just Do It » est le slogan de Nike, « Impossible Is Nothing » celui d'Adidas."
+  },
+  {
+   "id": "QR-091",
+   "serie": "QR",
+   "num": 91,
+   "theme": "Culture générale",
+   "q": "Combien y a-t-il de côtes dans le corps humain ?",
+   "o": [
+    "12",
+    "24",
+    "32",
+    "36"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "L'être humain possède 12 paires de côtes, soit 24 : 7 paires de vraies côtes, 3 de fausses côtes et 2 de côtes flottantes."
+  },
+  {
+   "id": "QR-092",
+   "serie": "QR",
+   "num": 92,
+   "theme": "Culture générale",
+   "q": "Quels sont les deux principaux ingrédients du coq au vin ?",
+   "o": [
+    "Le bœuf et le vin rouge",
+    "Le coq (ou le poulet) et le vin rouge",
+    "Le canard et le vin blanc",
+    "Le lapin et la bière"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le coq au vin est un coq ou un poulet mijoté dans du vin rouge ; le bœuf au vin rouge, c'est le bœuf bourguignon."
+  },
+  {
+   "id": "QR-093",
+   "serie": "QR",
+   "num": 93,
+   "theme": "Culture générale",
+   "q": "Où vivent Winnie l'Ourson et ses amis, compagnons de Jean-Christophe (Christopher Robin) ?",
+   "o": [
+    "Dans la Vallée enchantée",
+    "Dans le Bois des Cent Acres",
+    "Dans la forêt de Sherwood",
+    "Au Pays imaginaire"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les histoires d'A. A. Milne se déroulent dans le Bois des Cent Acres (Hundred Acre Wood).",
+   "n": "Les versions françaises de Disney l'appellent aussi la « forêt des Rêves bleus »."
+  },
+  {
+   "id": "QR-094",
+   "serie": "QR",
+   "num": 94,
+   "theme": "Culture générale",
+   "q": "En quelle année le Titanic a-t-il coulé ?",
+   "o": [
+    "1905",
+    "1912",
+    "1914",
+    "1923"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Titanic a sombré dans la nuit du 14 au 15 avril 1912, lors de son voyage inaugural."
+  },
+  {
+   "id": "QR-095",
+   "serie": "QR",
+   "num": 95,
+   "theme": "Culture générale",
+   "q": "Quel est le symbole chimique de l'oxygène ?",
+   "o": [
+    "O",
+    "Ox",
+    "Og",
+    "Os"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le symbole de l'oxygène est O ; Os est celui de l'osmium."
+  },
+  {
+   "id": "QR-096",
+   "serie": "QR",
+   "num": 96,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus grande île de la Méditerranée ?",
+   "o": [
+    "La Sardaigne",
+    "La Sicile",
+    "Chypre",
+    "La Corse"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Sicile (environ 25 700 km²) devance la Sardaigne, Chypre et la Corse."
+  },
+  {
+   "id": "QR-097",
+   "serie": "QR",
+   "num": 97,
+   "theme": "Culture générale",
+   "q": "Quel était le nom de jeune fille de la princesse Diana ?",
+   "o": [
+    "Spencer",
+    "Windsor",
+    "Mountbatten",
+    "Middleton"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Lady Diana Spencer a épousé le prince Charles en 1981 ; Middleton est le nom de jeune fille de Catherine, princesse de Galles."
+  },
+  {
+   "id": "QR-098",
+   "serie": "QR",
+   "num": 98,
+   "theme": "Culture générale",
+   "q": "Qui a composé la « Sonate au clair de lune » ?",
+   "o": [
+    "Wolfgang Amadeus Mozart",
+    "Ludwig van Beethoven",
+    "Frédéric Chopin",
+    "Jean-Sébastien Bach"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Il s'agit de la sonate pour piano n° 14 de Beethoven (1801), surnommée ainsi après sa mort."
+  },
+  {
+   "id": "QR-099",
+   "serie": "QR",
+   "num": 99,
+   "theme": "Culture générale",
+   "q": "Quel plat, composé d'abats hachés, d'oignons et de flocons d'avoine, est le plat national de l'Écosse ?",
+   "o": [
+    "Le haggis",
+    "Le fish and chips",
+    "Le porridge",
+    "Le black pudding"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le haggis est traditionnellement cuit dans une panse de mouton."
+  },
+  {
+   "id": "QR-100",
+   "serie": "QR",
+   "num": 100,
+   "theme": "Culture générale",
+   "q": "Quel est le premier long métrage de Spike Lee, adapté plus tard en série par Netflix ?",
+   "o": [
+    "« Do the Right Thing »",
+    "« Nola Darling n'en fait qu'à sa tête »",
+    "« Malcolm X »",
+    "« BlacKkKlansman »"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« Nola Darling n'en fait qu'à sa tête » (She's Gotta Have It, 1986) a été adapté en série par Netflix en 2017."
+  },
+  {
+   "id": "QR-101",
+   "serie": "QR",
+   "num": 101,
+   "theme": "Culture générale",
+   "q": "Dans « Le Monde de Narnia », pour quoi Edmund trahit-il sa famille et Aslan après avoir rencontré la Sorcière blanche ?",
+   "o": [
+    "Pour des loukoums",
+    "Pour une couronne d'or",
+    "Pour une épée magique",
+    "Pour un cheval ailé"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La Sorcière blanche séduit Edmund avec des loukoums et la promesse de faire de lui un prince."
+  },
+  {
+   "id": "QR-102",
+   "serie": "QR",
+   "num": 102,
+   "theme": "Culture générale",
+   "q": "Comment s'appelle le processus par lequel les plantes libèrent de la vapeur d'eau dans l'air ?",
+   "o": [
+    "La photosynthèse",
+    "La transpiration",
+    "La respiration",
+    "La germination"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La transpiration végétale se fait surtout par les stomates des feuilles."
+  },
+  {
+   "id": "QR-103",
+   "serie": "QR",
+   "num": 103,
+   "theme": "Culture générale",
+   "q": "Quelle chanteuse américaine d'origine texane était surnommée la « reine de la musique tejano » ?",
+   "o": [
+    "Selena Quintanilla",
+    "Shakira",
+    "Gloria Estefan",
+    "Jennifer Lopez"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Selena Quintanilla-Pérez (1971-1995), star de la musique tejano, a été assassinée à 23 ans."
+  },
+  {
+   "id": "QR-104",
+   "serie": "QR",
+   "num": 104,
+   "theme": "Culture générale",
+   "q": "Quel sandwich emblématique, lancé en 1957, a fait la renommée de la deuxième chaîne mondiale de hamburgers ?",
+   "o": [
+    "Le Big Mac",
+    "Le Whopper",
+    "Le Big Tasty",
+    "Le Baconator"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Whopper est le produit phare de Burger King depuis 1957 ; le Big Mac est celui de McDonald's."
+  },
+  {
+   "id": "QR-105",
+   "serie": "QR",
+   "num": 105,
+   "theme": "Culture générale",
+   "q": "Quel amendement à la Constitution américaine a aboli l'esclavage ?",
+   "o": [
+    "Le 1er",
+    "Le 13e",
+    "Le 19e",
+    "Le 21e"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le 13e amendement, ratifié en 1865, a aboli l'esclavage ; le 19e a accordé le droit de vote aux femmes en 1920."
+  },
+  {
+   "id": "QR-106",
+   "serie": "QR",
+   "num": 106,
+   "theme": "Culture générale",
+   "q": "Quelle est la couleur opposée au bleu sur le cercle chromatique ?",
+   "o": [
+    "Le jaune",
+    "L'orange",
+    "Le rouge",
+    "Le violet"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Sur le cercle chromatique, l'orange (mélange de rouge et de jaune) est la couleur complémentaire du bleu."
+  },
+  {
+   "id": "QR-107",
+   "serie": "QR",
+   "num": 107,
+   "theme": "Culture générale",
+   "q": "Quel est le nom du plat à base de chou fermenté, incontournable de la cuisine coréenne ?",
+   "o": [
+    "Le bibimbap",
+    "Le kimchi",
+    "Le bulgogi",
+    "Le tteokbokki"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le kimchi est un condiment de légumes fermentés, surtout du chou, pimenté."
+  },
+  {
+   "id": "QR-108",
+   "serie": "QR",
+   "num": 108,
+   "theme": "Culture générale",
+   "q": "Quelle poétesse grecque de l'Antiquité a inspiré la création du terme « lesbianisme » ?",
+   "o": [
+    "Homère",
+    "Sappho",
+    "Hésiode",
+    "Pindare"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Sappho vivait sur l'île de Lesbos aux VIIe-VIe siècles av. J.-C. ; le terme vient du nom de son île."
+  },
+  {
+   "id": "QR-109",
+   "serie": "QR",
+   "num": 109,
+   "theme": "Culture générale",
+   "q": "Sous quel nom l'actrice née Norma Jeane Mortenson est-elle devenue célèbre ?",
+   "o": [
+    "Marilyn Monroe",
+    "Grace Kelly",
+    "Audrey Hepburn",
+    "Jayne Mansfield"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Norma Jeane Mortenson (1926-1962) est devenue célèbre sous le nom de Marilyn Monroe."
+  },
+  {
+   "id": "QR-110",
+   "serie": "QR",
+   "num": 110,
+   "theme": "Culture générale",
+   "q": "Quel était le nom de famille des sœurs dominicaines opposées à la dictature de Rafael Trujillo, dont trois furent assassinées en 1960, comme le rappelle Julia Alvarez dans « Au temps des papillons » ?",
+   "o": [
+    "Mirabal",
+    "Trujillo",
+    "Alvarez",
+    "Duarte"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "Patria, Minerva et María Teresa Mirabal furent assassinées le 25 novembre 1960, date devenue la Journée internationale pour l'élimination de la violence à l'égard des femmes.",
+   "n": "Le document parle de « quatre sœurs assassinées » : la quatrième, Dedé, a survécu. L'énoncé a été corrigé."
+  },
+  {
+   "id": "QR-111",
+   "serie": "QR",
+   "num": 111,
+   "theme": "Culture générale",
+   "q": "Quelle célèbre saga de livres et de films a débuté comme une fanfiction de « Twilight », écrite sous le pseudonyme « Snowqueen Icedragon » ?",
+   "o": [
+    "Hunger Games",
+    "Cinquante nuances de Grey",
+    "After",
+    "Divergente"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Britannique E. L. James a d'abord publié en ligne l'histoire devenue « Cinquante nuances de Grey » (2011)."
+  },
+  {
+   "id": "QR-2001",
+   "serie": "QR",
+   "num": 2001,
+   "theme": "Culture générale",
+   "q": "Quels animaux marins se tiennent par la patte en dormant pour ne pas dériver les uns loin des autres ?",
+   "o": [
+    "Les dauphins",
+    "Les loutres de mer",
+    "Les phoques",
+    "Les manchots"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les loutres de mer dorment sur le dos à la surface et se tiennent par la patte, ou s'enroulent dans les algues, pour ne pas être séparées par le courant.",
+   "ref": "sujet n° 2, question 1"
+  },
+  {
+   "id": "QR-2002",
+   "serie": "QR",
+   "num": 2002,
+   "theme": "Culture générale",
+   "q": "Quelle fleur a autrefois servi de monnaie d'échange ?",
+   "o": [
+    "La rose",
+    "La tulipe",
+    "L'orchidée",
+    "Le lotus"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Dans les Provinces-Unies des années 1630, lors de la « tulipomanie », les bulbes de tulipe s'échangeaient à des prix extravagants.",
+   "ref": "sujet n° 2, question 2"
+  },
+  {
+   "id": "QR-2003",
+   "serie": "QR",
+   "num": 2003,
+   "theme": "Culture générale",
+   "q": "Dans quel pays plus de la moitié des habitants disent-ils croire aux elfes, ou ne pas exclure leur existence ?",
+   "o": [
+    "La Norvège",
+    "L'Irlande",
+    "L'Islande",
+    "La Finlande"
+   ],
+   "a": 2,
+   "st": "nuance",
+   "x": "Selon des sondages, une majorité d'Islandais n'excluent pas l'existence des elfes (huldufólk), très présents dans le folklore local.",
+   "ref": "sujet n° 2, question 3",
+   "n": "Il s'agit de résultats de sondages, à prendre avec prudence."
+  },
+  {
+   "id": "QR-2004",
+   "serie": "QR",
+   "num": 2004,
+   "theme": "Culture générale",
+   "q": "Pendant combien de temps certaines cigales vivent-elles sous terre avant d'émerger pour quelques semaines seulement ?",
+   "o": [
+    "1 an",
+    "5 ans",
+    "17 ans",
+    "30 ans"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les cigales périodiques d'Amérique du Nord passent 13 ou 17 ans sous terre à l'état de larve.",
+   "ref": "sujet n° 2, question 4"
+  },
+  {
+   "id": "QR-2005",
+   "serie": "QR",
+   "num": 2005,
+   "theme": "Culture générale",
+   "q": "Où se trouvent les plus hautes montagnes russes du monde ?",
+   "o": [
+    "Dans le New Jersey (États-Unis)",
+    "Dans l'Ohio (États-Unis)",
+    "En Arabie saoudite",
+    "Au Japon"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document dépassée : Kingda Ka, dans le New Jersey, longtemps détentrice du record, a fermé fin 2024 ; le record actuel reste à vérifier.",
+   "ref": "sujet n° 2, question 5"
+  },
+  {
+   "id": "QR-2006",
+   "serie": "QR",
+   "num": 2006,
+   "theme": "Culture générale",
+   "q": "Quel est l'animal national de l'Écosse ?",
+   "o": [
+    "Le lion",
+    "La licorne",
+    "Le cerf",
+    "L'aigle royal"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La licorne, animal mythique, figure sur les armoiries royales de l'Écosse.",
+   "ref": "sujet n° 2, question 6"
+  },
+  {
+   "id": "QR-2007",
+   "serie": "QR",
+   "num": 2007,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus grande structure vivante sur Terre ?",
+   "o": [
+    "La forêt amazonienne",
+    "La Grande Barrière de corail",
+    "Le séquoia géant",
+    "Le récif du Belize"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Grande Barrière de corail s'étire sur plus de 2 300 km au large du Queensland, en Australie.",
+   "ref": "sujet n° 2, question 7"
+  },
+  {
+   "id": "QR-2008",
+   "serie": "QR",
+   "num": 2008,
+   "theme": "Culture générale",
+   "q": "« Globe » et « Jérusalem » sont les noms anglais de deux variétés de quel légume ?",
+   "o": [
+    "D'artichaut",
+    "De tomate",
+    "De salade",
+    "De poivron"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "En anglais, le globe artichoke est l'artichaut classique et le Jerusalem artichoke désigne le topinambour.",
+   "ref": "sujet n° 2, question 8",
+   "n": "Le topinambour n'est pas un artichaut au sens botanique : c'est un tubercule d'une plante proche du tournesol."
+  },
+  {
+   "id": "QR-2009",
+   "serie": "QR",
+   "num": 2009,
+   "theme": "Culture générale",
+   "q": "Quelle est la planète la plus chaude du système solaire ?",
+   "o": [
+    "Mercure",
+    "Vénus",
+    "Mars",
+    "Jupiter"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Son épaisse atmosphère de dioxyde de carbone crée un effet de serre intense : environ 460 °C en surface, davantage que sur Mercure.",
+   "ref": "sujet n° 2, question 9"
+  },
+  {
+   "id": "QR-2010",
+   "serie": "QR",
+   "num": 2010,
+   "theme": "Culture générale",
+   "q": "Quel os les bébés n'ont-ils pas encore à la naissance ?",
+   "o": [
+    "La rotule",
+    "Le fémur",
+    "La clavicule",
+    "Le crâne"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "À la naissance, la rotule est encore cartilagineuse ; elle s'ossifie progressivement, entre 3 et 6 ans environ.",
+   "ref": "sujet n° 2, question 10"
+  },
+  {
+   "id": "QR-2011",
+   "serie": "QR",
+   "num": 2011,
+   "theme": "Culture générale",
+   "q": "Quelle planète a la gravité la plus forte ?",
+   "o": [
+    "Saturne",
+    "Jupiter",
+    "Neptune",
+    "Uranus"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Jupiter, la planète la plus massive, a une gravité environ 2,5 fois supérieure à celle de la Terre.",
+   "ref": "sujet n° 2, question 11"
+  },
+  {
+   "id": "QR-2012",
+   "serie": "QR",
+   "num": 2012,
+   "theme": "Culture générale",
+   "q": "Quel est le plus petit pays du monde ?",
+   "o": [
+    "Monaco",
+    "La Cité du Vatican",
+    "Saint-Marin",
+    "Nauru"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Vatican couvre environ 0,44 km² ; Monaco est le deuxième plus petit État du monde.",
+   "ref": "sujet n° 2, question 12"
+  },
+  {
+   "id": "QR-2013",
+   "serie": "QR",
+   "num": 2013,
+   "theme": "Culture générale",
+   "q": "Combien de grandes pyramides compte le site de Gizeh ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Cinq",
+    "Sept"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Les trois grandes pyramides sont celles de Khéops, Khéphren et Mykérinos.",
+   "ref": "sujet n° 2, question 13",
+   "n": "Le site compte aussi plusieurs petites pyramides dites « de reines »."
+  },
+  {
+   "id": "QR-2014",
+   "serie": "QR",
+   "num": 2014,
+   "theme": "Culture générale",
+   "q": "Quel plat est souvent considéré comme le plat national de l'Espagne ?",
+   "o": [
+    "La tortilla",
+    "La paella",
+    "Le gaspacho",
+    "Les tapas"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Originaire de la région de Valence, la paella est le plat espagnol le plus connu à l'étranger.",
+   "ref": "sujet n° 2, question 14",
+   "n": "L'Espagne n'a pas de plat national officiel."
+  },
+  {
+   "id": "QR-2015",
+   "serie": "QR",
+   "num": 2015,
+   "theme": "Culture générale",
+   "q": "Où se trouve le plus haut bâtiment du monde ?",
+   "o": [
+    "À Shanghai",
+    "À Dubaï",
+    "À New York",
+    "À Kuala Lumpur"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Burj Khalifa, inaugurée en 2010 à Dubaï, culmine à 828 m (2 717 pieds).",
+   "ref": "sujet n° 2, question 15"
+  },
+  {
+   "id": "QR-2016",
+   "serie": "QR",
+   "num": 2016,
+   "theme": "Culture générale",
+   "q": "Quel mammifère n'a pas de cordes vocales ?",
+   "o": [
+    "La girafe",
+    "Le dauphin",
+    "La baleine bleue",
+    "L'éléphant"
+   ],
+   "a": null,
+   "st": "erronee",
+   "x": "Aucune proposition n'est exacte : la girafe, réponse du document, possède bien un larynx avec des cordes vocales peu développées, et émet notamment des bourdonnements graves la nuit. C'est une idée reçue.",
+   "ref": "sujet n° 2, question 16"
+  },
+  {
+   "id": "QR-2017",
+   "serie": "QR",
+   "num": 2017,
+   "theme": "Culture générale",
+   "q": "Selon la mythologie grecque, qui fut la première femme ?",
+   "o": [
+    "Héra",
+    "Pandore",
+    "Athéna",
+    "Gaïa"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Façonnée par Héphaïstos sur l'ordre de Zeus, Pandore ouvrit la jarre qui libéra les maux sur l'humanité.",
+   "ref": "sujet n° 2, question 17"
+  },
+  {
+   "id": "QR-2018",
+   "serie": "QR",
+   "num": 2018,
+   "theme": "Culture générale",
+   "q": "Les fissures, les évents et les culots sont associés à quelle formation géologique ?",
+   "o": [
+    "Les volcans",
+    "Les glaciers",
+    "Les failles sismiques",
+    "Les grottes"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Fissures éruptives, évents et culots (bouchons de lave solidifiée) sont des structures volcaniques.",
+   "ref": "sujet n° 2, question 18"
+  },
+  {
+   "id": "QR-2019",
+   "serie": "QR",
+   "num": 2019,
+   "theme": "Culture générale",
+   "q": "Quel pays consomme le plus de chocolat par habitant ?",
+   "o": [
+    "La Belgique",
+    "La Suisse",
+    "Les États-Unis",
+    "La France"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "La Suisse arrive en tête de la plupart des classements, avec une dizaine de kilos par habitant et par an.",
+   "ref": "sujet n° 2, question 19",
+   "n": "Le classement varie selon les années et les sources."
+  },
+  {
+   "id": "QR-2020",
+   "serie": "QR",
+   "num": 2020,
+   "theme": "Culture générale",
+   "q": "Quel est l'animal le plus bruyant de la planète ?",
+   "o": [
+    "Le lion",
+    "L'éléphant",
+    "Le cachalot",
+    "Le singe hurleur"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les clics d'écholocation du cachalot peuvent dépasser 230 décibels sous l'eau.",
+   "ref": "sujet n° 2, question 20"
+  },
+  {
+   "id": "QR-2021",
+   "serie": "QR",
+   "num": 2021,
+   "theme": "Culture générale",
+   "q": "Quel a été le premier jouet à faire l'objet d'une publicité à la télévision ?",
+   "o": [
+    "La poupée Barbie",
+    "Monsieur Patate",
+    "Le Rubik's Cube",
+    "Les briques Lego"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Monsieur Patate (Mr. Potato Head) a été le premier jouet promu à la télévision, en 1952.",
+   "ref": "sujet n° 2, question 21"
+  },
+  {
+   "id": "QR-2022",
+   "serie": "QR",
+   "num": 2022,
+   "theme": "Culture générale",
+   "q": "Combien d'yeux une abeille possède-t-elle ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Cinq",
+    "Huit"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "L'abeille a deux grands yeux composés et trois petits yeux simples (ocelles) sur le dessus de la tête.",
+   "ref": "sujet n° 2, question 22"
+  },
+  {
+   "id": "QR-2023",
+   "serie": "QR",
+   "num": 2023,
+   "theme": "Culture générale",
+   "q": "Quel oiseau peut voler à reculons ?",
+   "o": [
+    "Le colibri",
+    "L'hirondelle",
+    "Le martinet",
+    "Le pic vert"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Grâce à ses battements d'ailes très rapides, le colibri peut faire du surplace et voler en arrière.",
+   "ref": "sujet n° 2, question 23"
+  },
+  {
+   "id": "QR-2024",
+   "serie": "QR",
+   "num": 2024,
+   "theme": "Culture générale",
+   "q": "Quel est le seul continent à ne pas avoir de volcan en activité ?",
+   "o": [
+    "L'Australie",
+    "L'Afrique",
+    "L'Antarctique",
+    "L'Europe"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "L'Australie continentale n'a pas de volcan actif, contrairement à l'Antarctique, où se trouve le mont Erebus.",
+   "ref": "sujet n° 2, question 24",
+   "n": "Certains territoires australiens lointains, comme l'île Heard, ont des volcans actifs."
+  },
+  {
+   "id": "QR-2025",
+   "serie": "QR",
+   "num": 2025,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus grande race de chien au monde ?",
+   "o": [
+    "Le dogue allemand",
+    "Le saint-bernard",
+    "Le lévrier irlandais",
+    "Le mastiff"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Le dogue allemand est la race la plus haute au garrot.",
+   "ref": "sujet n° 2, question 25",
+   "n": "Le mastiff et le saint-bernard peuvent être plus lourds."
+  },
+  {
+   "id": "QR-2026",
+   "serie": "QR",
+   "num": 2026,
+   "theme": "Culture générale",
+   "q": "Quelle est la substance naturelle la plus dure au monde ?",
+   "o": [
+    "Le quartz",
+    "Le diamant",
+    "Le corindon",
+    "Le granite"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le diamant occupe le rang 10, le plus élevé, sur l'échelle de dureté de Mohs.",
+   "ref": "sujet n° 2, question 26"
+  },
+  {
+   "id": "QR-2027",
+   "serie": "QR",
+   "num": 2027,
+   "theme": "Culture générale",
+   "q": "Quel était le premier message envoyé par télégraphe électrique sur longue distance ?",
+   "o": [
+    "« What hath God wrought »",
+    "« Mr. Watson, come here »",
+    "« Hello world »",
+    "« SOS »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Samuel Morse l'envoya le 24 mai 1844 de Washington à Baltimore ; « Mr. Watson, come here » fut la première phrase de Bell au téléphone, en 1876.",
+   "ref": "sujet n° 2, question 27"
+  },
+  {
+   "id": "QR-2028",
+   "serie": "QR",
+   "num": 2028,
+   "theme": "Culture générale",
+   "q": "Quelle ville française est surnommée la « Venise du Nord » en raison de ses canaux ?",
+   "o": [
+    "Amiens",
+    "Strasbourg",
+    "Annecy",
+    "Lille"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Amiens doit ce surnom à ses canaux et à ses hortillonnages ; Annecy est surnommée la « Venise des Alpes ».",
+   "ref": "sujet n° 2, question 28",
+   "n": "Bruges, en Belgique, est aussi appelée la « Venise du Nord »."
+  },
+  {
+   "id": "QR-2029",
+   "serie": "QR",
+   "num": 2029,
+   "theme": "Culture générale",
+   "q": "Dans quel pays se trouve la route la plus longue du monde ?",
+   "o": [
+    "Aux États-Unis",
+    "En Australie",
+    "Au Canada",
+    "En Chine"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document discutable : la route 20 est la plus longue des États-Unis, mais l'Highway 1 australienne (environ 14 500 km) est souvent citée comme la plus longue route nationale du monde. À vérifier.",
+   "ref": "sujet n° 2, question 29"
+  },
+  {
+   "id": "QR-2030",
+   "serie": "QR",
+   "num": 2030,
+   "theme": "Culture générale",
+   "q": "Dans quel pays se trouve la plus ancienne université du monde ?",
+   "o": [
+    "En Italie",
+    "Au Maroc",
+    "En Égypte",
+    "En Angleterre"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "L'université de Bologne (1088) est la plus ancienne université au sens européen du terme ; l'université al-Quaraouiyine de Fès, fondée en 859, est souvent citée comme le plus ancien établissement d'enseignement encore en activité. Les deux réponses sont acceptées.",
+   "ref": "sujet n° 2, question 30",
+   "acc": [
+    0,
+    1
+   ]
+  },
+  {
+   "id": "QR-2031",
+   "serie": "QR",
+   "num": 2031,
+   "theme": "Culture générale",
+   "q": "Quel pays possède le plus long littoral au monde ?",
+   "o": [
+    "La Russie",
+    "Le Canada",
+    "L'Indonésie",
+    "L'Australie"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Canada compte plus de 200 000 km de côtes, îles comprises.",
+   "ref": "sujet n° 2, question 31"
+  },
+  {
+   "id": "QR-2032",
+   "serie": "QR",
+   "num": 2032,
+   "theme": "Culture générale",
+   "q": "Où se trouve le bureau de poste le plus haut du monde ?",
+   "o": [
+    "En Inde",
+    "Au Népal",
+    "Au Tibet (Chine)",
+    "Au Pérou"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le bureau de poste de Hikkim, dans l'Himachal Pradesh, est situé à environ 4 440 m d'altitude (14 567 pieds).",
+   "ref": "sujet n° 2, question 32"
+  },
+  {
+   "id": "QR-2033",
+   "serie": "QR",
+   "num": 2033,
+   "theme": "Culture générale",
+   "q": "Quel est le seul mammifère capable d'un vol battu et soutenu ?",
+   "o": [
+    "L'écureuil volant",
+    "La chauve-souris",
+    "Le galéopithèque",
+    "Le phalanger volant"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les autres mammifères dits « volants » ne font que planer ; seule la chauve-souris vole vraiment.",
+   "ref": "sujet n° 2, question 33"
+  },
+  {
+   "id": "QR-2034",
+   "serie": "QR",
+   "num": 2034,
+   "theme": "Culture générale",
+   "q": "Quelle lettre n'apparaît dans aucun nom (anglais) d'État américain ?",
+   "o": [
+    "Q",
+    "X",
+    "Z",
+    "J"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "J figure dans New Jersey, X dans Texas et New Mexico, Z dans Arizona ; aucun nom ne contient de Q.",
+   "ref": "sujet n° 2, question 34"
+  },
+  {
+   "id": "QR-2035",
+   "serie": "QR",
+   "num": 2035,
+   "theme": "Culture générale",
+   "q": "Quelle chanteuse a pratiqué la gymnastique en compétition avant sa carrière musicale ?",
+   "o": [
+    "SZA",
+    "Beyoncé",
+    "Rihanna",
+    "Adele"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La chanteuse américaine SZA a été gymnaste de compétition dans sa jeunesse.",
+   "ref": "sujet n° 2, question 35"
+  },
+  {
+   "id": "QR-2036",
+   "serie": "QR",
+   "num": 2036,
+   "theme": "Culture générale",
+   "q": "Quel est le nom du poisson-globe consommé au Japon, potentiellement mortel s'il est mal préparé ?",
+   "o": [
+    "Le fugu",
+    "Le tai",
+    "L'unagi",
+    "Le saba"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le fugu contient un poison violent, la tétrodotoxine : seuls des cuisiniers certifiés ont le droit de le préparer.",
+   "ref": "sujet n° 2, question 36"
+  },
+  {
+   "id": "QR-2038",
+   "serie": "QR",
+   "num": 2038,
+   "theme": "Culture générale",
+   "q": "Quelle invention américaine de la fin du XIXe siècle devait, selon son créateur, combattre l'indigestion et la masturbation ?",
+   "o": [
+    "Les corn flakes",
+    "Le Coca-Cola",
+    "Le beurre de cacahuète",
+    "Le chewing-gum"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le médecin John Harvey Kellogg inventa les corn flakes en 1894 dans le cadre d'un régime alimentaire très austère.",
+   "ref": "sujet n° 2, question 38",
+   "n": "Numérotée « 37 » par erreur dans le document (qui compte deux questions 37)."
+  },
+  {
+   "id": "QR-2039",
+   "serie": "QR",
+   "num": 2039,
+   "theme": "Culture générale",
+   "q": "Quelle actrice est devenue virale pour avoir menti sur son amour des citrons verts ?",
+   "o": [
+    "Dakota Johnson",
+    "Emma Stone",
+    "Anne Hathaway",
+    "Kristen Stewart"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Cette anecdote de 2019, autour d'une coupe de citrons verts dans sa cuisine, a fait le tour des réseaux sociaux.",
+   "ref": "sujet n° 2, question 39"
+  },
+  {
+   "id": "QR-2040",
+   "serie": "QR",
+   "num": 2040,
+   "theme": "Culture générale",
+   "q": "Quelle espèce animale est couramment qualifiée de « biologiquement immortelle » ?",
+   "o": [
+    "La méduse Turritopsis dohrnii",
+    "La tortue géante des Galápagos",
+    "Le requin du Groenland",
+    "L'axolotl"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Arrivée à maturité, cette petite méduse peut revenir au stade juvénile de polype et recommencer son cycle de vie.",
+   "ref": "sujet n° 2, question 40"
+  },
+  {
+   "id": "QR-2041",
+   "serie": "QR",
+   "num": 2041,
+   "theme": "Culture générale",
+   "q": "Le visage de quel homme politique américain a servi, sous forme de masque, dans une célèbre étude sur l'intelligence des corbeaux ?",
+   "o": [
+    "Dick Cheney",
+    "Richard Nixon",
+    "George W. Bush",
+    "Donald Rumsfeld"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Des chercheurs de l'université de Washington portaient un masque de Dick Cheney comme visage « neutre » pour montrer que les corbeaux reconnaissent et mémorisent les visages.",
+   "ref": "sujet n° 2, question 41"
+  },
+  {
+   "id": "QR-2042",
+   "serie": "QR",
+   "num": 2042,
+   "theme": "Culture générale",
+   "q": "Quelle est la guerre la plus courte de l'histoire ?",
+   "o": [
+    "La guerre anglo-zanzibarite",
+    "La guerre des Six Jours",
+    "La « guerre du football »",
+    "La guerre des Malouines"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le 27 août 1896, le sultanat de Zanzibar capitula après environ 38 minutes de bombardement britannique.",
+   "ref": "sujet n° 2, question 42"
+  },
+  {
+   "id": "QR-2043",
+   "serie": "QR",
+   "num": 2043,
+   "theme": "Culture générale",
+   "q": "Quel aliment est réputé ne jamais se gâter ?",
+   "o": [
+    "Le miel",
+    "Le pain",
+    "Le fromage",
+    "Le chocolat"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Pauvre en eau et acide, le miel se conserve presque indéfiniment ; on en a retrouvé de comestible dans des tombes égyptiennes.",
+   "ref": "sujet n° 2, question 43",
+   "n": "Le document dit « le seul aliment » : le sel et le sucre, conservés au sec, ne se gâtent pas non plus."
+  },
+  {
+   "id": "QR-2044",
+   "serie": "QR",
+   "num": 2044,
+   "theme": "Culture générale",
+   "q": "Quelle célèbre reine est aujourd'hui connue pour ses goûts en matière de mobilier ?",
+   "o": [
+    "Catherine la Grande",
+    "Marie-Antoinette",
+    "Élisabeth Ire",
+    "Cléopâtre"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "La question renvoie à une légende tenace sur le mobilier de Catherine II de Russie, jamais attestée : réponse non retenue.",
+   "ref": "sujet n° 2, question 44"
+  },
+  {
+   "id": "QR-2045",
+   "serie": "QR",
+   "num": 2045,
+   "theme": "Culture générale",
+   "q": "Dans quel pays le requin fermenté, à forte odeur d'ammoniaque, est-il considéré comme un mets national ?",
+   "o": [
+    "L'Islande",
+    "Le Japon",
+    "La Norvège",
+    "Le Groenland"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le hákarl est de la chair de requin fermentée puis séchée pendant plusieurs mois.",
+   "ref": "sujet n° 2, question 45"
+  },
+  {
+   "id": "QR-3001",
+   "serie": "QR",
+   "num": 3001,
+   "theme": "Culture générale",
+   "q": "Quel pays est à la fois une île et un continent ?",
+   "o": [
+    "L'Australie",
+    "Le Groenland",
+    "Madagascar",
+    "La Nouvelle-Zélande"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'Australie est souvent qualifiée d'île-continent ; le Groenland est la plus grande île du monde et Madagascar la quatrième.",
+   "ref": "sujet n° 3, question 1"
+  },
+  {
+   "id": "QR-3002",
+   "serie": "QR",
+   "num": 3002,
+   "theme": "Culture générale",
+   "q": "Quel est le plus long fleuve du monde ?",
+   "o": [
+    "L'Amazone",
+    "Le Nil",
+    "Le Yangzi Jiang",
+    "Le Mississippi"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Le Nil (environ 6 650 km) est traditionnellement considéré comme le plus long fleuve du monde.",
+   "ref": "sujet n° 3, question 2",
+   "n": "Certaines mesures récentes placent l'Amazone devant le Nil."
+  },
+  {
+   "id": "QR-3003",
+   "serie": "QR",
+   "num": 3003,
+   "theme": "Culture générale",
+   "q": "Combien de films compte la trilogie du « Seigneur des anneaux » réalisée par Peter Jackson ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Quatre",
+    "Six"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La trilogie est sortie entre 2001 et 2003 ; « Le Hobbit », autre trilogie, date de 2012-2014.",
+   "ref": "sujet n° 3, question 3",
+   "n": "Un film d'animation, « La Guerre des Rohirrim », est sorti en 2024 dans le même univers ; l'énoncé a été précisé."
+  },
+  {
+   "id": "QR-3004",
+   "serie": "QR",
+   "num": 3004,
+   "theme": "Culture générale",
+   "q": "Qui est le seul président américain à avoir exercé plus de deux mandats ?",
+   "o": [
+    "Theodore Roosevelt",
+    "Franklin D. Roosevelt",
+    "Abraham Lincoln",
+    "George Washington"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Élu quatre fois (1932, 1936, 1940 et 1944), il mourut en 1945 ; le 22e amendement limite depuis la présidence à deux mandats.",
+   "ref": "sujet n° 3, question 4"
+  },
+  {
+   "id": "QR-3005",
+   "serie": "QR",
+   "num": 3005,
+   "theme": "Culture générale",
+   "q": "Laquelle des sœurs Williams a remporté le plus de titres du Grand Chelem en simple ?",
+   "o": [
+    "Serena",
+    "Venus",
+    "Elles sont à égalité",
+    "Aucune des deux n'en a gagné"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Serena Williams compte 23 titres du Grand Chelem en simple, contre 7 pour Venus.",
+   "ref": "sujet n° 3, question 5"
+  },
+  {
+   "id": "QR-3006",
+   "serie": "QR",
+   "num": 3006,
+   "theme": "Culture générale",
+   "q": "Quel requin est impliqué dans le plus grand nombre d'attaques contre l'homme ?",
+   "o": [
+    "Le requin-tigre",
+    "Le grand requin blanc",
+    "Le requin-bouledogue",
+    "Le requin-marteau"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Le grand requin blanc est responsable du plus grand nombre d'attaques recensées, même si elles restent rares.",
+   "ref": "sujet n° 3, question 6",
+   "n": "Le requin-bouledogue et le requin-tigre sont aussi impliqués dans de nombreuses attaques."
+  },
+  {
+   "id": "QR-3007",
+   "serie": "QR",
+   "num": 3007,
+   "theme": "Culture générale",
+   "q": "Au Royaume-Uni, comment s'appelle le jour férié qui suit Noël, le 26 décembre ?",
+   "o": [
+    "Boxing Day",
+    "Thanksgiving",
+    "Pancake Day",
+    "Guy Fawkes Night"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "Boxing Day est férié au Royaume-Uni et dans de nombreux pays du Commonwealth.",
+   "ref": "sujet n° 3, question 7",
+   "n": "Le document répond « le lendemain de Noël », traduction littérale ; l'énoncé a été précisé."
+  },
+  {
+   "id": "QR-3008",
+   "serie": "QR",
+   "num": 3008,
+   "theme": "Culture générale",
+   "q": "Quel artiste a peint « La Nuit étoilée » ?",
+   "o": [
+    "Claude Monet",
+    "Vincent van Gogh",
+    "Paul Cézanne",
+    "Paul Gauguin"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Van Gogh l'a peinte en 1889 à Saint-Rémy-de-Provence ; elle est exposée au MoMA de New York.",
+   "ref": "sujet n° 3, question 8"
+  },
+  {
+   "id": "QR-3011",
+   "serie": "QR",
+   "num": 3011,
+   "theme": "Culture générale",
+   "q": "Quelle planète est surnommée la « planète rouge » ?",
+   "o": [
+    "Vénus",
+    "Mars",
+    "Jupiter",
+    "Mercure"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Mars doit sa couleur à l'oxyde de fer (la rouille) présent à sa surface.",
+   "ref": "sujet n° 3, question 11"
+  },
+  {
+   "id": "QR-3012",
+   "serie": "QR",
+   "num": 3012,
+   "theme": "Culture générale",
+   "q": "Quel est l'hymne national des États-Unis ?",
+   "o": [
+    "« The Star-Spangled Banner »",
+    "« America the Beautiful »",
+    "« God Bless America »",
+    "« My Country, 'Tis of Thee »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« The Star-Spangled Banner » (« La Bannière étoilée »), écrit en 1814, est l'hymne officiel depuis 1931.",
+   "ref": "sujet n° 3, question 12"
+  },
+  {
+   "id": "QR-3013",
+   "serie": "QR",
+   "num": 3013,
+   "theme": "Culture générale",
+   "q": "Qui a été la première princesse Disney ?",
+   "o": [
+    "Cendrillon",
+    "Blanche-Neige",
+    "La Belle au bois dormant",
+    "Ariel"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« Blanche-Neige et les Sept Nains » (1937) est le premier long métrage d'animation de Disney.",
+   "ref": "sujet n° 3, question 13"
+  },
+  {
+   "id": "QR-3014",
+   "serie": "QR",
+   "num": 3014,
+   "theme": "Culture générale",
+   "q": "Quel est le plus grand État américain par la superficie ?",
+   "o": [
+    "Le Texas",
+    "L'Alaska",
+    "La Californie",
+    "Le Montana"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Avec plus de 1,7 million de km², l'Alaska est plus de deux fois plus vaste que le Texas.",
+   "ref": "sujet n° 3, question 14"
+  },
+  {
+   "id": "QR-3015",
+   "serie": "QR",
+   "num": 3015,
+   "theme": "Culture générale",
+   "q": "Combien de bandes compte le logo d'Adidas ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Quatre",
+    "Cinq"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les trois bandes sont l'emblème de la marque allemande.",
+   "ref": "sujet n° 3, question 15"
+  },
+  {
+   "id": "QR-3016",
+   "serie": "QR",
+   "num": 3016,
+   "theme": "Culture générale",
+   "q": "Quelle merveille naturelle est surnommée le « poumon de la planète » ?",
+   "o": [
+    "La forêt amazonienne",
+    "La Grande Barrière de corail",
+    "Le Sahara",
+    "La taïga sibérienne"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "L'Amazonie, plus grande forêt tropicale du monde, joue un rôle majeur dans le climat.",
+   "ref": "sujet n° 3, question 16",
+   "n": "Ce sont en réalité les océans qui produisent le plus d'oxygène."
+  },
+  {
+   "id": "QR-3017",
+   "serie": "QR",
+   "num": 3017,
+   "theme": "Culture générale",
+   "q": "Quel pays a remporté la Coupe du monde féminine de football en 2019 ?",
+   "o": [
+    "L'Allemagne",
+    "Les États-Unis",
+    "Les Pays-Bas",
+    "La France"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "En finale à Lyon, les États-Unis ont battu les Pays-Bas 2-0 lors de ce Mondial organisé en France.",
+   "ref": "sujet n° 3, question 17"
+  },
+  {
+   "id": "QR-3018",
+   "serie": "QR",
+   "num": 3018,
+   "theme": "Culture générale",
+   "q": "Quel joueur de baseball a brisé la barrière raciale de la Major League en 1947 ?",
+   "o": [
+    "Babe Ruth",
+    "Jackie Robinson",
+    "Hank Aaron",
+    "Willie Mays"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le 15 avril 1947, Jackie Robinson est devenu le premier joueur noir de l'ère moderne en Major League, avec les Brooklyn Dodgers.",
+   "ref": "sujet n° 3, question 18"
+  },
+  {
+   "id": "QR-3019",
+   "serie": "QR",
+   "num": 3019,
+   "theme": "Culture générale",
+   "q": "Quelle chanson Tom Holland a-t-il interprétée dans l'émission « Lip Sync Battle » en 2017 ?",
+   "o": [
+    "« Umbrella » (Rihanna)",
+    "« Single Ladies » (Beyoncé)",
+    "« Toxic » (Britney Spears)",
+    "« Bad Romance » (Lady Gaga)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Sa prestation sur « Umbrella » est devenue virale en 2017.",
+   "ref": "sujet n° 3, question 19"
+  },
+  {
+   "id": "QR-3020",
+   "serie": "QR",
+   "num": 3020,
+   "theme": "Culture générale",
+   "q": "Dans quelle émission Ryan Gosling et Christina Aguilera ont-ils débuté ?",
+   "o": [
+    "« The Mickey Mouse Club »",
+    "« Star Academy »",
+    "« American Idol »",
+    "« Saturday Night Live »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La version des années 1990 du « Mickey Mouse Club » a aussi révélé Britney Spears et Justin Timberlake.",
+   "ref": "sujet n° 3, question 20"
+  },
+  {
+   "id": "QR-3021",
+   "serie": "QR",
+   "num": 3021,
+   "theme": "Culture générale",
+   "q": "Quelle civilisation a construit le Machu Picchu ?",
+   "o": [
+    "Les Aztèques",
+    "Les Mayas",
+    "Les Incas",
+    "Les Olmèques"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La cité inca du Machu Picchu, au Pérou, a été bâtie au XVe siècle.",
+   "ref": "sujet n° 3, question 21"
+  },
+  {
+   "id": "QR-3022",
+   "serie": "QR",
+   "num": 3022,
+   "theme": "Culture générale",
+   "q": "Quel surnom, formé de quatre mots en anglais (« The Boy Who Lived »), est donné à Harry Potter ?",
+   "o": [
+    "« Le Survivant »",
+    "« L'Élu »",
+    "« Le Prince de sang-mêlé »",
+    "« Celui-dont-on-ne-doit-pas-prononcer-le-nom »"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "Harry est surnommé ainsi pour avoir survécu, bébé, à l'attaque de Voldemort ; le Prince de sang-mêlé est Rogue, et « Celui-dont-on-ne-doit-pas-prononcer-le-nom » désigne Voldemort.",
+   "ref": "sujet n° 3, question 22",
+   "n": "Le document traduit par « le garçon qui vivait » ; la traduction française officielle est « le Survivant »."
+  },
+  {
+   "id": "QR-3023",
+   "serie": "QR",
+   "num": 3023,
+   "theme": "Culture générale",
+   "q": "Comment appelle-t-on la peur des araignées ?",
+   "o": [
+    "L'arachnophobie",
+    "L'agoraphobie",
+    "L'acrophobie",
+    "L'ophiophobie"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'agoraphobie est la peur des espaces publics, l'acrophobie celle du vide, l'ophiophobie celle des serpents.",
+   "ref": "sujet n° 3, question 23"
+  },
+  {
+   "id": "QR-3024",
+   "serie": "QR",
+   "num": 3024,
+   "theme": "Culture générale",
+   "q": "Qui est la plus jeune lauréate du prix Nobel ?",
+   "o": [
+    "Malala Yousafzai",
+    "Greta Thunberg",
+    "Nadia Murad",
+    "Rigoberta Menchú"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La Pakistanaise Malala Yousafzai a reçu le prix Nobel de la paix en 2014, à 17 ans.",
+   "ref": "sujet n° 3, question 24"
+  },
+  {
+   "id": "QR-3025",
+   "serie": "QR",
+   "num": 3025,
+   "theme": "Culture générale",
+   "q": "Quelle est la boisson la plus consommée au monde après l'eau ?",
+   "o": [
+    "Le café",
+    "Le thé",
+    "La bière",
+    "Le lait"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le thé est la boisson la plus bue au monde après l'eau.",
+   "ref": "sujet n° 3, question 25"
+  },
+  {
+   "id": "QR-3026",
+   "serie": "QR",
+   "num": 3026,
+   "theme": "Culture générale",
+   "q": "Combien de « Cheetah Girls » compte le groupe des films Disney du même nom ?",
+   "o": [
+    "Trois",
+    "Quatre",
+    "Cinq",
+    "Six"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Galleria, Chanel, Aqua et Dorinda forment le groupe des deux premiers films.",
+   "ref": "sujet n° 3, question 26",
+   "n": "Seules trois d'entre elles apparaissent dans le troisième film."
+  },
+  {
+   "id": "QR-3027",
+   "serie": "QR",
+   "num": 3027,
+   "theme": "Culture générale",
+   "q": "Combien de juges siègent à la Cour suprême des États-Unis ?",
+   "o": [
+    "Sept",
+    "Neuf",
+    "Onze",
+    "Douze"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Cour suprême compte neuf juges, nommés à vie par le président avec l'accord du Sénat.",
+   "ref": "sujet n° 3, question 27"
+  },
+  {
+   "id": "QR-3028",
+   "serie": "QR",
+   "num": 3028,
+   "theme": "Culture générale",
+   "q": "Quel empire était dirigé par Néron ?",
+   "o": [
+    "L'Empire romain",
+    "L'Empire byzantin",
+    "L'Empire perse",
+    "L'Empire ottoman"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Néron fut empereur romain de 54 à 68 apr. J.-C.",
+   "ref": "sujet n° 3, question 28"
+  },
+  {
+   "id": "QR-3029",
+   "serie": "QR",
+   "num": 3029,
+   "theme": "Culture générale",
+   "q": "Quel légume est en réalité un ensemble de fleurs ?",
+   "o": [
+    "Le brocoli",
+    "La carotte",
+    "Le poireau",
+    "La pomme de terre"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "On mange les boutons floraux du brocoli, encore fermés.",
+   "ref": "sujet n° 3, question 29",
+   "n": "Le chou-fleur et l'artichaut sont aussi des inflorescences."
+  },
+  {
+   "id": "QR-3030",
+   "serie": "QR",
+   "num": 3030,
+   "theme": "Culture générale",
+   "q": "Comment s'appelle l'étude des fossiles ?",
+   "o": [
+    "La géologie",
+    "La paléontologie",
+    "L'archéologie",
+    "L'anthropologie"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La paléontologie étudie les êtres vivants disparus à partir de leurs fossiles.",
+   "ref": "sujet n° 3, question 30"
+  },
+  {
+   "id": "QR-3031",
+   "serie": "QR",
+   "num": 3031,
+   "theme": "Culture générale",
+   "q": "Qui a peint le plafond de la chapelle Sixtine ?",
+   "o": [
+    "Raphaël",
+    "Michel-Ange",
+    "Léonard de Vinci",
+    "Le Caravage"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Michel-Ange l'a peint de 1508 à 1512 à la demande du pape Jules II ; il y ajouta plus tard « Le Jugement dernier » (1536-1541).",
+   "ref": "sujet n° 3, question 31"
+  },
+  {
+   "id": "QR-3032",
+   "serie": "QR",
+   "num": 3032,
+   "theme": "Culture générale",
+   "q": "Quel est le nom du héros de « L'Attrape-cœurs » ?",
+   "o": [
+    "Holden Caulfield",
+    "Jay Gatsby",
+    "Atticus Finch",
+    "Dean Moriarty"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Holden Caulfield est le narrateur du roman de J. D. Salinger (1951) ; Gatsby vient de Fitzgerald, Atticus Finch de Harper Lee.",
+   "ref": "sujet n° 3, question 32"
+  },
+  {
+   "id": "QR-3033",
+   "serie": "QR",
+   "num": 3033,
+   "theme": "Culture générale",
+   "q": "Quel animal est la mascotte des céréales Frosties de Kellogg's ?",
+   "o": [
+    "Un tigre (Tony)",
+    "Un toucan",
+    "Un coq",
+    "Un lapin"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Tony le tigre représente les Frosties depuis les années 1950.",
+   "ref": "sujet n° 3, question 33",
+   "n": "Énoncé précisé : Kellogg's a d'autres mascottes, comme le coq des Corn Flakes et le toucan des Froot Loops."
+  },
+  {
+   "id": "QR-3034",
+   "serie": "QR",
+   "num": 3034,
+   "theme": "Culture générale",
+   "q": "Sur quelle échelle mesure-t-on traditionnellement la magnitude des tremblements de terre ?",
+   "o": [
+    "L'échelle de Richter",
+    "L'échelle de Beaufort",
+    "L'échelle de Mohs",
+    "L'échelle de Fujita"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "L'échelle de Richter mesure la magnitude des séismes ; Beaufort mesure le vent, Mohs la dureté des minéraux et Fujita les tornades.",
+   "ref": "sujet n° 3, question 34",
+   "n": "Les sismologues utilisent aujourd'hui surtout l'échelle de magnitude de moment."
+  },
+  {
+   "id": "QR-3035",
+   "serie": "QR",
+   "num": 3035,
+   "theme": "Culture générale",
+   "q": "Quels sont les noms des deux familles rivales dans « Roméo et Juliette » ?",
+   "o": [
+    "Les Montaigu et les Capulet",
+    "Les Lancastre et les York",
+    "Les Médicis et les Borgia",
+    "Les Guelfes et les Gibelins"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Roméo est un Montaigu et Juliette une Capulet, deux familles ennemies de Vérone.",
+   "ref": "sujet n° 3, question 35"
+  },
+  {
+   "id": "QR-4002",
+   "serie": "QR",
+   "num": 4002,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus petite unité de mémoire d'un ordinateur ?",
+   "o": [
+    "Le bit",
+    "L'octet",
+    "Le kilo-octet",
+    "Le pixel"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le bit (binary digit) vaut 0 ou 1 ; un octet regroupe 8 bits.",
+   "ref": "sujet n° 4, question 2"
+  },
+  {
+   "id": "QR-4003",
+   "serie": "QR",
+   "num": 4003,
+   "theme": "Culture générale",
+   "q": "De combien d'îles principales se compose l'archipel d'Hawaï ?",
+   "o": [
+    "Quatre",
+    "Six",
+    "Huit",
+    "Douze"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "L'archipel compte huit îles principales (dont Hawaï, Maui, Oahu et Kauai) parmi 137 îles et îlots.",
+   "ref": "sujet n° 4, question 3"
+  },
+  {
+   "id": "QR-4004",
+   "serie": "QR",
+   "num": 4004,
+   "theme": "Culture générale",
+   "q": "Qui est considérée comme la première femme millionnaire autodidacte des États-Unis ?",
+   "o": [
+    "Madam C. J. Walker",
+    "Coco Chanel",
+    "Estée Lauder",
+    "Oprah Winfrey"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Madam C. J. Walker a fait fortune au début du XXe siècle avec des produits capillaires destinés aux femmes noires.",
+   "ref": "sujet n° 4, question 4"
+  },
+  {
+   "id": "QR-4005",
+   "serie": "QR",
+   "num": 4005,
+   "theme": "Culture générale",
+   "q": "Combien de couleurs comptait le premier drapeau arc-en-ciel de la fierté LGBT, hissé à San Francisco en 1978 ?",
+   "o": [
+    "Six",
+    "Sept",
+    "Huit",
+    "Neuf"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Dessiné par Gilbert Baker, il comptait huit bandes ; le rose et le turquoise ont été retirés ensuite pour des raisons de fabrication.",
+   "ref": "sujet n° 4, question 5"
+  },
+  {
+   "id": "QR-4006",
+   "serie": "QR",
+   "num": 4006,
+   "theme": "Culture générale",
+   "q": "Quel pays a pour langue nationale une langue dotée de l'alphabet le plus long du monde ?",
+   "o": [
+    "Le Cambodge",
+    "La Thaïlande",
+    "L'Inde",
+    "La Chine"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'alphabet khmer compte 74 caractères ; le chinois n'utilise pas d'alphabet, mais des milliers de caractères.",
+   "ref": "sujet n° 4, question 6"
+  },
+  {
+   "id": "QR-4007",
+   "serie": "QR",
+   "num": 4007,
+   "theme": "Culture générale",
+   "q": "Que signifie le sigle HTTP ?",
+   "o": [
+    "HyperText Transfer Protocol",
+    "High Transfer Text Process",
+    "Hyperlink Text Transmission Program",
+    "Home Tool Transfer Protocol"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le protocole de transfert hypertexte permet d'échanger les pages web entre serveurs et navigateurs.",
+   "ref": "sujet n° 4, question 7"
+  },
+  {
+   "id": "QR-4008",
+   "serie": "QR",
+   "num": 4008,
+   "theme": "Culture générale",
+   "q": "Combien de touches compte un piano moderne de taille standard ?",
+   "o": [
+    "76",
+    "88",
+    "92",
+    "100"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Un piano standard a 88 touches : 52 blanches et 36 noires.",
+   "ref": "sujet n° 4, question 8"
+  },
+  {
+   "id": "QR-4009",
+   "serie": "QR",
+   "num": 4009,
+   "theme": "Culture générale",
+   "q": "Quelle ville, à cheval sur deux continents, est traversée par le détroit du Bosphore ?",
+   "o": [
+    "Istanbul",
+    "Ankara",
+    "Athènes",
+    "Le Caire"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Istanbul s'étend de part et d'autre du Bosphore, entre l'Europe et l'Asie ; Ankara est la capitale de la Turquie.",
+   "ref": "sujet n° 4, question 9"
+  },
+  {
+   "id": "QR-4010",
+   "serie": "QR",
+   "num": 4010,
+   "theme": "Culture générale",
+   "q": "Quel pays compte le plus grand nombre de fuseaux horaires ?",
+   "o": [
+    "La Russie",
+    "Les États-Unis",
+    "La France",
+    "La Chine"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Grâce à ses territoires d'outre-mer, la France s'étend sur 12 fuseaux horaires, 13 avec la Terre Adélie.",
+   "ref": "sujet n° 4, question 10"
+  },
+  {
+   "id": "QR-4011",
+   "serie": "QR",
+   "num": 4011,
+   "theme": "Culture générale",
+   "q": "Jusqu'à quand le code Hays, qui imposait une censure morale au cinéma hollywoodien, est-il resté en vigueur ?",
+   "o": [
+    "1945",
+    "1956",
+    "1968",
+    "1975"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Adopté en 1930, appliqué strictement à partir de 1934, il a été remplacé en 1968 par un système de classification par âge.",
+   "ref": "sujet n° 4, question 11"
+  },
+  {
+   "id": "QR-4012",
+   "serie": "QR",
+   "num": 4012,
+   "theme": "Culture générale",
+   "q": "Quel film détient le record du plus grand succès de tous les temps au box-office irlandais ?",
+   "o": [
+    "Titanic",
+    "Barbie",
+    "Avatar",
+    "Mamma Mia!"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "En 2023, « Barbie » de Greta Gerwig est devenu le plus gros succès de l'histoire du box-office irlandais.",
+   "ref": "sujet n° 4, question 12",
+   "n": "Record à la date du document, susceptible d'évoluer."
+  },
+  {
+   "id": "QR-4013",
+   "serie": "QR",
+   "num": 4013,
+   "theme": "Culture générale",
+   "q": "De quel élément chimique le corps humain est-il principalement composé, en masse ?",
+   "o": [
+    "Le carbone",
+    "L'oxygène",
+    "L'hydrogène",
+    "L'azote"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "En masse, le corps humain contient environ 65 % d'oxygène, présent surtout dans l'eau, puis 18 % de carbone.",
+   "ref": "sujet n° 4, question 13",
+   "n": "Le document répond « le carbone », qui n'arrive qu'en deuxième position ; en nombre d'atomes, c'est l'hydrogène qui domine."
+  },
+  {
+   "id": "QR-4014",
+   "serie": "QR",
+   "num": 4014,
+   "theme": "Culture générale",
+   "q": "Pour quel film les Goo Goo Dolls ont-ils écrit la chanson « Iris » ?",
+   "o": [
+    "La Cité des anges",
+    "Titanic",
+    "Armageddon",
+    "Ghost"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Iris » (1998) figure sur la bande originale de « La Cité des anges » (City of Angels), avec Nicolas Cage et Meg Ryan.",
+   "ref": "sujet n° 4, question 14"
+  },
+  {
+   "id": "QR-4015",
+   "serie": "QR",
+   "num": 4015,
+   "theme": "Culture générale",
+   "q": "Lequel de ces films est inspiré d'une attraction des parcs Disney ?",
+   "o": [
+    "Jungle Cruise",
+    "Ratatouille",
+    "Encanto",
+    "Tron"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "« Jungle Cruise » (2021) s'inspire de l'attraction du même nom ; c'est l'inverse pour Ratatouille et Tron, qui ont inspiré des attractions.",
+   "ref": "sujet n° 4, question 15",
+   "n": "Le document demandait de citer trois films : « Tower of Terror », « Jungle Cruise » et « Le Manoir hanté »."
+  },
+  {
+   "id": "QR-4016",
+   "serie": "QR",
+   "num": 4016,
+   "theme": "Culture générale",
+   "q": "Quelle lauréate du prix Nobel de littérature a déclaré vouloir s'affranchir du « regard blanc » dans ses œuvres ?",
+   "o": [
+    "Toni Morrison",
+    "Maya Angelou",
+    "Alice Walker",
+    "Zadie Smith"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Toni Morrison a été, en 1993, la première Afro-Américaine lauréate du prix Nobel de littérature.",
+   "ref": "sujet n° 4, question 16"
+  },
+  {
+   "id": "QR-4017",
+   "serie": "QR",
+   "num": 4017,
+   "theme": "Culture générale",
+   "q": "Qui a inventé le World Wide Web ?",
+   "o": [
+    "Bill Gates",
+    "Tim Berners-Lee",
+    "Steve Jobs",
+    "Vinton Cerf"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Tim Berners-Lee l'a conçu au CERN en 1989 ; Vinton Cerf est l'un des pères d'Internet (TCP/IP), à ne pas confondre avec le Web.",
+   "ref": "sujet n° 4, question 17"
+  },
+  {
+   "id": "QR-4018",
+   "serie": "QR",
+   "num": 4018,
+   "theme": "Culture générale",
+   "q": "Comment appelle-t-on la peur d'être privé de son téléphone portable ?",
+   "o": [
+    "La nomophobie",
+    "La technophobie",
+    "La xénophobie",
+    "La claustrophobie"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le mot vient de l'anglais « no mobile phone phobia ».",
+   "ref": "sujet n° 4, question 18"
+  },
+  {
+   "id": "QR-4019",
+   "serie": "QR",
+   "num": 4019,
+   "theme": "Culture générale",
+   "q": "Quel était le titre provisoire du film « Everything Everywhere All at Once » ?",
+   "o": [
+    "« A Woman Tries to Do Her Taxes »",
+    "« The Multiverse Mom »",
+    "« Bagel Everything »",
+    "« Evelyn's Choice »"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document (« A Woman Tries to Do Her Taxes ») non confirmée : à vérifier.",
+   "ref": "sujet n° 4, question 19"
+  },
+  {
+   "id": "QR-4020",
+   "serie": "QR",
+   "num": 4020,
+   "theme": "Culture générale",
+   "q": "Qui est la plus jeune lauréate d'un Oscar en compétition ?",
+   "o": [
+    "Shirley Temple",
+    "Tatum O'Neal",
+    "Anna Paquin",
+    "Drew Barrymore"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Tatum O'Neal a remporté à 10 ans l'Oscar du meilleur second rôle féminin pour « La Barbe à papa » (Paper Moon), en 1974.",
+   "ref": "sujet n° 4, question 20",
+   "n": "Shirley Temple avait reçu à 6 ans un Oscar d'honneur pour enfants, hors compétition ; Anna Paquin a gagné à 11 ans."
+  },
+  {
+   "id": "QR-4021",
+   "serie": "QR",
+   "num": 4021,
+   "theme": "Culture générale",
+   "q": "Dans quelle région se trouvait la civilisation qui brassait déjà de la bière il y a environ 5 000 ans ?",
+   "o": [
+    "En Égypte",
+    "En Mésopotamie (actuel Irak)",
+    "En Chine",
+    "En Grèce"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Les Sumériens de Mésopotamie brassaient la bière et lui consacraient même une déesse, Ninkasi.",
+   "ref": "sujet n° 4, question 21",
+   "n": "Des traces de boissons fermentées plus anciennes ont été trouvées ailleurs."
+  },
+  {
+   "id": "QR-4022",
+   "serie": "QR",
+   "num": 4022,
+   "theme": "Culture générale",
+   "q": "Quel produit australien pour surfeurs est devenu un incontournable de la mode au début des années 2000 ?",
+   "o": [
+    "Les bottes Ugg",
+    "Les Crocs",
+    "Les tongs Havaianas",
+    "Les chaussures Vans"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Les Ugg sont des bottes en peau de mouton d'origine australienne ; les Havaianas sont brésiliennes.",
+   "ref": "sujet n° 4, question 22"
+  },
+  {
+   "id": "QR-4023",
+   "serie": "QR",
+   "num": 4023,
+   "theme": "Culture générale",
+   "q": "Quel personnage historique aurait inspiré le Dracula de Bram Stoker ?",
+   "o": [
+    "Vlad l'Empaleur",
+    "Ivan le Terrible",
+    "Gilles de Rais",
+    "Élisabeth Báthory"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Vlad III, prince de Valachie au XVe siècle, était surnommé Dracula ; Bram Stoker publia son roman en 1897.",
+   "ref": "sujet n° 4, question 23"
+  },
+  {
+   "id": "QR-4024",
+   "serie": "QR",
+   "num": 4024,
+   "theme": "Culture générale",
+   "q": "Quelle star hollywoodienne a été l'acteur le mieux payé en 2023 ?",
+   "o": [
+    "Adam Sandler",
+    "Tom Cruise",
+    "Margot Robbie",
+    "Leonardo DiCaprio"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Adam Sandler est arrivé en tête du classement Forbes 2023, grâce notamment à ses films pour Netflix.",
+   "ref": "sujet n° 4, question 24",
+   "n": "Classement annuel, propre à 2023."
+  },
+  {
+   "id": "QR-4025",
+   "serie": "QR",
+   "num": 4025,
+   "theme": "Culture générale",
+   "q": "Quelle célèbre cuisinière de télévision a travaillé pour les services secrets américains, où elle participa à la mise au point d'un répulsif à requins ?",
+   "o": [
+    "Julia Child",
+    "Martha Stewart",
+    "Ian Fleming",
+    "Roald Dahl"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Pendant la Seconde Guerre mondiale, Julia Child travaillait pour l'OSS, qui chercha à protéger ses engins explosifs sous-marins des requins.",
+   "ref": "sujet n° 4, question 25"
+  },
+  {
+   "id": "QR-4026",
+   "serie": "QR",
+   "num": 4026,
+   "theme": "Culture générale",
+   "q": "Quel parc national américain abrite des lucioles au clignotement synchronisé ?",
+   "o": [
+    "Yellowstone",
+    "Les Great Smoky Mountains",
+    "Yosemite",
+    "Le Grand Canyon"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Chaque printemps, les lucioles Photinus carolinus y clignotent à l'unisson.",
+   "ref": "sujet n° 4, question 26",
+   "n": "Le phénomène s'observe aussi, moins célèbre, dans d'autres sites comme le parc national de Congaree."
+  },
+  {
+   "id": "QR-4027",
+   "serie": "QR",
+   "num": 4027,
+   "theme": "Culture générale",
+   "q": "Quels célèbres récits d'horreur ont été écrits pendant des vacances pluvieuses, en 1816 ?",
+   "o": [
+    "« Frankenstein » et « Le Vampire »",
+    "« Dracula » et « Carmilla »",
+    "« Le Horla » et « La Chute de la maison Usher »",
+    "« Docteur Jekyll » et « Le Portrait de Dorian Gray »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Lors de « l'année sans été », Mary Shelley et John Polidori les imaginèrent à la villa Diodati, près de Genève, en compagnie de Lord Byron.",
+   "ref": "sujet n° 4, question 27"
+  },
+  {
+   "id": "QR-4028",
+   "serie": "QR",
+   "num": 4028,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus grande fleur du monde ?",
+   "o": [
+    "Le tournesol",
+    "La rafflésie (Rafflesia arnoldii)",
+    "Le lotus",
+    "L'arum titan"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "La rafflésie, surnommée « fleur cadavre » pour son odeur, peut dépasser un mètre de diamètre.",
+   "ref": "sujet n° 4, question 28",
+   "n": "L'arum titan porte la plus grande inflorescence, mais c'est un ensemble de petites fleurs."
+  },
+  {
+   "id": "QR-4029",
+   "serie": "QR",
+   "num": 4029,
+   "theme": "Culture générale",
+   "q": "Selon la légende, où le café a-t-il été découvert ?",
+   "o": [
+    "En Éthiopie",
+    "Au Yémen",
+    "Au Brésil",
+    "En Colombie"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Selon la légende, le berger éthiopien Kaldi remarqua l'effet stimulant des baies de caféier sur ses chèvres ; le Yémen fut ensuite l'un des premiers pays à le cultiver.",
+   "ref": "sujet n° 4, question 29"
+  },
+  {
+   "id": "QR-4031",
+   "serie": "QR",
+   "num": 4031,
+   "theme": "Culture générale",
+   "q": "Quel lien unit la poétesse Emily Dickinson à la chanteuse Taylor Swift ?",
+   "o": [
+    "Ce sont des cousines éloignées",
+    "Emily Dickinson est son arrière-arrière-grand-tante",
+    "Elles n'ont aucun lien de parenté",
+    "Elles ont été élevées dans la même ville"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Selon une étude généalogique publiée en 2024, elles sont cousines au sixième degré, trois fois éloignées.",
+   "ref": "sujet n° 4, question 31"
+  },
+  {
+   "id": "QR-4032",
+   "serie": "QR",
+   "num": 4032,
+   "theme": "Culture générale",
+   "q": "Quelle lauréate du prix Pulitzer a forgé le terme « colorisme » en 1982 ?",
+   "o": [
+    "Toni Morrison",
+    "Alice Walker",
+    "Maya Angelou",
+    "Zora Neale Hurston"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Alice Walker, autrice de « La Couleur pourpre », a employé ce terme pour désigner la discrimination fondée sur la teinte de peau.",
+   "ref": "sujet n° 4, question 32"
+  },
+  {
+   "id": "QR-4033",
+   "serie": "QR",
+   "num": 4033,
+   "theme": "Culture générale",
+   "q": "Quel navire a secouru les rescapés du Titanic ?",
+   "o": [
+    "Le Californian",
+    "Le Carpathia",
+    "L'Olympic",
+    "Le Lusitania"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Carpathia recueillit environ 700 survivants ; le Californian, plus proche, ne répondit pas aux signaux de détresse.",
+   "ref": "sujet n° 4, question 33"
+  },
+  {
+   "id": "QR-4034",
+   "serie": "QR",
+   "num": 4034,
+   "theme": "Culture générale",
+   "q": "Qui a complété un « EGOT » (Emmy, Grammy, Oscar, Tony) à titre posthume, en 1994 ?",
+   "o": [
+    "Audrey Hepburn",
+    "Marilyn Monroe",
+    "Grace Kelly",
+    "Judy Garland"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Morte en janvier 1993, Audrey Hepburn a reçu à titre posthume un Emmy puis un Grammy, complétant son EGOT.",
+   "ref": "sujet n° 4, question 34"
+  },
+  {
+   "id": "QR-4035",
+   "serie": "QR",
+   "num": 4035,
+   "theme": "Culture générale",
+   "q": "Quel est le point le plus profond connu des océans ?",
+   "o": [
+    "La fosse des Mariannes",
+    "La fosse de Porto Rico",
+    "La fosse des Tonga",
+    "La fosse du Japon"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le Challenger Deep, dans la fosse des Mariannes (Pacifique ouest), atteint environ 11 000 m.",
+   "ref": "sujet n° 4, question 35"
+  },
+  {
+   "id": "QR-5001",
+   "serie": "QR",
+   "num": 5001,
+   "theme": "Musique et culture pop",
+   "q": "Amy Winehouse, Jimi Hendrix et Janis Joplin font partie de quel groupe tristement célèbre ?",
+   "o": [
+    "Le club des 27",
+    "Le Rat Pack",
+    "Le Brat Pack",
+    "Le Wu-Tang Clan"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Tous trois sont morts à 27 ans, comme Jim Morrison et Kurt Cobain.",
+   "ref": "sujet n° 5, question 1"
+  },
+  {
+   "id": "QR-5002",
+   "serie": "QR",
+   "num": 5002,
+   "theme": "Musique et culture pop",
+   "q": "Hormis Madonna, qui Britney Spears a-t-elle embrassé sur scène aux MTV Video Music Awards de 2003 ?",
+   "o": [
+    "Christina Aguilera",
+    "Beyoncé",
+    "Jennifer Lopez",
+    "Pink"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Madonna a embrassé Britney Spears puis Christina Aguilera lors de cette prestation très médiatisée.",
+   "ref": "sujet n° 5, question 2"
+  },
+  {
+   "id": "QR-5003",
+   "serie": "QR",
+   "num": 5003,
+   "theme": "Musique et culture pop",
+   "q": "Quel a été le premier clip diffusé sur MTV ?",
+   "o": [
+    "« Video Killed the Radio Star » (The Buggles)",
+    "« Thriller » (Michael Jackson)",
+    "« Billie Jean » (Michael Jackson)",
+    "« Take On Me » (a-ha)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Il a été diffusé le 1er août 1981, jour du lancement de la chaîne.",
+   "ref": "sujet n° 5, question 3"
+  },
+  {
+   "id": "QR-5004",
+   "serie": "QR",
+   "num": 5004,
+   "theme": "Musique et culture pop",
+   "q": "Avec quel album Beyoncé a-t-elle lancé sa carrière solo ?",
+   "o": [
+    "« Dangerously in Love »",
+    "« B'Day »",
+    "« Lemonade »",
+    "« Survivor »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Dangerously in Love » est sorti en 2003 ; « Survivor » est un album des Destiny's Child.",
+   "ref": "sujet n° 5, question 4"
+  },
+  {
+   "id": "QR-5005",
+   "serie": "QR",
+   "num": 5005,
+   "theme": "Musique et culture pop",
+   "q": "Quel est le nom de scène de Stefani Joanne Angelina Germanotta ?",
+   "o": [
+    "Lady Gaga",
+    "Madonna",
+    "Katy Perry",
+    "Lana Del Rey"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Stefani Germanotta est connue sous le nom de Lady Gaga depuis le milieu des années 2000.",
+   "ref": "sujet n° 5, question 5"
+  },
+  {
+   "id": "QR-5006",
+   "serie": "QR",
+   "num": 5006,
+   "theme": "Musique et culture pop",
+   "q": "Qui a enregistré la première version de « Strange Fruit », chanson contre le racisme et les lynchages de Noirs américains ?",
+   "o": [
+    "Billie Holiday",
+    "Ella Fitzgerald",
+    "Nina Simone",
+    "Bessie Smith"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Billie Holiday l'a enregistrée en 1939 ; Nina Simone en a donné une célèbre reprise en 1965.",
+   "ref": "sujet n° 5, question 6"
+  },
+  {
+   "id": "QR-5007",
+   "serie": "QR",
+   "num": 5007,
+   "theme": "Musique et culture pop",
+   "q": "Quelle chanteuse a été la première femme intronisée au Rock & Roll Hall of Fame ?",
+   "o": [
+    "Aretha Franklin",
+    "Tina Turner",
+    "Diana Ross",
+    "Janis Joplin"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Aretha Franklin, la « reine de la soul », y est entrée en 1987.",
+   "ref": "sujet n° 5, question 7"
+  },
+  {
+   "id": "QR-5008",
+   "serie": "QR",
+   "num": 5008,
+   "theme": "Musique et culture pop",
+   "q": "Quel artiste a joué 27 instruments différents sur son premier album, « For You » ?",
+   "o": [
+    "Prince",
+    "Stevie Wonder",
+    "Lenny Kravitz",
+    "Michael Jackson"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Sur « For You » (1978), Prince jouait lui-même tous les instruments.",
+   "ref": "sujet n° 5, question 8"
+  },
+  {
+   "id": "QR-5009",
+   "serie": "QR",
+   "num": 5009,
+   "theme": "Musique et culture pop",
+   "q": "Dans quel pays le groupe ABBA s'est-il formé ?",
+   "o": [
+    "En Norvège",
+    "Au Danemark",
+    "En Suède",
+    "En Finlande"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "ABBA s'est formé à Stockholm en 1972 et a remporté l'Eurovision 1974 avec « Waterloo ».",
+   "ref": "sujet n° 5, question 9"
+  },
+  {
+   "id": "QR-5010",
+   "serie": "QR",
+   "num": 5010,
+   "theme": "Musique et culture pop",
+   "q": "Quel single des Beatles est resté le plus longtemps numéro un du classement Billboard ?",
+   "o": [
+    "« Hey Jude »",
+    "« Let It Be »",
+    "« Yesterday »",
+    "« I Want to Hold Your Hand »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Hey Jude » est resté neuf semaines en tête du Billboard Hot 100 en 1968.",
+   "ref": "sujet n° 5, question 10"
+  },
+  {
+   "id": "QR-5011",
+   "serie": "QR",
+   "num": 5011,
+   "theme": "Musique et culture pop",
+   "q": "Quel était le vrai prénom du rappeur Notorious B.I.G. ?",
+   "o": [
+    "Christopher",
+    "Tupac",
+    "Sean",
+    "Calvin"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Notorious B.I.G. s'appelait Christopher Wallace ; Calvin est le prénom de naissance de Snoop Dogg.",
+   "ref": "sujet n° 5, question 11"
+  },
+  {
+   "id": "QR-5012",
+   "serie": "QR",
+   "num": 5012,
+   "theme": "Musique et culture pop",
+   "q": "Quel âge avait Taylor Swift lorsqu'elle a remporté son premier Grammy de l'album de l'année ?",
+   "o": [
+    "18 ans",
+    "20 ans",
+    "23 ans",
+    "25 ans"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Elle l'a remporté en 2010, à 20 ans, pour « Fearless ».",
+   "ref": "sujet n° 5, question 12"
+  },
+  {
+   "id": "QR-5013",
+   "serie": "QR",
+   "num": 5013,
+   "theme": "Musique et culture pop",
+   "q": "Starchild, Demon, Spaceman et Catman sont les personnages de scène de quel groupe ?",
+   "o": [
+    "KISS",
+    "Queen",
+    "Aerosmith",
+    "Mötley Crüe"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Les membres de KISS se produisent maquillés, chacun incarnant un personnage.",
+   "ref": "sujet n° 5, question 13"
+  },
+  {
+   "id": "QR-5014",
+   "serie": "QR",
+   "num": 5014,
+   "theme": "Musique et culture pop",
+   "q": "Combien de membres compte le groupe sud-coréen BTS ?",
+   "o": [
+    "Cinq",
+    "Six",
+    "Sept",
+    "Neuf"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "BTS compte sept membres : RM, Jin, Suga, J-Hope, Jimin, V et Jungkook.",
+   "ref": "sujet n° 5, question 14"
+  },
+  {
+   "id": "QR-5015",
+   "serie": "QR",
+   "num": 5015,
+   "theme": "Musique et culture pop",
+   "q": "Quel a été le premier numéro un des Beach Boys aux États-Unis ?",
+   "o": [
+    "« I Get Around »",
+    "« Good Vibrations »",
+    "« Surfin' USA »",
+    "« Wouldn't It Be Nice »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« I Get Around » a atteint la première place du Billboard en 1964.",
+   "ref": "sujet n° 5, question 15"
+  },
+  {
+   "id": "QR-5016",
+   "serie": "QR",
+   "num": 5016,
+   "theme": "Musique et culture pop",
+   "q": "De quel instrument la chanteuse Lizzo joue-t-elle ?",
+   "o": [
+    "De la flûte traversière",
+    "Du saxophone",
+    "Du violon",
+    "De la harpe"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Formée à la flûte classique, Lizzo en joue souvent sur scène.",
+   "ref": "sujet n° 5, question 16"
+  },
+  {
+   "id": "QR-5017",
+   "serie": "QR",
+   "num": 5017,
+   "theme": "Musique et culture pop",
+   "q": "Quelle artiste a interprété tous les personnages de « West Side Story » dans une émission de télévision en 1978 ?",
+   "o": [
+    "Cher",
+    "Barbra Streisand",
+    "Liza Minnelli",
+    "Diana Ross"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Cher a joué tous les rôles dans un numéro de son émission spéciale de 1978.",
+   "ref": "sujet n° 5, question 17"
+  },
+  {
+   "id": "QR-5018",
+   "serie": "QR",
+   "num": 5018,
+   "theme": "Musique et culture pop",
+   "q": "Quel grand groupe de rock en activité a conservé sa formation d'origine depuis ses débuts ?",
+   "o": [
+    "U2",
+    "The Rolling Stones",
+    "Metallica",
+    "Queen"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Bono, The Edge, Adam Clayton et Larry Mullen Jr. jouent ensemble depuis 1976.",
+   "ref": "sujet n° 5, question 18",
+   "n": "Les Rolling Stones, Metallica et Queen ont tous connu des changements de membres."
+  },
+  {
+   "id": "QR-5019",
+   "serie": "QR",
+   "num": 5019,
+   "theme": "Musique et culture pop",
+   "q": "Quel est l'album le plus vendu de tous les temps aux États-Unis ?",
+   "o": [
+    "« Thriller » (Michael Jackson)",
+    "« Their Greatest Hits (1971-1975) » (Eagles)",
+    "« Back in Black » (AC/DC)",
+    "« The Bodyguard » (bande originale)"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "La compilation des Eagles a dépassé « Thriller » aux États-Unis en 2018.",
+   "ref": "sujet n° 5, question 19",
+   "n": "« Thriller » reste l'album le plus vendu au niveau mondial."
+  },
+  {
+   "id": "QR-5020",
+   "serie": "QR",
+   "num": 5020,
+   "theme": "Musique et culture pop",
+   "q": "Comment le chanteur de soul Otis Redding est-il mort ?",
+   "o": [
+    "Dans un accident d'avion",
+    "D'une overdose",
+    "Assassiné",
+    "D'une crise cardiaque sur scène"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le 10 décembre 1967, à 26 ans, son avion s'est abîmé dans un lac du Wisconsin.",
+   "ref": "sujet n° 5, question 20"
+  },
+  {
+   "id": "QR-5021",
+   "serie": "QR",
+   "num": 5021,
+   "theme": "Musique et culture pop",
+   "q": "Quelle chanteuse country a connu le succès en 1957 avec « Walkin' After Midnight » ?",
+   "o": [
+    "Patsy Cline",
+    "Dolly Parton",
+    "Loretta Lynn",
+    "Tammy Wynette"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Walkin' After Midnight » a révélé Patsy Cline au grand public.",
+   "ref": "sujet n° 5, question 21"
+  },
+  {
+   "id": "QR-5022",
+   "serie": "QR",
+   "num": 5022,
+   "theme": "Musique et culture pop",
+   "q": "En 2017, quel single a pris la tête des ventes dans 47 pays à la fois ?",
+   "o": [
+    "« Despacito »",
+    "« Shape of You »",
+    "« Gangnam Style »",
+    "« Havana »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Despacito », de Luis Fonsi et Daddy Yankee, a été l'un des plus grands succès mondiaux de l'histoire.",
+   "ref": "sujet n° 5, question 22"
+  },
+  {
+   "id": "QR-5023",
+   "serie": "QR",
+   "num": 5023,
+   "theme": "Musique et culture pop",
+   "q": "En 2021, quelle artiste Beyoncé a-t-elle dépassée pour devenir la femme la plus récompensée aux Grammy Awards ?",
+   "o": [
+    "Alison Krauss",
+    "Aretha Franklin",
+    "Adele",
+    "Taylor Swift"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "Avec son 28e Grammy, Beyoncé a dépassé les 27 trophées d'Alison Krauss.",
+   "ref": "sujet n° 5, question 23",
+   "n": "Le document demande qui « a devancé » Beyoncé : c'est l'inverse. Depuis 2023, Beyoncé détient le record absolu de Grammys, tous artistes confondus."
+  },
+  {
+   "id": "QR-5024",
+   "serie": "QR",
+   "num": 5024,
+   "theme": "Musique et culture pop",
+   "q": "Quel est le nom usuel du quatrième album studio de Led Zeppelin, qui contient « Stairway to Heaven » ?",
+   "o": [
+    "« Led Zeppelin IV »",
+    "« Physical Graffiti »",
+    "« Houses of the Holy »",
+    "« Presence »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Sorti en 1971 sans titre officiel, l'album est couramment appelé « Led Zeppelin IV ».",
+   "ref": "sujet n° 5, question 24"
+  },
+  {
+   "id": "QR-5025",
+   "serie": "QR",
+   "num": 5025,
+   "theme": "Musique et culture pop",
+   "q": "Dans quelle comédie musicale de Broadway Ariana Grande a-t-elle commencé sa carrière, à 15 ans ?",
+   "o": [
+    "« 13 »",
+    "« Hairspray »",
+    "« Wicked »",
+    "« Annie »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Elle a débuté en 2008 dans « 13 » ; elle a ensuite incarné Glinda dans l'adaptation cinéma de « Wicked » (2024).",
+   "ref": "sujet n° 5, question 25"
+  },
+  {
+   "id": "QR-5026",
+   "serie": "QR",
+   "num": 5026,
+   "theme": "Musique et culture pop",
+   "q": "Qui est la plus jeune personne à avoir remporté le Grammy de l'album de l'année ?",
+   "o": [
+    "Billie Eilish",
+    "Taylor Swift",
+    "Adele",
+    "Olivia Rodrigo"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Billie Eilish l'a remporté en 2020, à 18 ans, pour « When We All Fall Asleep, Where Do We Go? ».",
+   "ref": "sujet n° 5, question 26"
+  },
+  {
+   "id": "QR-5027",
+   "serie": "QR",
+   "num": 5027,
+   "theme": "Musique et culture pop",
+   "q": "Qui a sorti « Uptown Funk », resté 14 semaines numéro un du Billboard en 2015 ?",
+   "o": [
+    "Mark Ronson (avec Bruno Mars)",
+    "Pharrell Williams",
+    "Justin Timberlake",
+    "Daft Punk"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Uptown Funk » est un titre du producteur Mark Ronson, chanté par Bruno Mars.",
+   "ref": "sujet n° 5, question 27"
+  },
+  {
+   "id": "QR-5028",
+   "serie": "QR",
+   "num": 5028,
+   "theme": "Musique et culture pop",
+   "q": "Quelle a été la première chanson écrite par Olivia Rodrigo à entrer au Billboard Hot 100 ?",
+   "o": [
+    "« All I Want »",
+    "« Drivers License »",
+    "« Good 4 U »",
+    "« Vampire »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« All I Want », tirée de la série « High School Musical : la comédie musicale, la série », a précédé son succès « Drivers License » (2021).",
+   "ref": "sujet n° 5, question 28"
+  },
+  {
+   "id": "QR-5029",
+   "serie": "QR",
+   "num": 5029,
+   "theme": "Musique et culture pop",
+   "q": "Combien des dix albums les plus vendus en 2023 étaient de Taylor Swift ?",
+   "o": [
+    "Trois",
+    "Quatre",
+    "Cinq",
+    "Sept"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document (« cinq ») non confirmée : le résultat dépend du classement retenu (pays, ventes ou équivalents streaming).",
+   "ref": "sujet n° 5, question 29"
+  },
+  {
+   "id": "QR-5030",
+   "serie": "QR",
+   "num": 5030,
+   "theme": "Musique et culture pop",
+   "q": "Qui est la première femme noire seule autrice d'une chanson devenue numéro un du classement country ?",
+   "o": [
+    "Tracy Chapman",
+    "Beyoncé",
+    "Rihanna",
+    "Mickey Guyton"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "En 2023, la reprise de « Fast Car » par Luke Combs a atteint la première place du classement country ; Tracy Chapman en est l'unique autrice.",
+   "ref": "sujet n° 5, question 30"
+  },
+  {
+   "id": "QR-5031",
+   "serie": "QR",
+   "num": 5031,
+   "theme": "Musique et culture pop",
+   "q": "Qui a remporté le Grammy 2024 de l'enregistrement de l'année ?",
+   "o": [
+    "Miley Cyrus (« Flowers »)",
+    "Taylor Swift (« Anti-Hero »)",
+    "Billie Eilish (« What Was I Made For? »)",
+    "SZA (« Kill Bill »)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Miley Cyrus a gagné ce prix pour « Flowers », son plus grand succès.",
+   "ref": "sujet n° 5, question 31"
+  },
+  {
+   "id": "QR-5032",
+   "serie": "QR",
+   "num": 5032,
+   "theme": "Musique et culture pop",
+   "q": "Combien d'albums studio en solo Lauryn Hill a-t-elle publiés ?",
+   "o": [
+    "Un seul",
+    "Deux",
+    "Trois",
+    "Cinq"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "« The Miseducation of Lauryn Hill » (1998) est son unique album studio.",
+   "ref": "sujet n° 5, question 32",
+   "n": "Elle a aussi publié un album enregistré en public en 2002."
+  },
+  {
+   "id": "QR-5033",
+   "serie": "QR",
+   "num": 5033,
+   "theme": "Musique et culture pop",
+   "q": "Quel groupe punk influent Kathleen Hanna a-t-elle fondé au début des années 1990 ?",
+   "o": [
+    "Bikini Kill",
+    "The Runaways",
+    "Sleater-Kinney",
+    "Hole"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Fondé en 1990 à Olympia, Bikini Kill est une figure du mouvement féministe riot grrrl.",
+   "ref": "sujet n° 5, question 33"
+  },
+  {
+   "id": "QR-5034",
+   "serie": "QR",
+   "num": 5034,
+   "theme": "Musique et culture pop",
+   "q": "Quels sont les trois membres du supergroupe indie Boygenius ?",
+   "o": [
+    "Julien Baker, Phoebe Bridgers et Lucy Dacus",
+    "Este, Danielle et Alana Haim",
+    "Beyoncé, Kelly Rowland et Michelle Williams",
+    "Florence Welch, Lorde et Lana Del Rey"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Les sœurs Haim forment le groupe HAIM, et Beyoncé, Kelly Rowland et Michelle Williams formaient Destiny's Child.",
+   "ref": "sujet n° 5, question 34"
+  },
+  {
+   "id": "QR-5035",
+   "serie": "QR",
+   "num": 5035,
+   "theme": "Musique et culture pop",
+   "q": "Quels sont les prénoms des cinq membres des Backstreet Boys ?",
+   "o": [
+    "Nick, AJ, Brian, Kevin et Howie",
+    "Justin, JC, Chris, Joey et Lance",
+    "Harry, Niall, Liam, Louis et Zayn",
+    "Nick, Joe, Kevin, Frankie et Jack"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Justin, JC, Chris, Joey et Lance formaient NSYNC ; Harry, Niall, Liam, Louis et Zayn, One Direction.",
+   "ref": "sujet n° 5, question 35"
+  },
+  {
+   "id": "QR-6001",
+   "serie": "QR",
+   "num": 6001,
+   "theme": "Cinéma et séries",
+   "q": "De quel film provient la chanson « Journey to the Past », nommée aux Oscars ?",
+   "o": [
+    "Anastasia",
+    "La Belle et la Bête",
+    "Aladdin",
+    "Pocahontas"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Anastasia » est un film d'animation des studios Fox sorti en 1997.",
+   "ref": "sujet n° 6, question 1"
+  },
+  {
+   "id": "QR-6002",
+   "serie": "QR",
+   "num": 6002,
+   "theme": "Cinéma et séries",
+   "q": "Qui joue la marraine fée dans le « Cendrillon » de 1997 avec Brandy ?",
+   "o": [
+    "Whitney Houston",
+    "Diana Ross",
+    "Queen Latifah",
+    "Aretha Franklin"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Whitney Houston, également productrice du téléfilm musical de Disney, y incarne la marraine fée.",
+   "ref": "sujet n° 6, question 2"
+  },
+  {
+   "id": "QR-6003",
+   "serie": "QR",
+   "num": 6003,
+   "theme": "Cinéma et séries",
+   "q": "Combien d'enfants compte la famille von Trapp dans « La Mélodie du bonheur » ?",
+   "o": [
+    "Cinq",
+    "Six",
+    "Sept",
+    "Huit"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Dans le film de 1965, Maria (Julie Andrews) s'occupe des sept enfants du capitaine von Trapp.",
+   "ref": "sujet n° 6, question 3"
+  },
+  {
+   "id": "QR-6004",
+   "serie": "QR",
+   "num": 6004,
+   "theme": "Cinéma et séries",
+   "q": "Quel film a rapporté le plus d'argent de tous les temps au box-office mondial ?",
+   "o": [
+    "Avatar",
+    "Avengers : Endgame",
+    "Titanic",
+    "Star Wars : Le Réveil de la Force"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "« Avatar » (2009) a rapporté environ 2,9 milliards de dollars ; « Avengers : Endgame » l'avait brièvement dépassé en 2019.",
+   "ref": "sujet n° 6, question 4",
+   "n": "Classement à la date du document, susceptible d'évoluer."
+  },
+  {
+   "id": "QR-6005",
+   "serie": "QR",
+   "num": 6005,
+   "theme": "Cinéma et séries",
+   "q": "À quelle nuance de bleu Miranda Priestly (Meryl Streep) consacre-t-elle un célèbre monologue dans « Le diable s'habille en Prada » ?",
+   "o": [
+    "Le céruléen",
+    "Le turquoise",
+    "Le bleu marine",
+    "Le bleu roi"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Miranda y explique comment le pull « céruléen » de son assistante découle des choix des grands créateurs.",
+   "ref": "sujet n° 6, question 5"
+  },
+  {
+   "id": "QR-6006",
+   "serie": "QR",
+   "num": 6006,
+   "theme": "Cinéma et séries",
+   "q": "Quel documentaire dépeint les bals de la communauté LGBT de New York à la fin des années 1980, en pleine épidémie de sida ?",
+   "o": [
+    "« Paris Is Burning »",
+    "« Philadelphia »",
+    "« Moonlight »",
+    "« Pose »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Paris Is Burning » (1990) est un documentaire de Jennie Livingston ; « Pose » est une série inspirée du même milieu.",
+   "ref": "sujet n° 6, question 6"
+  },
+  {
+   "id": "QR-6007",
+   "serie": "QR",
+   "num": 6007,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le premier long métrage d'animation connu de l'histoire du cinéma ?",
+   "o": [
+    "« El Apóstol » (1917)",
+    "« Blanche-Neige et les Sept Nains » (1937)",
+    "« Pinocchio » (1940)",
+    "« Fantasia » (1940)"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "Le film argentin « El Apóstol », de Quirino Cristiani, aujourd'hui perdu, est le premier long métrage d'animation connu.",
+   "ref": "sujet n° 6, question 7",
+   "n": "Le document répond « Blanche-Neige » : c'est le premier long métrage d'animation de Disney. Le plus ancien encore conservé est « Les Aventures du prince Ahmed » (1926)."
+  },
+  {
+   "id": "QR-6008",
+   "serie": "QR",
+   "num": 6008,
+   "theme": "Cinéma et séries",
+   "q": "Quel personnage Jeff Goldblum incarne-t-il dans « Jurassic Park » ?",
+   "o": [
+    "Ian Malcolm",
+    "Alan Grant",
+    "John Hammond",
+    "Dennis Nedry"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Jeff Goldblum joue le mathématicien Ian Malcolm, spécialiste de la théorie du chaos.",
+   "ref": "sujet n° 6, question 8"
+  },
+  {
+   "id": "QR-6009",
+   "serie": "QR",
+   "num": 6009,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle la danse culte du « Rocky Horror Picture Show », qui commence par « a jump to the left » ?",
+   "o": [
+    "Le « Time Warp »",
+    "Le « Hustle »",
+    "La « Macarena »",
+    "Le « Thriller »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le « Time Warp » est devenu un rituel des projections du film.",
+   "ref": "sujet n° 6, question 9",
+   "n": "Le document traduit le titre par « la distorsion temporelle »."
+  },
+  {
+   "id": "QR-6010",
+   "serie": "QR",
+   "num": 6010,
+   "theme": "Cinéma et séries",
+   "q": "Dans quelle ville fictive se déroule « Les Dents de la mer » ?",
+   "o": [
+    "Amity Island",
+    "Martha's Vineyard",
+    "Nantucket",
+    "Long Island"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'histoire se déroule sur l'île fictive d'Amity ; le film a été tourné à Martha's Vineyard.",
+   "ref": "sujet n° 6, question 10"
+  },
+  {
+   "id": "QR-6011",
+   "serie": "QR",
+   "num": 6011,
+   "theme": "Cinéma et séries",
+   "q": "De quel groupe musical « Dreamgirls » s'inspire-t-il ?",
+   "o": [
+    "The Supremes",
+    "The Ronettes",
+    "Destiny's Child",
+    "The Pointer Sisters"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La comédie musicale (1981), puis le film (2006), s'inspirent de l'histoire des Supremes de Diana Ross.",
+   "ref": "sujet n° 6, question 11"
+  },
+  {
+   "id": "QR-6012",
+   "serie": "QR",
+   "num": 6012,
+   "theme": "Cinéma et séries",
+   "q": "D'où vient Jack Dawson, le héros de « Titanic » ?",
+   "o": [
+    "De Chippewa Falls (Wisconsin)",
+    "De Southampton",
+    "De Boston",
+    "De Chicago"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Jack, joué par Leonardo DiCaprio, se présente comme originaire de Chippewa Falls, dans le Wisconsin.",
+   "ref": "sujet n° 6, question 12"
+  },
+  {
+   "id": "QR-6013",
+   "serie": "QR",
+   "num": 6013,
+   "theme": "Cinéma et séries",
+   "q": "Que signifie la lettre R dans la classification américaine des films ?",
+   "o": [
+    "« Restricted » (accès restreint)",
+    "« Recommended »",
+    "« Rated for adults »",
+    "« Released »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Un film classé R est interdit aux moins de 17 ans non accompagnés d'un adulte.",
+   "ref": "sujet n° 6, question 13"
+  },
+  {
+   "id": "QR-6014",
+   "serie": "QR",
+   "num": 6014,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le premier film au générique duquel Alan Rickman est apparu ?",
+   "o": [
+    "« Piège de cristal » (Die Hard)",
+    "« Harry Potter à l'école des sorciers »",
+    "« Robin des Bois, prince des voleurs »",
+    "« Raison et Sentiments »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "En 1988, il y incarne le méchant Hans Gruber face à Bruce Willis.",
+   "ref": "sujet n° 6, question 14"
+  },
+  {
+   "id": "QR-6015",
+   "serie": "QR",
+   "num": 6015,
+   "theme": "Cinéma et séries",
+   "q": "Quel film des années 1990 a eu la même costumière que « Romy et Michele » ?",
+   "o": [
+    "« Clueless »",
+    "« Grease »",
+    "« Titanic »",
+    "« Pretty Woman »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La costumière Mona May a signé les costumes des deux films.",
+   "ref": "sujet n° 6, question 15"
+  },
+  {
+   "id": "QR-6016",
+   "serie": "QR",
+   "num": 6016,
+   "theme": "Cinéma et séries",
+   "q": "Quelle est la seule princesse Disney inspirée d'une personne réelle ?",
+   "o": [
+    "Pocahontas",
+    "Mulan",
+    "Raiponce",
+    "Vaiana"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "Pocahontas (vers 1596-1617) était la fille d'un chef amérindien de Virginie.",
+   "ref": "sujet n° 6, question 16",
+   "n": "Mulan s'inspire d'une héroïne légendaire, dont l'existence n'est pas attestée."
+  },
+  {
+   "id": "QR-6017",
+   "serie": "QR",
+   "num": 6017,
+   "theme": "Cinéma et séries",
+   "q": "Combien de soleils éclairent la planète Tatooine dans « Star Wars » ?",
+   "o": [
+    "Un",
+    "Deux",
+    "Trois",
+    "Quatre"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Tatooine, planète natale d'Anakin et de Luke Skywalker, orbite autour de deux soleils.",
+   "ref": "sujet n° 6, question 17"
+  },
+  {
+   "id": "QR-6018",
+   "serie": "QR",
+   "num": 6018,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le premier, et toujours le seul, film d'horreur à avoir remporté l'Oscar du meilleur film ?",
+   "o": [
+    "« Le Silence des agneaux »",
+    "« L'Exorciste »",
+    "« Get Out »",
+    "« Shining »"
+   ],
+   "a": 0,
+   "st": "nuance",
+   "x": "En 1992, il a remporté les cinq Oscars majeurs.",
+   "ref": "sujet n° 6, question 18",
+   "n": "Il est souvent classé comme thriller plutôt que comme film d'horreur."
+  },
+  {
+   "id": "QR-6019",
+   "serie": "QR",
+   "num": 6019,
+   "theme": "Cinéma et séries",
+   "q": "Quel a été le premier film non anglophone à remporter l'Oscar du meilleur film ?",
+   "o": [
+    "« Parasite »",
+    "« Roma »",
+    "« La vie est belle »",
+    "« Tigre et Dragon »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le film sud-coréen de Bong Joon-ho a reçu l'Oscar du meilleur film en 2020.",
+   "ref": "sujet n° 6, question 19"
+  },
+  {
+   "id": "QR-6020",
+   "serie": "QR",
+   "num": 6020,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle l'hôtel de « Psychose » ?",
+   "o": [
+    "Le Bates Motel",
+    "L'hôtel Overlook",
+    "Le Grand Budapest Hotel",
+    "Le Continental"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans le film d'Alfred Hitchcock (1960), Norman Bates tient le Bates Motel.",
+   "ref": "sujet n° 6, question 20"
+  },
+  {
+   "id": "QR-6021",
+   "serie": "QR",
+   "num": 6021,
+   "theme": "Cinéma et séries",
+   "q": "Combien de versions de « Une étoile est née » ont été tournées pour le cinéma ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Quatre",
+    "Cinq"
+   ],
+   "a": 2,
+   "st": "corrigee",
+   "x": "Le film de 1937 a connu trois remakes, en 1954, 1976 et 2018 (avec Lady Gaga et Bradley Cooper), soit quatre versions.",
+   "ref": "sujet n° 6, question 21",
+   "n": "Le document dit que le film a été « refait quatre fois » : il s'agit en réalité de trois remakes. L'énoncé a été corrigé."
+  },
+  {
+   "id": "QR-6022",
+   "serie": "QR",
+   "num": 6022,
+   "theme": "Cinéma et séries",
+   "q": "Pourquoi le personnage d'Ally Sheedy est-il en retenue dans « The Breakfast Club » ?",
+   "o": [
+    "Parce qu'elle « n'avait rien de mieux à faire »",
+    "Pour avoir triché à un examen",
+    "Pour s'être battue",
+    "Pour avoir fumé en classe"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Allison, son personnage, avoue être venue en retenue sans y être obligée, faute d'avoir mieux à faire.",
+   "ref": "sujet n° 6, question 22"
+  },
+  {
+   "id": "QR-6023",
+   "serie": "QR",
+   "num": 6023,
+   "theme": "Cinéma et séries",
+   "q": "Qui a été la première actrice noire à remporter un Oscar ?",
+   "o": [
+    "Hattie McDaniel",
+    "Halle Berry",
+    "Whoopi Goldberg",
+    "Dorothy Dandridge"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Hattie McDaniel a reçu en 1940 l'Oscar du meilleur second rôle pour « Autant en emporte le vent » ; Halle Berry a été la première lauréate noire de l'Oscar de la meilleure actrice, en 2002.",
+   "ref": "sujet n° 6, question 23"
+  },
+  {
+   "id": "QR-6024",
+   "serie": "QR",
+   "num": 6024,
+   "theme": "Cinéma et séries",
+   "q": "Quels films détiennent ensemble le record du nombre d'Oscars remportés ?",
+   "o": [
+    "« Titanic », « Ben-Hur » et « Le Retour du roi »",
+    "« Autant en emporte le vent », « Casablanca » et « Titanic »",
+    "« Avatar », « Titanic » et « Ben-Hur »",
+    "« La Liste de Schindler », « Forrest Gump » et « Titanic »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Ces trois films ont remporté chacun 11 Oscars.",
+   "ref": "sujet n° 6, question 24"
+  },
+  {
+   "id": "QR-6025",
+   "serie": "QR",
+   "num": 6025,
+   "theme": "Cinéma et séries",
+   "q": "Quel personnage Tom Cruise incarne-t-il dans la saga « Mission impossible » ?",
+   "o": [
+    "Ethan Hunt",
+    "Jason Bourne",
+    "Jack Reacher",
+    "Maverick"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Tom Cruise joue aussi Jack Reacher et Maverick, mais dans d'autres films ; Jason Bourne est joué par Matt Damon.",
+   "ref": "sujet n° 6, question 25"
+  },
+  {
+   "id": "QR-6026",
+   "serie": "QR",
+   "num": 6026,
+   "theme": "Cinéma et séries",
+   "q": "Quelle actrice a dit : « Quand je suis bonne, je suis très bonne, mais quand je suis mauvaise, je suis encore meilleure » ?",
+   "o": [
+    "Mae West",
+    "Marilyn Monroe",
+    "Marlene Dietrich",
+    "Bette Davis"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Cette réplique est l'une des plus célèbres de Mae West, reine du sous-entendu à Hollywood.",
+   "ref": "sujet n° 6, question 26"
+  },
+  {
+   "id": "QR-6027",
+   "serie": "QR",
+   "num": 6027,
+   "theme": "Cinéma et séries",
+   "q": "Quel groupe des années 2000 joue un rôle central dans « New York Minute », avec Mary-Kate et Ashley Olsen ?",
+   "o": [
+    "Simple Plan",
+    "Good Charlotte",
+    "Blink-182",
+    "Sum 41"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le groupe canadien Simple Plan apparaît dans le film (2004).",
+   "ref": "sujet n° 6, question 27"
+  },
+  {
+   "id": "QR-6028",
+   "serie": "QR",
+   "num": 6028,
+   "theme": "Cinéma et séries",
+   "q": "Sur quelle chanson Barry Keoghan danse-t-il à la fin du film « Saltburn » ?",
+   "o": [
+    "« Murder on the Dancefloor » (Sophie Ellis-Bextor)",
+    "« Dancing Queen » (ABBA)",
+    "« Physical » (Olivia Newton-John)",
+    "« Toxic » (Britney Spears)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La scène finale du film d'Emerald Fennell (2023) a relancé le succès de ce titre de 2001.",
+   "ref": "sujet n° 6, question 28"
+  },
+  {
+   "id": "QR-6029",
+   "serie": "QR",
+   "num": 6029,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le nom de la nation africaine fictive de « Black Panther » ?",
+   "o": [
+    "Le Wakanda",
+    "Le Zamunda",
+    "La Genovia",
+    "La Sokovie"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le Wakanda, royaume technologiquement avancé, est la patrie de T'Challa ; le Zamunda est le royaume d'« Un prince à New York ».",
+   "ref": "sujet n° 6, question 29"
+  },
+  {
+   "id": "QR-6030",
+   "serie": "QR",
+   "num": 6030,
+   "theme": "Cinéma et séries",
+   "q": "Quel film de 2011 réunit Ryan Gosling et Emma Stone en couple à l'écran ?",
+   "o": [
+    "« Crazy, Stupid, Love »",
+    "« La La Land »",
+    "« Gangster Squad »",
+    "« Drive »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Ils se retrouveront ensuite dans « Gangster Squad » (2013) et « La La Land » (2016).",
+   "ref": "sujet n° 6, question 30"
+  },
+  {
+   "id": "QR-6031",
+   "serie": "QR",
+   "num": 6031,
+   "theme": "Cinéma et séries",
+   "q": "Quel personnage Michael Cera incarne-t-il dans « Barbie » (2023) ?",
+   "o": [
+    "Allan",
+    "Ken",
+    "Kevin",
+    "Oscar"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Allan est l'ami de Ken, lui-même joué par Ryan Gosling.",
+   "ref": "sujet n° 6, question 31"
+  },
+  {
+   "id": "QR-6032",
+   "serie": "QR",
+   "num": 6032,
+   "theme": "Cinéma et séries",
+   "q": "Dans « Hunger Games », dans quel pays se déroule l'histoire ?",
+   "o": [
+    "À Panem",
+    "À Narnia",
+    "À Westeros",
+    "En Terre du Milieu"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Panem, divisé en districts dominés par le Capitole, est le cadre de la saga de Suzanne Collins.",
+   "ref": "sujet n° 6, question 32"
+  },
+  {
+   "id": "QR-6033",
+   "serie": "QR",
+   "num": 6033,
+   "theme": "Cinéma et séries",
+   "q": "Quel a été le grand film hollywoodien suivant à la distribution majoritairement asiatique, après « Le Club de la chance » (1993) ?",
+   "o": [
+    "« Crazy Rich Asians » (2018)",
+    "« Mulan » (2020)",
+    "« Shang-Chi » (2021)",
+    "« Le Dernier Samouraï » (2003)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Il a fallu attendre 25 ans et « Crazy Rich Asians », de Jon M. Chu.",
+   "ref": "sujet n° 6, question 33"
+  },
+  {
+   "id": "QR-6034",
+   "serie": "QR",
+   "num": 6034,
+   "theme": "Cinéma et séries",
+   "q": "Quelle comédie pour adolescents de 2019 a été réalisée par Olivia Wilde ?",
+   "o": [
+    "« Booksmart »",
+    "« Lady Bird »",
+    "« Mean Girls »",
+    "« Easy A »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Booksmart » est le premier long métrage d'Olivia Wilde ; « Lady Bird » est de Greta Gerwig.",
+   "ref": "sujet n° 6, question 34"
+  },
+  {
+   "id": "QR-6035",
+   "serie": "QR",
+   "num": 6035,
+   "theme": "Cinéma et séries",
+   "q": "Où Lizzie McGuire part-elle en voyage de fin d'études dans « Lizzie McGuire, le film » ?",
+   "o": [
+    "À Rome",
+    "À Paris",
+    "À Londres",
+    "À Venise"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans le film de 2003, Lizzie part à Rome, où elle est prise pour une chanteuse italienne.",
+   "ref": "sujet n° 6, question 35"
+  },
+  {
+   "id": "QR-6036",
+   "serie": "QR",
+   "num": 6036,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle le camp musical du téléfilm « Camp Rock » ?",
+   "o": [
+    "Camp Rock",
+    "Camp Star",
+    "Rock Academy",
+    "Camp Jonas"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le camp donne son titre au téléfilm Disney de 2008, avec Demi Lovato et les Jonas Brothers.",
+   "ref": "sujet n° 6, question 36"
+  },
+  {
+   "id": "QR-6037",
+   "serie": "QR",
+   "num": 6037,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le nom de famille des trois sœurs sorcières de « Hocus Pocus » ?",
+   "o": [
+    "Sanderson",
+    "Halliwell",
+    "Owens",
+    "Spellman"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Winifred, Mary et Sarah Sanderson sont jouées par Bette Midler, Kathy Najimy et Sarah Jessica Parker ; les Halliwell sont les sœurs de « Charmed ».",
+   "ref": "sujet n° 6, question 37"
+  },
+  {
+   "id": "QR-6038",
+   "serie": "QR",
+   "num": 6038,
+   "theme": "Cinéma et séries",
+   "q": "Sur quelle chanson Diane Keaton, Goldie Hawn et Bette Midler dansent-elles dans « Le Club des ex » ?",
+   "o": [
+    "« You Don't Own Me » (Lesley Gore)",
+    "« I Will Survive » (Gloria Gaynor)",
+    "« Respect » (Aretha Franklin)",
+    "« Girls Just Want to Have Fun » (Cyndi Lauper)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La scène finale du film (1996) reprend ce classique de 1963.",
+   "ref": "sujet n° 6, question 38"
+  },
+  {
+   "id": "QR-6039",
+   "serie": "QR",
+   "num": 6039,
+   "theme": "Cinéma et séries",
+   "q": "Quel est le métier du père d'Alan Parrish dans « Jumanji » ?",
+   "o": [
+    "Il possède une fabrique de chaussures",
+    "Il est banquier",
+    "Il est médecin",
+    "Il est chasseur"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans le film de 1995, Sam Parrish dirige l'usine de chaussures de la ville.",
+   "ref": "sujet n° 6, question 39"
+  },
+  {
+   "id": "QR-6040",
+   "serie": "QR",
+   "num": 6040,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle le meilleur ami d'Andie dans « Rose bonbon » (Pretty in Pink) ?",
+   "o": [
+    "Duckie",
+    "Blane",
+    "Steff",
+    "Iona"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Duckie (Jon Cryer) est son meilleur ami, Blane (Andrew McCarthy) celui dont elle tombe amoureuse.",
+   "ref": "sujet n° 6, question 40",
+   "n": "Le document écrit « la meilleure amie » : Duckie est un garçon."
+  },
+  {
+   "id": "QR-6041",
+   "serie": "QR",
+   "num": 6041,
+   "theme": "Cinéma et séries",
+   "q": "En quoi Cady se déguise-t-elle pour la fête d'Halloween dans « Lolita malgré moi » (Mean Girls) ?",
+   "o": [
+    "En mariée zombie",
+    "En souris",
+    "En lapin",
+    "En sorcière"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Contrairement aux autres filles, en costumes sexy (Regina en lapin, Karen en souris), Cady arrive en mariée effrayante.",
+   "ref": "sujet n° 6, question 41",
+   "n": "Le document propose aussi « la fiancée de Frankenstein »."
+  },
+  {
+   "id": "QR-6042",
+   "serie": "QR",
+   "num": 6042,
+   "theme": "Cinéma et séries",
+   "q": "De quelle pièce de Shakespeare le film « Dix bonnes raisons de te larguer » s'inspire-t-il ?",
+   "o": [
+    "« La Mégère apprivoisée »",
+    "« Beaucoup de bruit pour rien »",
+    "« Roméo et Juliette »",
+    "« Le Songe d'une nuit d'été »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le film de 1999, avec Heath Ledger et Julia Stiles, transpose la pièce dans un lycée américain.",
+   "ref": "sujet n° 6, question 42"
+  },
+  {
+   "id": "QR-6043",
+   "serie": "QR",
+   "num": 6043,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle la gentille institutrice de Matilda ?",
+   "o": [
+    "Miss Honey (Mlle Candy)",
+    "Mlle Legourdin",
+    "Mary Poppins",
+    "Miss Stacy"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans les traductions françaises, Miss Honey s'appelle Mlle Candy ; Mlle Legourdin est la terrible directrice.",
+   "ref": "sujet n° 6, question 43"
+  },
+  {
+   "id": "QR-6044",
+   "serie": "QR",
+   "num": 6044,
+   "theme": "Cinéma et séries",
+   "q": "Qui gagne le match de basket à la fin de « Love & Basketball » ?",
+   "o": [
+    "Monica",
+    "Quincy",
+    "Personne, c'est un match nul",
+    "Le match est interrompu"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Monica remporte le duel en un contre un qui lui permet de reconquérir Quincy.",
+   "ref": "sujet n° 6, question 44"
+  },
+  {
+   "id": "QR-6045",
+   "serie": "QR",
+   "num": 6045,
+   "theme": "Cinéma et séries",
+   "q": "Comment s'appelle le royaume magique dans « Les Sorcières jumelles » (Twitches) ?",
+   "o": [
+    "Coventry",
+    "Narnia",
+    "Avalon",
+    "Oz"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Les jumelles découvrent qu'elles sont les héritières du royaume de Coventry.",
+   "ref": "sujet n° 6, question 45"
+  },
+  {
+   "id": "QR-6046",
+   "serie": "QR",
+   "num": 6046,
+   "theme": "Cinéma et séries",
+   "q": "Quel a été le premier film de Mary-Kate et Ashley Olsen ?",
+   "o": [
+    "« To Grandmother's House We Go » (1992)",
+    "« Jumelles contre-attaque » (1995)",
+    "« New York Minute » (2004)",
+    "« Passeport pour Paris » (1999)"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "C'est un téléfilm ; auparavant, les jumelles partageaient le rôle de Michelle dans la série « La Fête à la maison ».",
+   "ref": "sujet n° 6, question 46"
+  },
+  {
+   "id": "QR-6047",
+   "serie": "QR",
+   "num": 6047,
+   "theme": "Cinéma et séries",
+   "q": "Quel personnage Sarah Michelle Gellar joue-t-elle dans le film « Buffy, tueuse de vampires » de 1992 ?",
+   "o": [
+    "Aucun : elle ne joue pas dans le film",
+    "Buffy",
+    "Willow",
+    "Cordelia"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans le film de 1992, Buffy est jouée par Kristy Swanson ; Sarah Michelle Gellar l'incarne dans la série (1997-2003).",
+   "ref": "sujet n° 6, question 47"
+  },
+  {
+   "id": "QR-6048",
+   "serie": "QR",
+   "num": 6048,
+   "theme": "Cinéma et séries",
+   "q": "De quel sang Carrie est-elle aspergée lors du bal de fin d'année dans « Carrie » ?",
+   "o": [
+    "Du sang de porc",
+    "Du sang de bœuf",
+    "Du faux sang",
+    "Du sang de poulet"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Dans le roman de Stephen King (1974) et le film de Brian De Palma (1976), des élèves lui renversent un seau de sang de porc.",
+   "ref": "sujet n° 6, question 48"
+  },
+  {
+   "id": "QR-6049",
+   "serie": "QR",
+   "num": 6049,
+   "theme": "Cinéma et séries",
+   "q": "Combien de lettres d'amour Lara Jean a-t-elle écrites dans « À tous les garçons que j'ai aimés » ?",
+   "o": [
+    "Trois",
+    "Cinq",
+    "Sept",
+    "Dix"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Ses cinq lettres secrètes sont envoyées à leurs destinataires, ce qui déclenche l'intrigue.",
+   "ref": "sujet n° 6, question 49"
+  },
+  {
+   "id": "QR-6050",
+   "serie": "QR",
+   "num": 6050,
+   "theme": "Cinéma et séries",
+   "q": "Quelle est la règle numéro 1 pour survivre à l'apocalypse zombie dans « Bienvenue à Zombieland » ?",
+   "o": [
+    "Le cardio",
+    "Le double tir",
+    "Toujours attacher sa ceinture",
+    "Ne jamais jouer les héros"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La règle n° 1 de Columbus est « le cardio » : il faut pouvoir courir plus vite que les zombies ; le « double tir » est la règle n° 2.",
+   "ref": "sujet n° 6, question 50",
+   "n": "La liste se termine ici ; le document indique qu'elle a d'abord été publiée par le magazine Teen Vogue."
+  },
+  {
+   "id": "CGT-012",
+   "serie": "CGT",
+   "num": 12,
+   "theme": "Vocabulaire",
+   "q": "Qu'est-ce qu'un néologisme ?",
+   "o": [
+    "un raisonnement vicieux",
+    "un mot nouveau, ou pris dans un sens nouveau",
+    "un immeuble récent"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Un néologisme est un mot nouveau (comme « courriel ») ou un mot existant employé dans un sens nouveau."
+  },
+  {
+   "id": "CGT-013",
+   "serie": "CGT",
+   "num": 13,
+   "theme": "Vocabulaire",
+   "q": "Chassez l'intrus :",
+   "o": [
+    "automobile",
+    "autoclave",
+    "autoroute",
+    "autocensure",
+    "autodafé"
+   ],
+   "a": 4,
+   "st": "ok",
+   "x": "« Autodafé » vient du portugais auto da fé (« acte de foi »), alors que les autres mots sont formés avec le préfixe grec auto- (« soi-même »)."
+  },
+  {
+   "id": "CGT-014",
+   "serie": "CGT",
+   "num": 14,
+   "theme": "Vocabulaire",
+   "q": "Un avatar est :",
+   "o": [
+    "quelqu'un qui aime l'argent",
+    "quelqu'un qui arrive toujours en retard",
+    "une transformation",
+    "un événement joyeux qui nécessite une célébration",
+    "un malheur"
+   ],
+   "a": 2,
+   "st": "nuance",
+   "x": "Dans l'hindouisme, l'avatar est l'incarnation d'un dieu sur terre ; par extension, le mot désigne une transformation, une métamorphose.",
+   "n": "Le sens de « mésaventure, malheur » est très répandu, mais il est critiqué par les puristes."
+  },
+  {
+   "id": "CGT-015",
+   "serie": "CGT",
+   "num": 15,
+   "theme": "Vocabulaire",
+   "q": "Une opinion toute faite sur quelque chose s'appelle :",
+   "o": [
+    "un stéréotype",
+    "un archétype",
+    "un prototype"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Un stéréotype est une idée toute faite ; un archétype est un modèle originel, un prototype un premier exemplaire."
+  },
+  {
+   "id": "CGT-016",
+   "serie": "CGT",
+   "num": 16,
+   "theme": "Vocabulaire",
+   "q": "« Ad hoc » est une expression latine. Trouvez la phrase où elle est employée à tort :",
+   "o": [
+    "Il a trouvé le véhicule ad hoc.",
+    "Hier, j'ai mangé trop de ad hoc.",
+    "Une commission ad hoc a été désignée pour cette affaire.",
+    "Il est un peu ad hoc."
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "« Ad hoc » signifie « destiné à cet usage, approprié » : il s'applique à un objet ou à une instance créée pour une mission, jamais à une personne ni à un aliment.",
+   "acc": [
+    1,
+    3
+   ],
+   "n": "Deux phrases sont fautives (b et d) : les deux réponses sont acceptées."
+  },
+  {
+   "id": "CGT-017",
+   "serie": "CGT",
+   "num": 17,
+   "theme": "Vocabulaire",
+   "q": "Trouvez la bonne orthographe :",
+   "o": [
+    "dythirambique",
+    "dythyrambique",
+    "dithyrambique",
+    "ditirambique"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "« Dithyrambique » (très élogieux) vient du dithyrambe, chant grec en l'honneur de Dionysos."
+  },
+  {
+   "id": "CGT-018",
+   "serie": "CGT",
+   "num": 18,
+   "theme": "Vocabulaire",
+   "q": "Quelqu'un qui est couvert d'opprobre est :",
+   "o": [
+    "gravement humilié",
+    "très honoré",
+    "très sale",
+    "fort riche"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'opprobre est une réprobation publique qui déshonore : être couvert d'opprobre, c'est être frappé de honte."
+  },
+  {
+   "id": "CGT-019",
+   "serie": "CGT",
+   "num": 19,
+   "theme": "Vocabulaire",
+   "q": "Un leitmotiv est :",
+   "o": [
+    "un bois gravé allemand",
+    "un motif de broderie répété plusieurs fois",
+    "un propos répété",
+    "un motif musical répété plusieurs fois"
+   ],
+   "a": 3,
+   "st": "nuance",
+   "x": "Le leitmotiv est d'abord un thème musical récurrent (chez Wagner notamment) ; par extension, il désigne une idée ou une formule qui revient sans cesse.",
+   "acc": [
+    2,
+    3
+   ],
+   "n": "Le sens figuré (réponse c) est également accepté. Sur la photo, le cercle manuscrit entoure la réponse a, qui est fausse."
+  },
+  {
+   "id": "CGT-020",
+   "serie": "CGT",
+   "num": 20,
+   "theme": "Vocabulaire",
+   "q": "« Ses conclusions ont été corroborées par ses collègues » signifie que les collègues les ont :",
+   "o": [
+    "contestées",
+    "applaudies",
+    "confirmées",
+    "arrosées"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Corroborer, c'est confirmer, appuyer par de nouvelles preuves."
+  },
+  {
+   "id": "CGT-021",
+   "serie": "CGT",
+   "num": 21,
+   "theme": "Littérature",
+   "q": "Une litote est :",
+   "o": [
+    "une répétition d'un son tendant à créer une atmosphère",
+    "une reliure ancienne en peau de mouton",
+    "une expression faible que l'on utilise pour signifier un sens fort",
+    "un excès de lecture"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La litote dit moins pour faire entendre plus, comme le « Va, je ne te hais point » de Chimène dans « Le Cid »."
+  },
+  {
+   "id": "CGT-022",
+   "serie": "CGT",
+   "num": 22,
+   "theme": "Littérature",
+   "q": "Combien de syllabes compte un alexandrin ?",
+   "o": [
+    "6",
+    "8",
+    "10",
+    "12"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "L'alexandrin est le vers de douze syllabes, le plus employé de la poésie classique française."
+  },
+  {
+   "id": "CGT-023",
+   "serie": "CGT",
+   "num": 23,
+   "theme": "Littérature",
+   "q": "Qu'est-ce qu'une césure ?",
+   "o": [
+    "une poudre blanche qu'utilisaient les femmes au XVIIe siècle",
+    "une mesure rythmique",
+    "la coupe centrale de l'alexandrin",
+    "l'événement marquant au cœur d'un roman"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La césure partage l'alexandrin en deux hémistiches de six syllabes ; la poudre blanche est la céruse."
+  },
+  {
+   "id": "CGT-024",
+   "serie": "CGT",
+   "num": 24,
+   "theme": "Littérature",
+   "q": "Ces quatre écrivains ont reçu le prix Goncourt. Dans quel ordre, du plus ancien au plus récent ?",
+   "o": [
+    "Proust, Malraux, Triolet, Ben Jelloun",
+    "Malraux, Proust, Triolet, Ben Jelloun",
+    "Proust, Triolet, Malraux, Ben Jelloun",
+    "Triolet, Proust, Malraux, Ben Jelloun"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Marcel Proust (1919), André Malraux (1933), Elsa Triolet (prix 1944) et Tahar Ben Jelloun (1987).",
+   "n": "Exercice de classement dans le document, transformé ici en choix d'ordre."
+  },
+  {
+   "id": "CGT-025",
+   "serie": "CGT",
+   "num": 25,
+   "theme": "Littérature",
+   "q": "« Un roman est un miroir que l'on promène le long d'une route. » De qui est cette définition ?",
+   "o": [
+    "Balzac",
+    "Stendhal",
+    "Sartre",
+    "Céline"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La formule figure dans « Le Rouge et le Noir » (1830) de Stendhal."
+  },
+  {
+   "id": "CGT-026",
+   "serie": "CGT",
+   "num": 26,
+   "theme": "Littérature",
+   "q": "En littérature, la Pléiade est :",
+   "o": [
+    "un type de poème",
+    "un prix littéraire de la Renaissance",
+    "un groupe de poètes",
+    "une collection savante"
+   ],
+   "a": 2,
+   "st": "nuance",
+   "x": "La Pléiade est le groupe de poètes de la Renaissance réuni autour de Ronsard et Du Bellay ; c'est aussi le nom de la prestigieuse collection de Gallimard.",
+   "acc": [
+    2,
+    3
+   ],
+   "n": "Les réponses c et d sont acceptées."
+  },
+  {
+   "id": "CGT-027",
+   "serie": "CGT",
+   "num": 27,
+   "theme": "Littérature",
+   "q": "Qu'est-ce que le bovarysme ?",
+   "o": [
+    "une maladie des bovins décrite par Flaubert",
+    "une tendance à s'illusionner sur soi-même et sur le monde",
+    "une technique littéraire anglaise"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le mot vient d'Emma Bovary, l'héroïne de Flaubert, qui rêve une vie romanesque bien différente de la sienne."
+  },
+  {
+   "id": "CGT-028",
+   "serie": "CGT",
+   "num": 28,
+   "theme": "Littérature",
+   "q": "Parmi ces quatre écrivains, lequel n'est pas un auteur de science-fiction ?",
+   "o": [
+    "Andrew Marvell",
+    "Ray Bradbury",
+    "H. G. Wells",
+    "George Orwell"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Andrew Marvell est un poète anglais du XVIIe siècle ; Bradbury, Wells et Orwell ont signé des classiques de l'anticipation."
+  },
+  {
+   "id": "CGT-029",
+   "serie": "CGT",
+   "num": 29,
+   "theme": "Littérature",
+   "q": "Le roman d'André Malraux « L'Espoir » se déroule pendant :",
+   "o": [
+    "la Première Guerre mondiale",
+    "la Seconde Guerre mondiale",
+    "la guerre d'Algérie",
+    "la guerre d'Espagne"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "« L'Espoir » (1937) s'inspire de l'engagement de Malraux aux côtés des républicains espagnols."
+  },
+  {
+   "id": "CGT-030",
+   "serie": "CGT",
+   "num": 30,
+   "theme": "Littérature",
+   "q": "Parmi les écrivains ci-dessous, lequel n'a publié que des nouvelles, des poèmes et un journal ?",
+   "o": [
+    "Guy de Maupassant",
+    "Katherine Mansfield",
+    "Anton Tchekhov",
+    "Alfred de Musset"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Néo-Zélandaise Katherine Mansfield n'a écrit ni roman ni pièce ; Maupassant a publié des romans (« Bel-Ami »), Tchekhov et Musset des pièces de théâtre."
+  },
+  {
+   "id": "CGT-031",
+   "serie": "CGT",
+   "num": 31,
+   "theme": "Littérature",
+   "q": "Laquelle de ces pièces n'est pas de Corneille ?",
+   "o": [
+    "Le Cid",
+    "L'Illusion comique",
+    "Le Menteur",
+    "Polyeucte"
+   ],
+   "a": null,
+   "st": "erronee",
+   "x": "Aucune proposition ne convient : les quatre pièces sont de Pierre Corneille. Le cercle manuscrit sur la réponse d de la photo est donc faux."
+  },
+  {
+   "id": "CGT-032",
+   "serie": "CGT",
+   "num": 32,
+   "theme": "Littérature",
+   "q": "Comment s'appelle le héros des « Misérables » de Victor Hugo ?",
+   "o": [
+    "Pierre Rivière",
+    "Jean Valjean",
+    "Jacques Mesrine",
+    "Lacenaire"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Jean Valjean, ancien forçat, est le héros du roman (1862) ; Pierre Rivière, Mesrine et Lacenaire sont des criminels réels."
+  },
+  {
+   "id": "CGT-033",
+   "serie": "CGT",
+   "num": 33,
+   "theme": "Littérature",
+   "q": "Lesquels de ces ouvrages ne sont pas de Sartre ?",
+   "o": [
+    "« La Nausée » et « La Putain respectueuse »",
+    "« La Peste » et « J'irai cracher sur vos tombes »",
+    "« La Nausée » et « La Peste »",
+    "« La Putain respectueuse » et « J'irai cracher sur vos tombes »"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« La Peste » est d'Albert Camus et « J'irai cracher sur vos tombes » de Boris Vian ; les deux autres titres sont de Sartre.",
+   "n": "Question à plusieurs réponses dans le document, transformée en choix d'une paire."
+  },
+  {
+   "id": "CGT-034",
+   "serie": "CGT",
+   "num": 34,
+   "theme": "Littérature",
+   "q": "Parmi ces poèmes, lequel n'est pas de Baudelaire ?",
+   "o": [
+    "« À une passante »",
+    "« Le Bateau ivre »",
+    "« L'Invitation au voyage »"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« Le Bateau ivre » est d'Arthur Rimbaud ; les deux autres poèmes figurent dans « Les Fleurs du mal »."
+  },
+  {
+   "id": "CGT-035",
+   "serie": "CGT",
+   "num": 35,
+   "theme": "Littérature",
+   "q": "Parmi ces philosophes du siècle des Lumières, lequel n'est pas français ?",
+   "o": [
+    "Voltaire",
+    "Diderot",
+    "d'Alembert",
+    "Rousseau"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Jean-Jacques Rousseau est né à Genève en 1712 et se disait « citoyen de Genève »."
+  },
+  {
+   "id": "CGT-036",
+   "serie": "CGT",
+   "num": 36,
+   "theme": "Littérature",
+   "q": "George Sand, romancière, mère et amante passionnée, a été la compagne de :",
+   "o": [
+    "Chopin et Musset",
+    "Flaubert et Baudelaire",
+    "Flaubert et Chopin",
+    "Musset et Baudelaire"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "George Sand a vécu une liaison passionnée avec Alfred de Musset, puis neuf ans avec Frédéric Chopin ; Flaubert fut seulement un ami.",
+   "n": "Question à plusieurs réponses dans le document, transformée en choix d'une paire."
+  },
+  {
+   "id": "CGT-037",
+   "serie": "CGT",
+   "num": 37,
+   "theme": "Littérature",
+   "q": "L'histoire de Phèdre et d'Hippolyte a inspiré des pièces de théâtre à :",
+   "o": [
+    "Racine, Garnier et Euripide",
+    "Racine et Corneille",
+    "Corneille, Garnier et Euripide",
+    "Racine seulement"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Euripide (« Hippolyte »), Robert Garnier (« Hippolyte », 1573) et Jean Racine (« Phèdre », 1677) ont traité ce sujet.",
+   "n": "Question à plusieurs réponses dans le document, transformée en choix d'une combinaison."
+  },
+  {
+   "id": "CGT-038",
+   "serie": "CGT",
+   "num": 38,
+   "theme": "Littérature",
+   "q": "Les pièces d'Eugène Ionesco ont lancé le théâtre de l'absurde dans les années 1950. Lesquelles de ces œuvres sont de lui ?",
+   "o": [
+    "« Les Chaises » et « La Leçon »",
+    "« Les Tables » et « Les Gommes »",
+    "« Les Chaises » et « Les Gommes »",
+    "« La Leçon » et « Les Tables »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« La Leçon » (1951) et « Les Chaises » (1952) sont de Ionesco ; « Les Gommes » est un roman d'Alain Robbe-Grillet.",
+   "n": "Question à plusieurs réponses dans le document, transformée en choix d'une paire."
+  },
+  {
+   "id": "CGT-039",
+   "serie": "CGT",
+   "num": 39,
+   "theme": "Littérature",
+   "q": "« Cent ans de solitude » (1967) raconte l'histoire d'un village de Colombie. Son auteur est :",
+   "o": [
+    "Federico García Lorca",
+    "Gabriel García Márquez",
+    "Atahualpa Yupanqui",
+    "Miguel Ángel Asturias"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Colombien Gabriel García Márquez, prix Nobel de littérature en 1982, y raconte l'histoire de Macondo ; García Lorca était un poète espagnol."
+  },
+  {
+   "id": "CGT-040",
+   "serie": "CGT",
+   "num": 40,
+   "theme": "Littérature",
+   "q": "« L'Iliade », poème épique d'Homère en 24 chants, raconte :",
+   "o": [
+    "la guerre du Péloponnèse",
+    "la guerre de Troie",
+    "les aventures d'Ulysse",
+    "le combat entre Pégase et le cheval de Troie"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« L'Iliade » raconte un épisode de la guerre de Troie (la colère d'Achille) ; les aventures d'Ulysse sont le sujet de « L'Odyssée »."
+  },
+  {
+   "id": "CGT-041",
+   "serie": "CGT",
+   "num": 41,
+   "theme": "Beaux-arts et musique",
+   "q": "Parmi ces films, quel est celui dans lequel Marilyn Monroe n'a pas joué ?",
+   "o": [
+    "Ève",
+    "Sept ans de réflexion",
+    "Bus Stop",
+    "Les Désaxés (The Misfits)"
+   ],
+   "a": null,
+   "st": "erronee",
+   "x": "Aucune proposition ne convient : Marilyn Monroe a joué dans les quatre films, y compris « Ève » (All About Eve, 1950), où elle tient un petit rôle. Le cercle manuscrit sur la réponse a est donc faux."
+  },
+  {
+   "id": "CGT-042",
+   "serie": "CGT",
+   "num": 42,
+   "theme": "Beaux-arts et musique",
+   "q": "« L'Hymne à la joie » est la seule partie chantée d'une symphonie de Beethoven, dont il constitue le final. Laquelle ?",
+   "o": [
+    "la cinquième",
+    "la septième",
+    "la neuvième",
+    "la dixième"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La Neuvième Symphonie (1824) s'achève sur l'« Ode à la joie » de Schiller ; sa mélodie est l'hymne de l'Union européenne."
+  },
+  {
+   "id": "CGT-043",
+   "serie": "CGT",
+   "num": 43,
+   "theme": "Beaux-arts et musique",
+   "q": "Lequel de ces films de François Truffaut s'inspire de travaux sur l'apprentissage de la parole ?",
+   "o": [
+    "Les Mistons",
+    "Cause toujours, tu m'intéresses",
+    "L'Enfant sauvage",
+    "Paroles et musique"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "« L'Enfant sauvage » (1970) retrace l'éducation de Victor de l'Aveyron par le docteur Itard, au début du XIXe siècle."
+  },
+  {
+   "id": "CGT-044",
+   "serie": "CGT",
+   "num": 44,
+   "theme": "Beaux-arts et musique",
+   "q": "Comment s'appelait la sœur sculptrice du poète et dramaturge Paul Claudel ?",
+   "o": [
+    "Camille",
+    "Cécile",
+    "Pauline"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Camille Claudel (1864-1943) fut l'élève et la compagne d'Auguste Rodin."
+  },
+  {
+   "id": "CGT-045",
+   "serie": "CGT",
+   "num": 45,
+   "theme": "Beaux-arts et musique",
+   "q": "Où et quand se situe l'action du film d'Alain Resnais « Hiroshima mon amour » (1959) ?",
+   "o": [
+    "À Hiroshima à la fin des années 1950, avec des souvenirs de la France à la fin de la Seconde Guerre mondiale",
+    "À Hiroshima, le jour du bombardement d'août 1945",
+    "En France seulement, pendant l'Occupation",
+    "À Tokyo, pendant la guerre de Corée"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Une actrice française tourne un film à Hiroshima ; son histoire d'amour réveille le souvenir de Nevers, en 1944.",
+   "n": "Le document admettait les quatre propositions (fin de la guerre, 1959, Hiroshima, France) : la question a été reformulée."
+  },
+  {
+   "id": "CGT-046",
+   "serie": "CGT",
+   "num": 46,
+   "theme": "Beaux-arts et musique",
+   "q": "« Le Torero mort », « Lola de Valence » et « Un bar aux Folies-Bergère » sont des œuvres de :",
+   "o": [
+    "Manet",
+    "Monet",
+    "Renoir",
+    "Degas"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Ces tableaux sont d'Édouard Manet, précurseur de l'impressionnisme ; ne pas confondre avec Claude Monet."
+  },
+  {
+   "id": "CGT-047",
+   "serie": "CGT",
+   "num": 47,
+   "theme": "Beaux-arts et musique",
+   "q": "La muse de l'histoire est Clio. Quel est le nom de la muse de la danse ?",
+   "o": [
+    "Calliope",
+    "Terpsichore",
+    "Thalie",
+    "Melpomène"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Terpsichore est la muse de la danse ; Calliope celle de la poésie épique, Thalie de la comédie et Melpomène de la tragédie."
+  },
+  {
+   "id": "CGT-048",
+   "serie": "CGT",
+   "num": 48,
+   "theme": "Beaux-arts et musique",
+   "q": "Maria Callas (1923-1977), la plus illustre cantatrice de son temps, était d'origine :",
+   "o": [
+    "italienne",
+    "libanaise",
+    "américaine",
+    "grecque"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Née à New York de parents grecs, elle a grandi en partie en Grèce, où elle a fait ses débuts."
   }
  ]
 }
