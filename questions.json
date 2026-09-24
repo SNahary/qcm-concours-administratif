@@ -11,6 +11,19 @@
    "court": "Français et maths (tableaux)",
    "titre": "Série de tests en tableaux : conjugaison, orthographe, vocabulaire et mathématiques",
    "detail": "80 questions à trois options ; les réponses surlignées sur le document ont été contrôlées une à une"
+  },
+  {
+   "id": "AUTOC",
+   "court": "Auto-évaluation (2 500 QCM)",
+   "titre": "Livre « S'entraîner avec 2 500 QCM », auto-évaluation, sujets n° 1 à 3",
+   "detail": "48 questions à quatre options, préparation aux concours de catégorie B et C de la fonction publique française ; réponses conformes au corrigé du livre"
+  },
+  {
+   "id": "QR",
+   "court": "Quiz questions-réponses",
+   "ajout": true,
+   "titre": "Quiz de culture générale au format questions-réponses (document imprimé, traduit de l'anglais)",
+   "detail": "questions ouvertes transformées en QCM : les trois fausses réponses de chaque question ont été ajoutées pour l'entraînement"
   }
  ],
  "questions": [
@@ -2755,6 +2768,2204 @@
    "a": 2,
    "st": "ok",
    "x": "Dans la série ordonnée 15 ; 36 ; 55 ; 72 ; 88, la valeur centrale est 55 ; 53,2 est la moyenne."
+  },
+  {
+   "id": "AUTOC-101",
+   "serie": "AUTOC",
+   "num": 101,
+   "theme": "Institutions et administration (France)",
+   "q": "Quelle est la capitale du Qatar ?",
+   "o": [
+    "Abu Dhabi",
+    "Amman",
+    "Doha",
+    "Dubaï"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Doha est la capitale du Qatar ; Abu Dhabi et Dubaï sont des émirats des Émirats arabes unis, et Amman est la capitale de la Jordanie.",
+   "ref": "sujet n° 1, question 1"
+  },
+  {
+   "id": "AUTOC-102",
+   "serie": "AUTOC",
+   "num": 102,
+   "theme": "Institutions et administration (France)",
+   "q": "Lequel de ces États ne fait pas partie de l'Union européenne ?",
+   "o": [
+    "Croatie",
+    "Lituanie",
+    "Malte",
+    "Norvège"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "La Norvège n'est pas membre de l'UE : ses habitants ont refusé l'adhésion par référendum, en 1972 puis en 1994.",
+   "ref": "sujet n° 1, question 2"
+  },
+  {
+   "id": "AUTOC-103",
+   "serie": "AUTOC",
+   "num": 103,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, quelle institution certifie les comptes de l'État ?",
+   "o": [
+    "La Cour de cassation",
+    "La Cour des comptes",
+    "Le Conseil constitutionnel",
+    "Le Conseil d'État"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Cour des comptes certifie chaque année les comptes de l'État.",
+   "ref": "sujet n° 1, question 3"
+  },
+  {
+   "id": "AUTOC-104",
+   "serie": "AUTOC",
+   "num": 104,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, un projet de loi est une initiative législative :",
+   "o": [
+    "gouvernementale, inscrite à l'ordre du jour du Parlement",
+    "gouvernementale, qui génère automatiquement un référendum populaire",
+    "parlementaire, inscrite à l'ordre du jour du Parlement",
+    "parlementaire, qui entraîne systématiquement la réunion du Parlement en congrès à Versailles"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Un projet de loi émane du gouvernement ; une proposition de loi émane des parlementaires.",
+   "ref": "sujet n° 1, question 4"
+  },
+  {
+   "id": "AUTOC-105",
+   "serie": "AUTOC",
+   "num": 105,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, la loi du 1er juillet 1901 est relative :",
+   "o": [
+    "à la laïcité",
+    "à la séparation des Églises et de l'État",
+    "au travail dominical",
+    "aux associations"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "La loi du 1er juillet 1901 organise la liberté d'association ; la séparation des Églises et de l'État date de 1905.",
+   "ref": "sujet n° 1, question 5"
+  },
+  {
+   "id": "AUTOC-106",
+   "serie": "AUTOC",
+   "num": 106,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, le déficit public prévisionnel de l'État représente en 2015 environ :",
+   "o": [
+    "4 % du PIB",
+    "20 % du PIB",
+    "52 % du PIB",
+    "90 % du PIB"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le déficit de l'État était alors prévu à environ 4 % du PIB.",
+   "ref": "sujet n° 1, question 6",
+   "n": "Donnée de 2015, propre à l'époque de parution du livre."
+  },
+  {
+   "id": "AUTOC-107",
+   "serie": "AUTOC",
+   "num": 107,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, par qui est perçu l'impôt sur le revenu ?",
+   "o": [
+    "la Direction du budget",
+    "la Direction générale du Trésor",
+    "la Direction générale des douanes et droits indirects",
+    "la Direction générale des finances publiques"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "L'impôt sur le revenu est collecté par la Direction générale des finances publiques (DGFiP).",
+   "ref": "sujet n° 1, question 7"
+  },
+  {
+   "id": "AUTOC-108",
+   "serie": "AUTOC",
+   "num": 108,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, quel événement historique célèbre-t-on le 11 novembre ?",
+   "o": [
+    "l'armistice de la Première Guerre mondiale",
+    "l'armistice de la Seconde Guerre mondiale",
+    "l'institution de la Communauté économique européenne",
+    "le débarquement allié sur les plages de Normandie"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le 11 novembre commémore l'armistice de 1918, qui mit fin aux combats de la Première Guerre mondiale.",
+   "ref": "sujet n° 1, question 8"
+  },
+  {
+   "id": "AUTOC-109",
+   "serie": "AUTOC",
+   "num": 109,
+   "theme": "Histoire et culture générale",
+   "q": "Quel président américain a démissionné après le scandale du Watergate, en 1974 ?",
+   "o": [
+    "Dwight D. Eisenhower",
+    "George H. W. Bush",
+    "Gerald Ford",
+    "Richard Nixon"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Richard Nixon a démissionné en août 1974, menacé de destitution après le scandale du Watergate.",
+   "ref": "sujet n° 1, question 9"
+  },
+  {
+   "id": "AUTOC-110",
+   "serie": "AUTOC",
+   "num": 110,
+   "theme": "Histoire et culture générale",
+   "q": "La convention internationale dénommée « protocole de Kyoto » est un accord :",
+   "o": [
+    "destiné à relancer la croissance mondiale après la crise économique et financière de 1929",
+    "mettant fin à la guerre de Corée",
+    "prévoyant la capitulation de l'armée japonaise à la fin de la Seconde Guerre mondiale",
+    "visant la réduction des émissions de gaz à effet de serre"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Signé le 11 décembre 1997 à Kyoto et entré en vigueur en 2005, le protocole visait à réduire les émissions de six gaz à effet de serre.",
+   "ref": "sujet n° 1, question 10"
+  },
+  {
+   "id": "AUTOC-111",
+   "serie": "AUTOC",
+   "num": 111,
+   "theme": "Histoire et culture générale",
+   "q": "Laquelle des inventions suivantes doit-on à Alfred Nobel ?",
+   "o": [
+    "la dynamite",
+    "la machine à vapeur",
+    "l'électricité",
+    "le téléphone"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le chimiste suédois Alfred Nobel a inventé la dynamite en 1867 ; sa fortune finance les prix Nobel.",
+   "ref": "sujet n° 1, question 11"
+  },
+  {
+   "id": "AUTOC-112",
+   "serie": "AUTOC",
+   "num": 112,
+   "theme": "Histoire et culture générale",
+   "q": "En quelle année a eu lieu le premier Tour de France cycliste ?",
+   "o": [
+    "1875",
+    "1903",
+    "1945",
+    "1960"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le premier Tour de France est parti le 1er juillet 1903 ; Maurice Garin l'a remporté.",
+   "ref": "sujet n° 1, question 12"
+  },
+  {
+   "id": "AUTOC-113",
+   "serie": "AUTOC",
+   "num": 113,
+   "theme": "Histoire et culture générale",
+   "q": "Qui a peint le tableau intitulé « Guernica » ?",
+   "o": [
+    "Salvador Dalí",
+    "Francisco de Goya",
+    "Henri Matisse",
+    "Pablo Picasso"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Picasso a peint « Guernica » en 1937, après le bombardement de la ville basque par l'aviation allemande et italienne.",
+   "ref": "sujet n° 1, question 13",
+   "n": "Le corrigé du livre date ce bombardement du 1er mai 1937 : il a eu lieu le 26 avril 1937."
+  },
+  {
+   "id": "AUTOC-114",
+   "serie": "AUTOC",
+   "num": 114,
+   "theme": "Histoire et culture générale",
+   "q": "Qui est le réalisateur du film « Avatar » (2009) ?",
+   "o": [
+    "George Lucas",
+    "James Cameron",
+    "Luc Besson",
+    "Ron Howard"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« Avatar » (2009) a été réalisé par James Cameron, également réalisateur de « Titanic ».",
+   "ref": "sujet n° 1, question 14"
+  },
+  {
+   "id": "AUTOC-201",
+   "serie": "AUTOC",
+   "num": 201,
+   "theme": "Culture générale",
+   "q": "Parmi ces quatre pièces de théâtre, laquelle n'a pas été écrite par Molière ?",
+   "o": [
+    "Le Jeu de l'amour et du hasard",
+    "Le Malade imaginaire",
+    "Le Tartuffe",
+    "Les Femmes savantes"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Le Jeu de l'amour et du hasard » est une comédie de Marivaux (1730) ; les trois autres pièces sont de Molière.",
+   "ref": "sujet n° 2, question 1"
+  },
+  {
+   "id": "AUTOC-202",
+   "serie": "AUTOC",
+   "num": 202,
+   "theme": "Culture générale",
+   "q": "Quelle est la capitale du Brésil ?",
+   "o": [
+    "Brasilia",
+    "Rio de Janeiro",
+    "Salvador de Bahia",
+    "São Paulo"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Brasilia est la capitale du Brésil depuis 1960 ; Rio de Janeiro l'était auparavant.",
+   "ref": "sujet n° 2, question 2"
+  },
+  {
+   "id": "AUTOC-203",
+   "serie": "AUTOC",
+   "num": 203,
+   "theme": "Culture générale",
+   "q": "De ces quatre villes françaises, laquelle est la plus orientale ?",
+   "o": [
+    "Besançon",
+    "Lyon",
+    "Nancy",
+    "Nice"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Nice est la plus à l'est des quatre villes (environ 7° de longitude est), devant Nancy et Besançon.",
+   "ref": "sujet n° 2, question 3"
+  },
+  {
+   "id": "AUTOC-204",
+   "serie": "AUTOC",
+   "num": 204,
+   "theme": "Culture générale",
+   "q": "Quelle autre ville française que Paris est dotée d'un Centre Pompidou ?",
+   "o": [
+    "Lens",
+    "Metz",
+    "Nancy",
+    "Strasbourg"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Centre Pompidou-Metz a été inauguré en 2010 ; Lens accueille, lui, le Louvre-Lens.",
+   "ref": "sujet n° 2, question 4"
+  },
+  {
+   "id": "AUTOC-205",
+   "serie": "AUTOC",
+   "num": 205,
+   "theme": "Institutions et administration (France)",
+   "q": "Comment sont actuellement désignés les conseillers communautaires des établissements publics de coopération intercommunale (EPCI) ?",
+   "o": [
+    "au suffrage universel direct",
+    "au suffrage universel indirect",
+    "par décision du président du conseil communautaire",
+    "par tirage au sort parmi les conseillers municipaux"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Depuis 2014, dans les communes de 1 000 habitants et plus, les conseillers communautaires sont élus au suffrage universel direct, en même temps que les conseillers municipaux (« fléchage »).",
+   "ref": "sujet n° 2, question 5"
+  },
+  {
+   "id": "AUTOC-206",
+   "serie": "AUTOC",
+   "num": 206,
+   "theme": "Institutions et administration (France)",
+   "q": "Le Chemin des Dames est une bataille de :",
+   "o": [
+    "la guerre de Cent Ans",
+    "la guerre de 1870",
+    "la Première Guerre mondiale",
+    "la Seconde Guerre mondiale"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La bataille du Chemin des Dames, dans l'Aisne, a débuté le 16 avril 1917 sous le commandement du général Nivelle.",
+   "ref": "sujet n° 2, question 6"
+  },
+  {
+   "id": "AUTOC-207",
+   "serie": "AUTOC",
+   "num": 207,
+   "theme": "Institutions et administration (France)",
+   "q": "La loi de séparation des Églises et de l'État a été adoptée en France en :",
+   "o": [
+    "1805",
+    "1901",
+    "1905",
+    "1945"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La loi de séparation des Églises et de l'État date du 9 décembre 1905.",
+   "ref": "sujet n° 2, question 7"
+  },
+  {
+   "id": "AUTOC-208",
+   "serie": "AUTOC",
+   "num": 208,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, la taxe foncière constitue un impôt perçu au profit :",
+   "o": [
+    "de la Sécurité sociale",
+    "de l'État",
+    "de l'Union européenne",
+    "des collectivités territoriales"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "La taxe foncière est un impôt local, perçu au profit des collectivités territoriales (communes, intercommunalités).",
+   "ref": "sujet n° 2, question 8"
+  },
+  {
+   "id": "AUTOC-209",
+   "serie": "AUTOC",
+   "num": 209,
+   "theme": "Culture générale",
+   "q": "Quel est le point commun entre ces quatre personnalités : Geneviève de Gaulle-Anthonioz, Marie Curie, Germaine Tillion et Sophie Berthelot ?",
+   "o": [
+    "Elles ont été choisies pour entrer au Panthéon",
+    "Elles ont fait d'importantes découvertes scientifiques",
+    "Elles ont occupé un portefeuille ministériel",
+    "Elles se sont illustrées par des actes de résistance pendant la Seconde Guerre mondiale"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Toutes quatre reposent au Panthéon : Sophie Berthelot (1907), Marie Curie (1995), Geneviève de Gaulle-Anthonioz et Germaine Tillion (2015).",
+   "ref": "sujet n° 2, question 9"
+  },
+  {
+   "id": "AUTOC-210",
+   "serie": "AUTOC",
+   "num": 210,
+   "theme": "Culture générale",
+   "q": "Quelle est, en euros, la principale production agricole française ?",
+   "o": [
+    "le lait",
+    "les céréales",
+    "les fruits et légumes",
+    "les vins"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "Selon le corrigé du livre, les céréales sont la principale production agricole française en valeur ; ce classement peut varier selon les années (vins, lait).",
+   "ref": "sujet n° 2, question 10"
+  },
+  {
+   "id": "AUTOC-211",
+   "serie": "AUTOC",
+   "num": 211,
+   "theme": "Culture générale",
+   "q": "Que signifie l'abréviation « Cedex » ?",
+   "o": [
+    "courrier d'entreprise à distribution exceptionnelle",
+    "courrier entre départements exclus",
+    "courrier envoyé aux départements en exclusivité",
+    "courrier exceptionnel distribué en express"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Cedex signifie « courrier d'entreprise à distribution exceptionnelle ».",
+   "ref": "sujet n° 2, question 11"
+  },
+  {
+   "id": "AUTOC-212",
+   "serie": "AUTOC",
+   "num": 212,
+   "theme": "Culture générale",
+   "q": "Dans la série américaine « 24 heures chrono », quel est le nom du personnage principal ?",
+   "o": [
+    "Jack Bauer",
+    "Jack Ryan",
+    "Jack Sparrow",
+    "Jack Reacher"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Jack Bauer, incarné par Kiefer Sutherland, est le héros de « 24 heures chrono ».",
+   "ref": "sujet n° 2, question 12",
+   "n": "Le livre écrit « Jack Reachel » pour Jack Reacher."
+  },
+  {
+   "id": "AUTOC-213",
+   "serie": "AUTOC",
+   "num": 213,
+   "theme": "Culture générale",
+   "q": "Qui a réalisé le film « 2001 : l'Odyssée de l'espace » ?",
+   "o": [
+    "George Lucas",
+    "Luc Besson",
+    "Stanley Kubrick",
+    "Steven Spielberg"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "« 2001 : l'Odyssée de l'espace » (1968) est un film de Stanley Kubrick.",
+   "ref": "sujet n° 2, question 13"
+  },
+  {
+   "id": "AUTOC-214",
+   "serie": "AUTOC",
+   "num": 214,
+   "theme": "Culture générale",
+   "q": "De quelle nationalité sont les membres du groupe Daft Punk ?",
+   "o": [
+    "belge",
+    "britannique",
+    "canadienne",
+    "française"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Daft Punk était un duo français de musique électronique, originaire de Paris.",
+   "ref": "sujet n° 2, question 14"
+  },
+  {
+   "id": "AUTOC-301",
+   "serie": "AUTOC",
+   "num": 301,
+   "theme": "Culture générale",
+   "q": "Le scandale surnommé « l'affaire du collier », qui eut un grand retentissement en France, ternit la réputation de la reine :",
+   "o": [
+    "Marie Ire Stuart",
+    "Marie-Antoinette",
+    "Margot",
+    "Catherine de Médicis"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "L'affaire du collier (1785) est une escroquerie montée par la comtesse de La Motte ; elle éclaboussa la reine Marie-Antoinette, pourtant étrangère à l'affaire.",
+   "ref": "sujet n° 3, question 1"
+  },
+  {
+   "id": "AUTOC-302",
+   "serie": "AUTOC",
+   "num": 302,
+   "theme": "Culture générale",
+   "q": "Quel endroit était la principale place publique administrative, religieuse et commerciale des villes grecques antiques ?",
+   "o": [
+    "l'acropole",
+    "l'agora",
+    "la boulè",
+    "le forum"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "L'agora était la place publique des cités grecques ; l'acropole en était la citadelle, et le forum l'équivalent romain.",
+   "ref": "sujet n° 3, question 2"
+  },
+  {
+   "id": "AUTOC-303",
+   "serie": "AUTOC",
+   "num": 303,
+   "theme": "Culture générale",
+   "q": "Quel est l'intrus parmi les propositions suivantes ?",
+   "o": [
+    "Joel et Ethan Coen",
+    "Jean-Pierre et Luc Dardenne",
+    "Auguste et Jean Renoir",
+    "Peter et Bobby Farrelly"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les Coen, les Dardenne et les Farrelly sont des frères cinéastes ; Auguste Renoir (peintre) et Jean Renoir (cinéaste) sont père et fils.",
+   "ref": "sujet n° 3, question 3"
+  },
+  {
+   "id": "AUTOC-304",
+   "serie": "AUTOC",
+   "num": 304,
+   "theme": "Culture générale",
+   "q": "Comment s'appelait l'atelier d'artistes ouvert par Andy Warhol à New York en 1964 ?",
+   "o": [
+    "le Pop's Art",
+    "le Velvet Underground",
+    "la Factory",
+    "l'Arsenal"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "En 1964, Andy Warhol ouvre la Factory, un atelier new-yorkais qui sert aussi de studio et de lieu de rencontre.",
+   "ref": "sujet n° 3, question 4"
+  },
+  {
+   "id": "AUTOC-305",
+   "serie": "AUTOC",
+   "num": 305,
+   "theme": "Culture générale",
+   "q": "Parmi ces sites inscrits au patrimoine mondial de l'Unesco, lequel abrite un mausolée ?",
+   "o": [
+    "le Taj Mahal",
+    "l'Alhambra",
+    "Persépolis",
+    "Pergame"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le Taj Mahal, bâti près d'Agra au XVIIe siècle, est le mausolée élevé par l'empereur Shah Jahan à la mémoire de son épouse.",
+   "ref": "sujet n° 3, question 5"
+  },
+  {
+   "id": "AUTOC-306",
+   "serie": "AUTOC",
+   "num": 306,
+   "theme": "Culture générale",
+   "q": "Avec quel artiste la sculptrice Camille Claudel entretint-elle une relation ?",
+   "o": [
+    "Henri Matisse",
+    "Auguste Rodin",
+    "Paul Gauguin",
+    "Alberto Giacometti"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Camille Claudel fut l'élève, la collaboratrice et la compagne d'Auguste Rodin.",
+   "ref": "sujet n° 3, question 6"
+  },
+  {
+   "id": "AUTOC-307",
+   "serie": "AUTOC",
+   "num": 307,
+   "theme": "Culture générale",
+   "q": "Lequel de ces pays n'a pas de façade maritime sur la mer Noire ?",
+   "o": [
+    "la Bulgarie",
+    "la Géorgie",
+    "l'Albanie",
+    "l'Ukraine"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "L'Albanie est bordée par les mers Adriatique et Ionienne ; la Bulgarie, la Géorgie et l'Ukraine donnent sur la mer Noire.",
+   "ref": "sujet n° 3, question 7"
+  },
+  {
+   "id": "AUTOC-308",
+   "serie": "AUTOC",
+   "num": 308,
+   "theme": "Institutions et administration (France)",
+   "q": "En France, quelle institution vérifie la validité des candidatures à l'élection présidentielle ?",
+   "o": [
+    "l'Assemblée nationale",
+    "le Sénat",
+    "la Cour des comptes",
+    "le Conseil constitutionnel"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "En France, le Conseil constitutionnel établit la liste des candidats à l'élection présidentielle et veille à la régularité du scrutin.",
+   "ref": "sujet n° 3, question 8"
+  },
+  {
+   "id": "AUTOC-309",
+   "serie": "AUTOC",
+   "num": 309,
+   "theme": "Culture générale",
+   "q": "Parmi ces compositeurs, lequel n'est pas contemporain des trois autres ?",
+   "o": [
+    "Jean-Baptiste Lully",
+    "François Couperin",
+    "Francis Poulenc",
+    "Jean-Philippe Rameau"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Francis Poulenc (1899-1963) est un compositeur du XXe siècle ; Lully, Couperin et Rameau sont des compositeurs baroques des XVIIe et XVIIIe siècles.",
+   "ref": "sujet n° 3, question 9"
+  },
+  {
+   "id": "AUTOC-310",
+   "serie": "AUTOC",
+   "num": 310,
+   "theme": "Culture générale",
+   "q": "Quelle était, à l'origine, la fonction de Facebook ?",
+   "o": [
+    "un site de rencontres",
+    "un réseau social pour cuisiniers",
+    "un album photo en ligne",
+    "un réseau social étudiant"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Créé en 2004 par Mark Zuckerberg, Facebook était d'abord un réseau social réservé aux étudiants de Harvard.",
+   "ref": "sujet n° 3, question 10"
+  },
+  {
+   "id": "AUTOC-311",
+   "serie": "AUTOC",
+   "num": 311,
+   "theme": "Culture générale",
+   "q": "Laquelle de ces disciplines n'était pas au programme des Jeux olympiques de 2016 ?",
+   "o": [
+    "la natation en eau libre",
+    "le karaté",
+    "le football",
+    "le golf"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le karaté a fait ses débuts olympiques aux Jeux de Tokyo 2020 ; le golf, la natation en eau libre et le football figuraient au programme de Rio 2016.",
+   "ref": "sujet n° 3, question 11"
+  },
+  {
+   "id": "AUTOC-312",
+   "serie": "AUTOC",
+   "num": 312,
+   "theme": "Culture générale",
+   "q": "Combien de temps faut-il à la Terre pour faire le tour du Soleil ?",
+   "o": [
+    "une journée",
+    "28 jours",
+    "un an",
+    "dix ans"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "La Terre fait le tour du Soleil en un an, soit environ 365,25 jours.",
+   "ref": "sujet n° 3, question 12"
+  },
+  {
+   "id": "AUTOC-313",
+   "serie": "AUTOC",
+   "num": 313,
+   "theme": "Culture générale",
+   "q": "Le plafond de l'Opéra Garnier, à Paris, inauguré le 23 septembre 1964, a été peint par :",
+   "o": [
+    "Bernard Buffet",
+    "Edgar Degas",
+    "Marcel Duchamp",
+    "Marc Chagall"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Marc Chagall a peint le nouveau plafond de l'Opéra Garnier, inauguré en 1964.",
+   "ref": "sujet n° 3, question 13"
+  },
+  {
+   "id": "AUTOC-314",
+   "serie": "AUTOC",
+   "num": 314,
+   "theme": "Culture générale",
+   "q": "Le siège officiel du Parlement européen se situe à :",
+   "o": [
+    "Luxembourg",
+    "Strasbourg",
+    "Bruxelles",
+    "La Haye"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le siège officiel du Parlement européen est à Strasbourg, où se tiennent ses sessions plénières ; il travaille aussi à Bruxelles et à Luxembourg.",
+   "ref": "sujet n° 3, question 14"
+  },
+  {
+   "id": "AUTOC-315",
+   "serie": "AUTOC",
+   "num": 315,
+   "theme": "Culture générale",
+   "q": "Parmi ces pays, lequel n'est pas membre du groupe informel d'économies avancées dénommé « G7 » ?",
+   "o": [
+    "l'Italie",
+    "le Canada",
+    "la Chine",
+    "le Japon"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Le G7 réunit l'Allemagne, le Canada, les États-Unis, la France, l'Italie, le Japon et le Royaume-Uni ; la Chine n'en fait pas partie.",
+   "ref": "sujet n° 3, question 15"
+  },
+  {
+   "id": "AUTOC-316",
+   "serie": "AUTOC",
+   "num": 316,
+   "theme": "Culture générale",
+   "q": "Lequel de ces termes n'appartient pas au monde du théâtre ?",
+   "o": [
+    "le quatrième mur",
+    "côté jardin",
+    "l'œil du prince",
+    "le bout à bout"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Le « bout à bout » est un terme de montage cinématographique ; le quatrième mur, le côté jardin et l'œil du prince relèvent du théâtre.",
+   "ref": "sujet n° 3, question 16"
+  },
+  {
+   "id": "AUTOC-317",
+   "serie": "AUTOC",
+   "num": 317,
+   "theme": "Culture générale",
+   "q": "Mars est également appelée la « planète rouge » en raison :",
+   "o": [
+    "d'une illusion d'optique due à la chaleur du sol",
+    "de la présence d'oxyde de fer dans le sol",
+    "de la présence de diazote dans son atmosphère",
+    "de la lave en fusion présente à sa surface"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La couleur rouge de Mars vient de l'oxyde de fer (la rouille) présent dans ses poussières et ses roches.",
+   "ref": "sujet n° 3, question 17"
+  },
+  {
+   "id": "AUTOC-318",
+   "serie": "AUTOC",
+   "num": 318,
+   "theme": "Culture générale",
+   "q": "Eleanor Roosevelt a présidé le comité de rédaction :",
+   "o": [
+    "de la Déclaration d'indépendance des États-Unis",
+    "du Pacte international relatif aux droits civils et politiques",
+    "de la Déclaration universelle des droits de l'homme",
+    "de la Convention sur l'élimination de toutes les formes de discrimination à l'égard des femmes"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Eleanor Roosevelt présida la commission chargée de rédiger la Déclaration universelle des droits de l'homme, adoptée le 10 décembre 1948.",
+   "ref": "sujet n° 3, question 18"
+  },
+  {
+   "id": "AUTOC-319",
+   "serie": "AUTOC",
+   "num": 319,
+   "theme": "Culture générale",
+   "q": "Figure emblématique de la philosophie des Lumières, François-Marie Arouet est également appelé :",
+   "o": [
+    "Diderot",
+    "Voltaire",
+    "Montesquieu",
+    "Rousseau"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "François-Marie Arouet a pris le nom de plume de Voltaire.",
+   "ref": "sujet n° 3, question 19"
+  },
+  {
+   "id": "AUTOC-320",
+   "serie": "AUTOC",
+   "num": 320,
+   "theme": "Culture générale",
+   "q": "L'essai politico-philosophique intitulé « Manifeste du Parti communiste » a été coécrit par :",
+   "o": [
+    "Karl Marx et Léon Walras",
+    "Friedrich Engels et Léon Walras",
+    "John Maynard Keynes et Karl Marx",
+    "Karl Marx et Friedrich Engels"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Karl Marx et Friedrich Engels ont rédigé le « Manifeste du Parti communiste » en 1847-1848.",
+   "ref": "sujet n° 3, question 20"
+  },
+  {
+   "id": "QR-001",
+   "serie": "QR",
+   "num": 1,
+   "theme": "Culture générale",
+   "q": "Qui a été la première femme à recevoir un prix Nobel, en 1903 ?",
+   "o": [
+    "Irène Joliot-Curie",
+    "Marie Curie",
+    "Bertha von Suttner",
+    "Selma Lagerlöf"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Marie Curie reçut en 1903 le prix Nobel de physique, avec Pierre Curie et Henri Becquerel, puis le prix de chimie en 1911."
+  },
+  {
+   "id": "QR-002",
+   "serie": "QR",
+   "num": 2,
+   "theme": "Culture générale",
+   "q": "En quelle année le mur de Berlin est-il tombé ?",
+   "o": [
+    "1987",
+    "1989",
+    "1990",
+    "1991"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le mur est tombé dans la nuit du 9 au 10 novembre 1989 ; la réunification allemande a suivi le 3 octobre 1990."
+  },
+  {
+   "id": "QR-003",
+   "serie": "QR",
+   "num": 3,
+   "theme": "Culture générale",
+   "q": "Quel est l'élément dont le symbole chimique est Au ?",
+   "o": [
+    "L'argent",
+    "L'aluminium",
+    "L'or",
+    "Le cuivre"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Au vient du latin aurum (or) ; l'argent est Ag, l'aluminium Al et le cuivre Cu."
+  },
+  {
+   "id": "QR-004",
+   "serie": "QR",
+   "num": 4,
+   "theme": "Culture générale",
+   "q": "Quel est le signe opposé au Scorpion dans le zodiaque ?",
+   "o": [
+    "Le Bélier",
+    "Le Lion",
+    "Le Verseau",
+    "Le Taureau"
+   ],
+   "a": 3,
+   "st": "ok",
+   "x": "Sur la roue du zodiaque, le Taureau fait face au Scorpion."
+  },
+  {
+   "id": "QR-005",
+   "serie": "QR",
+   "num": 5,
+   "theme": "Culture générale",
+   "q": "Qui a écrit le roman américain classique « Their Eyes Were Watching God » (« Une femme noire ») ?",
+   "o": [
+    "Zora Neale Hurston",
+    "Toni Morrison",
+    "Maya Angelou",
+    "Harper Lee"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Zora Neale Hurston publia ce roman en 1937 ; c'est une figure de la Harlem Renaissance."
+  },
+  {
+   "id": "QR-006",
+   "serie": "QR",
+   "num": 6,
+   "theme": "Culture générale",
+   "q": "Qui a tiré, en 1914, le coup de feu qui a déclenché la Première Guerre mondiale ?",
+   "o": [
+    "L'archiduc François-Ferdinand",
+    "Gavrilo Princip",
+    "Raoul Villain",
+    "Nedeljko Čabrinović"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "Le 28 juin 1914 à Sarajevo, Gavrilo Princip assassina l'archiduc François-Ferdinand, héritier de l'Autriche-Hongrie.",
+   "n": "Le document répond « l'archiduc François-Ferdinand » : c'est la victime de l'attentat, pas le tireur."
+  },
+  {
+   "id": "QR-007",
+   "serie": "QR",
+   "num": 7,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus petite planète du système solaire ?",
+   "o": [
+    "Mars",
+    "Mercure",
+    "Vénus",
+    "Pluton"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Mercure est la plus petite planète ; Pluton n'est plus considérée comme une planète depuis 2006, mais comme une planète naine."
+  },
+  {
+   "id": "QR-008",
+   "serie": "QR",
+   "num": 8,
+   "theme": "Culture générale",
+   "q": "Quel spectacle de Broadway a été le plus lucratif de tous les temps ?",
+   "o": [
+    "Le Fantôme de l'Opéra",
+    "Wicked",
+    "Le Roi Lion",
+    "Hamilton"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "« Le Roi Lion » détient le record des recettes cumulées à Broadway ; « Le Fantôme de l'Opéra » détient celui de la longévité."
+  },
+  {
+   "id": "QR-009",
+   "serie": "QR",
+   "num": 9,
+   "theme": "Culture générale",
+   "q": "Dans quel bar de New York s'est déroulé, en 1969, le soulèvement considéré comme le point de départ du mouvement moderne pour les droits des personnes LGBTQ+ ?",
+   "o": [
+    "Le Studio 54",
+    "Le Stonewall Inn",
+    "Le Cotton Club",
+    "Le CBGB"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les émeutes de Stonewall commencèrent le 28 juin 1969 après une descente de police dans ce bar de Greenwich Village."
+  },
+  {
+   "id": "QR-010",
+   "serie": "QR",
+   "num": 10,
+   "theme": "Culture générale",
+   "q": "Comment s'appellent les 22 premières cartes d'un jeu de tarot divinatoire ?",
+   "o": [
+    "Les arcanes mineurs",
+    "Les figures",
+    "Les arcanes majeurs",
+    "Les honneurs"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les 22 arcanes majeurs (le Bateleur, la Papesse…) précèdent les 56 arcanes mineurs."
+  },
+  {
+   "id": "QR-011",
+   "serie": "QR",
+   "num": 11,
+   "theme": "Culture générale",
+   "q": "Quel est le nom de l'hôtel du roman (et du film) « Shining » de Stephen King, inspiré du Stanley Hotel, dans le Colorado ?",
+   "o": [
+    "Le Bates Motel",
+    "L'hôtel California",
+    "L'hôtel Overlook",
+    "Le Grand Budapest Hotel"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "L'Overlook est l'hôtel isolé où se déroule « Shining » (1977), adapté au cinéma par Stanley Kubrick en 1980."
+  },
+  {
+   "id": "QR-012",
+   "serie": "QR",
+   "num": 12,
+   "theme": "Culture générale",
+   "q": "Quelle est la capitale de l'Inde ?",
+   "o": [
+    "Mumbai",
+    "New Delhi",
+    "Calcutta",
+    "Bangalore"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "New Delhi est la capitale de l'Inde ; Calcutta l'avait été jusqu'en 1911, et Mumbai est la capitale économique."
+  },
+  {
+   "id": "QR-013",
+   "serie": "QR",
+   "num": 13,
+   "theme": "Culture générale",
+   "q": "Quels sont les deux États américains qui partagent des frontières avec le plus grand nombre d'autres États ?",
+   "o": [
+    "Le Texas et la Californie",
+    "Le Tennessee et le Missouri",
+    "Le Kentucky et l'Illinois",
+    "Le Colorado et le Wyoming"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le Tennessee et le Missouri ont chacun huit États voisins."
+  },
+  {
+   "id": "QR-014",
+   "serie": "QR",
+   "num": 14,
+   "theme": "Culture générale",
+   "q": "Quel est le nom le plus courant du portrait officiellement intitulé « La Gioconda », peint à Florence à partir de 1503 ?",
+   "o": [
+    "La Dame à l'hermine",
+    "La Joconde",
+    "La Belle Ferronnière",
+    "La Madone Litta"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« La Gioconda », ou « Mona Lisa », est connue en français sous le nom de « La Joconde » ; elle est exposée au Louvre."
+  },
+  {
+   "id": "QR-015",
+   "serie": "QR",
+   "num": 15,
+   "theme": "Culture générale",
+   "q": "Dans un restaurant, sous quel nom générique la viande de cerf (et de gros gibier) apparaît-elle sur le menu ?",
+   "o": [
+    "La venaison",
+    "Le chevreuil",
+    "La hampe",
+    "Le gibier à plume"
+   ],
+   "a": 0,
+   "st": "corrigee",
+   "x": "La venaison désigne la chair du gros gibier (cerf, chevreuil, daim, sanglier).",
+   "n": "Le document répond « le chevreuil » : le chevreuil est une autre espèce que le cerf ; le terme générique est « venaison » (en anglais venison)."
+  },
+  {
+   "id": "QR-016",
+   "serie": "QR",
+   "num": 16,
+   "theme": "Culture générale",
+   "q": "Sous quel pseudonyme l'auteur de la série à succès des quatre « romans napolitains », adaptée par HBO, publie-t-il ses œuvres ?",
+   "o": [
+    "Elena Ferrante",
+    "Alessandro Baricco",
+    "Erri De Luca",
+    "Roberto Saviano"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Elena Ferrante est le pseudonyme de l'auteur de « L'Amie prodigieuse » et des trois romans qui la suivent ; son identité réelle n'est pas officiellement connue.",
+   "n": "Orthographe corrigée : le document écrit « Elana Ferante »."
+  },
+  {
+   "id": "QR-017",
+   "serie": "QR",
+   "num": 17,
+   "theme": "Culture générale",
+   "q": "Selon l'Organisation météorologique mondiale, où a-t-on enregistré la température la plus élevée jamais relevée sur Terre ?",
+   "o": [
+    "Dans le désert du Lut, en Iran",
+    "Dans la Vallée de la Mort, en Californie",
+    "À Al-Aziziya, en Libye",
+    "Dans le désert d'Atacama, au Chili"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "L'OMM retient 56,7 °C (134 °F), relevés le 10 juillet 1913 à Furnace Creek, dans la Vallée de la Mort ; le record libyen d'Al-Aziziya a été invalidé en 2012."
+  },
+  {
+   "id": "QR-018",
+   "serie": "QR",
+   "num": 18,
+   "theme": "Culture générale",
+   "q": "Qui détient le record de victoires aux Primetime Emmy Awards dans la catégorie « meilleur animateur d'un programme de téléréalité ou de compétition » ?",
+   "o": [
+    "Ryan Seacrest",
+    "Heidi Klum",
+    "RuPaul",
+    "Jeff Probst"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "RuPaul, animateur de « RuPaul's Drag Race », détient ce record."
+  },
+  {
+   "id": "QR-019",
+   "serie": "QR",
+   "num": 19,
+   "theme": "Culture générale",
+   "q": "Quel a été le premier roman publié par Honoré de Balzac sous son propre nom ?",
+   "o": [
+    "Le Père Goriot",
+    "Eugénie Grandet",
+    "Les Chouans",
+    "La Peau de chagrin"
+   ],
+   "a": 2,
+   "st": "nuance",
+   "x": "« Les Chouans » (1829) est le premier roman que Balzac signa de son nom ; il avait auparavant publié des romans sous pseudonyme.",
+   "n": "Le document parle du « premier livre publié » : Balzac avait déjà publié des romans sous pseudonyme avant « Les Chouans »."
+  },
+  {
+   "id": "QR-020",
+   "serie": "QR",
+   "num": 20,
+   "theme": "Culture générale",
+   "q": "Quels sont les deux pays qui partagent la plus longue frontière internationale ?",
+   "o": [
+    "La Russie et le Kazakhstan",
+    "Le Canada et les États-Unis",
+    "L'Argentine et le Chili",
+    "La Chine et la Mongolie"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La frontière entre le Canada et les États-Unis mesure environ 8 900 km, Alaska compris."
+  },
+  {
+   "id": "QR-021",
+   "serie": "QR",
+   "num": 21,
+   "theme": "Culture générale",
+   "q": "Quelle ville a accueilli les Jeux olympiques d'hiver de 2014 ?",
+   "o": [
+    "Pyeongchang",
+    "Vancouver",
+    "Sotchi",
+    "Turin"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les JO d'hiver 2014 se sont tenus à Sotchi, en Russie ; Vancouver les avait accueillis en 2010, Pyeongchang en 2018."
+  },
+  {
+   "id": "QR-022",
+   "serie": "QR",
+   "num": 22,
+   "theme": "Culture générale",
+   "q": "Quel spectacle détient le record de longévité à Broadway ?",
+   "o": [
+    "Chicago",
+    "Le Fantôme de l'Opéra",
+    "Cats",
+    "Le Roi Lion"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "« Le Fantôme de l'Opéra » a fermé en avril 2023 après un record de 13 981 représentations.",
+   "n": "Le document demande « le spectacle le plus ancien » ; il s'agit du spectacle resté le plus longtemps à l'affiche."
+  },
+  {
+   "id": "QR-023",
+   "serie": "QR",
+   "num": 23,
+   "theme": "Culture générale",
+   "q": "Quel est le plus grand organe du corps humain ?",
+   "o": [
+    "Le foie",
+    "Le cerveau",
+    "La peau",
+    "Les poumons"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Avec près de 2 m² chez l'adulte, la peau est le plus grand organe du corps ; le foie est le plus gros organe interne."
+  },
+  {
+   "id": "QR-024",
+   "serie": "QR",
+   "num": 24,
+   "theme": "Culture générale",
+   "q": "En quelle année le premier iPhone a-t-il été commercialisé ?",
+   "o": [
+    "2005",
+    "2007",
+    "2008",
+    "2010"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Présenté en janvier 2007 par Steve Jobs, le premier iPhone a été mis en vente aux États-Unis le 29 juin 2007."
+  },
+  {
+   "id": "QR-025",
+   "serie": "QR",
+   "num": 25,
+   "theme": "Culture générale",
+   "q": "Quels sont les prénoms des quatre personnages principaux de la série française « H » ?",
+   "o": [
+    "Jamel, Brahim, Aymé et Kader",
+    "Jamel, Sabri, Aymé et Béatrice",
+    "Omar, Fred, Jamel et Aymé",
+    "Kad, Olivier, Jamel et Sabri"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document non confirmée : le document répond « Jamel, Brahim, Aymé et Kader » ; à vérifier avant de la retenir."
+  },
+  {
+   "id": "QR-026",
+   "serie": "QR",
+   "num": 26,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus longue chaîne de montagnes émergée du monde ?",
+   "o": [
+    "L'Himalaya",
+    "Les Rocheuses",
+    "Les Andes",
+    "L'Oural"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Les Andes s'étendent sur environ 7 000 km le long de l'Amérique du Sud ; seule la dorsale océanique, sous-marine, est plus longue."
+  },
+  {
+   "id": "QR-027",
+   "serie": "QR",
+   "num": 27,
+   "theme": "Culture générale",
+   "q": "En quelle année Netflix, auparavant entreprise de location de DVD, a-t-il lancé son service de streaming ?",
+   "o": [
+    "2003",
+    "2007",
+    "2010",
+    "2013"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Netflix a lancé son offre de vidéo à la demande en janvier 2007."
+  },
+  {
+   "id": "QR-028",
+   "serie": "QR",
+   "num": 28,
+   "theme": "Culture générale",
+   "q": "Combien de pieds y a-t-il dans un yard ?",
+   "o": [
+    "Deux",
+    "Trois",
+    "Douze",
+    "Trente-six"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "Un yard (environ 91,4 cm) vaut 3 pieds, soit 36 pouces.",
+   "n": "Le document traduit « yard » par « cour » ; l'unité s'appelle yard (ou verge)."
+  },
+  {
+   "id": "QR-029",
+   "serie": "QR",
+   "num": 29,
+   "theme": "Culture générale",
+   "q": "Combien d'os les requins ont-ils ?",
+   "o": [
+    "Aucun",
+    "206",
+    "Environ 100",
+    "Plus de 300"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le squelette des requins est entièrement constitué de cartilage : ils n'ont aucun os."
+  },
+  {
+   "id": "QR-030",
+   "serie": "QR",
+   "num": 30,
+   "theme": "Culture générale",
+   "q": "Quel est le mammifère sauvage le plus meurtrier pour l'homme ?",
+   "o": [
+    "Le lion",
+    "L'hippopotame",
+    "L'éléphant",
+    "Le crocodile"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "L'hippopotame est souvent présenté comme le grand mammifère sauvage le plus dangereux d'Afrique ; le crocodile est un reptile.",
+   "n": "Si l'on compte les décès dus à la rage, le chien cause bien plus de morts."
+  },
+  {
+   "id": "QR-031",
+   "serie": "QR",
+   "num": 31,
+   "theme": "Culture générale",
+   "q": "Quel est l'animal le plus mortel au monde ?",
+   "o": [
+    "Le requin",
+    "Le serpent",
+    "Le moustique",
+    "L'hippopotame"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "En transmettant le paludisme, la dengue ou le virus Zika, le moustique cause chaque année des centaines de milliers de morts."
+  },
+  {
+   "id": "QR-032",
+   "serie": "QR",
+   "num": 32,
+   "theme": "Culture générale",
+   "q": "Dans quel pays est né le révolutionnaire marxiste Che Guevara ?",
+   "o": [
+    "Cuba",
+    "La Bolivie",
+    "L'Argentine",
+    "Le Mexique"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Ernesto « Che » Guevara est né à Rosario, en Argentine, en 1928 ; il a été tué en Bolivie en 1967."
+  },
+  {
+   "id": "QR-033",
+   "serie": "QR",
+   "num": 33,
+   "theme": "Culture générale",
+   "q": "Quelle est la capitale de Singapour ?",
+   "o": [
+    "Singapour",
+    "Kuala Lumpur",
+    "Jurong",
+    "Changi"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Singapour est une cité-État : la ville est elle-même la capitale du pays."
+  },
+  {
+   "id": "QR-034",
+   "serie": "QR",
+   "num": 34,
+   "theme": "Culture générale",
+   "q": "Quel est le nom du phénomène météorologique également appelé « ouragan hivernal » ?",
+   "o": [
+    "Un blizzard",
+    "Un cyclone-bombe",
+    "Un derecho",
+    "Une tempête de verglas"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Un cyclone-bombe est une dépression qui se creuse très vite (d'au moins 24 hPa en 24 heures), provoquant des vents violents et de fortes chutes de neige."
+  },
+  {
+   "id": "QR-035",
+   "serie": "QR",
+   "num": 35,
+   "theme": "Culture générale",
+   "q": "Quel a été le premier pays à accorder le droit de vote aux femmes ?",
+   "o": [
+    "La Nouvelle-Zélande",
+    "La Finlande",
+    "Le Royaume-Uni",
+    "La France"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "En 1893, la Nouvelle-Zélande a accordé le droit de vote à toutes les femmes « sujets britanniques », y compris les femmes maories ; la France ne l'a fait qu'en 1944."
+  },
+  {
+   "id": "QR-036",
+   "serie": "QR",
+   "num": 36,
+   "theme": "Culture générale",
+   "q": "En quelle année l'affaire Obergefell v. Hodges, qui a fait date pour les droits civils des personnes LGBTQ+, a-t-elle été jugée ?",
+   "o": [
+    "2008",
+    "2012",
+    "2015",
+    "2017"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Le 26 juin 2015, la Cour suprême des États-Unis a reconnu le mariage entre personnes de même sexe dans tout le pays."
+  },
+  {
+   "id": "QR-037",
+   "serie": "QR",
+   "num": 37,
+   "theme": "Culture générale",
+   "q": "Comment s'appellent les quatre sœurs March dans « Les Filles du docteur March » ?",
+   "o": [
+    "Meg, Jo, Beth et Amy",
+    "Jane, Elizabeth, Mary et Kitty",
+    "Anne, Diana, Josie et Ruby",
+    "Laura, Mary, Carrie et Grace"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Le roman de Louisa May Alcott (1868) suit Meg, Jo, Beth et Amy March ; Jane et Elizabeth sont des sœurs Bennet (« Orgueil et Préjugés »)."
+  },
+  {
+   "id": "QR-038",
+   "serie": "QR",
+   "num": 38,
+   "theme": "Culture générale",
+   "q": "Quelle garniture de dessert, composée de blancs d'œufs et de crème de tartre, est souvent utilisée pour les tartes ?",
+   "o": [
+    "La chantilly",
+    "La meringue",
+    "La crème pâtissière",
+    "Le nappage"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La meringue, faite de blancs d'œufs battus et de sucre, garnit notamment la tarte au citron meringuée."
+  },
+  {
+   "id": "QR-040",
+   "serie": "QR",
+   "num": 40,
+   "theme": "Culture générale",
+   "q": "Dans la mythologie grecque, qui était le messager des dieux ?",
+   "o": [
+    "Apollon",
+    "Hermès",
+    "Arès",
+    "Hestia"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Hermès, le Mercure des Romains, est le messager des dieux de l'Olympe.",
+   "n": "Le document passe directement de la question 38 à la question 40."
+  },
+  {
+   "id": "QR-041",
+   "serie": "QR",
+   "num": 41,
+   "theme": "Culture générale",
+   "q": "Quel était le nom de jeune fille d'Eleanor Roosevelt avant son mariage avec Franklin D. Roosevelt ?",
+   "o": [
+    "Delano",
+    "Roosevelt",
+    "Howe",
+    "Bouvier"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Nièce du président Theodore Roosevelt, Eleanor Roosevelt était une cousine éloignée de Franklin."
+  },
+  {
+   "id": "QR-042",
+   "serie": "QR",
+   "num": 42,
+   "theme": "Culture générale",
+   "q": "Quel était le nom de naissance du boxeur Muhammad Ali ?",
+   "o": [
+    "Cassius Clay",
+    "Joe Frazier",
+    "Malcolm Little",
+    "Sonny Liston"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Né Cassius Marcellus Clay Jr. en 1942, il prit le nom de Muhammad Ali en 1964 ; Malcolm Little est le nom de naissance de Malcolm X."
+  },
+  {
+   "id": "QR-043",
+   "serie": "QR",
+   "num": 43,
+   "theme": "Culture générale",
+   "q": "Dans quelle ville les premières infections au COVID-19 ont-elles été détectées ?",
+   "o": [
+    "Wuhan",
+    "Pékin",
+    "Shanghai",
+    "Hong Kong"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Les premiers cas ont été signalés fin 2019 à Wuhan, dans la province chinoise du Hubei."
+  },
+  {
+   "id": "QR-044",
+   "serie": "QR",
+   "num": 44,
+   "theme": "Culture générale",
+   "q": "Aux échecs, dans quelle direction le fou peut-il se déplacer ?",
+   "o": [
+    "En ligne droite",
+    "En diagonale",
+    "En « L »",
+    "D'une case dans toutes les directions"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le fou se déplace en diagonale, d'autant de cases qu'il le souhaite ; le cavalier se déplace en « L »."
+  },
+  {
+   "id": "QR-045",
+   "serie": "QR",
+   "num": 45,
+   "theme": "Culture générale",
+   "q": "Quelle célébrité a inspiré le nom du premier mammifère cloné, une brebis née en 1996 ?",
+   "o": [
+    "Dolly Parton",
+    "Madonna",
+    "Marilyn Monroe",
+    "Whitney Houston"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Clonée en Écosse à partir d'une cellule de glande mammaire, la brebis Dolly doit son nom à la chanteuse Dolly Parton."
+  },
+  {
+   "id": "QR-046",
+   "serie": "QR",
+   "num": 46,
+   "theme": "Culture générale",
+   "q": "Quel événement solaire se produit le 20 ou le 21 mars et marque le début du printemps dans l'hémisphère Nord ?",
+   "o": [
+    "Le solstice d'été",
+    "L'équinoxe de printemps",
+    "Le solstice d'hiver",
+    "L'équinoxe d'automne"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "À l'équinoxe, le jour et la nuit ont presque la même durée.",
+   "n": "Dans l'hémisphère Sud, donc à Madagascar, l'équinoxe de mars marque au contraire le début de l'automne ; l'énoncé a été précisé."
+  },
+  {
+   "id": "QR-047",
+   "serie": "QR",
+   "num": 47,
+   "theme": "Culture générale",
+   "q": "Quel est le raccourci clavier de la fonction « coller » sur la plupart des ordinateurs ?",
+   "o": [
+    "Ctrl + C",
+    "Ctrl + V",
+    "Ctrl + X",
+    "Ctrl + Z"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Ctrl + C copie, Ctrl + X coupe, Ctrl + V colle et Ctrl + Z annule."
+  },
+  {
+   "id": "QR-048",
+   "serie": "QR",
+   "num": 48,
+   "theme": "Culture générale",
+   "q": "Quel fleuve traverse Paris ?",
+   "o": [
+    "La Loire",
+    "La Seine",
+    "Le Rhône",
+    "La Garonne"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La Seine traverse Paris avant de se jeter dans la Manche, au Havre."
+  },
+  {
+   "id": "QR-049",
+   "serie": "QR",
+   "num": 49,
+   "theme": "Culture générale",
+   "q": "Quelle est la capitale de l'Iowa, aux États-Unis ?",
+   "o": [
+    "Iowa City",
+    "Des Moines",
+    "Cedar Rapids",
+    "Davenport"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Des Moines est la capitale et la plus grande ville de l'Iowa."
+  },
+  {
+   "id": "QR-050",
+   "serie": "QR",
+   "num": 50,
+   "theme": "Culture générale",
+   "q": "Quelle est la langue la plus parlée au Brésil ?",
+   "o": [
+    "L'espagnol",
+    "Le portugais",
+    "L'anglais",
+    "Le tupi"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Ancienne colonie portugaise, le Brésil est le plus grand pays lusophone du monde."
+  },
+  {
+   "id": "QR-051",
+   "serie": "QR",
+   "num": 51,
+   "theme": "Culture générale",
+   "q": "À quelle artiste attribue-t-on cette citation : « Je suis ma propre muse, je suis le sujet que je connais le mieux » ?",
+   "o": [
+    "Frida Kahlo",
+    "Georgia O'Keeffe",
+    "Coco Chanel",
+    "Tamara de Lempicka"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "La peintre mexicaine Frida Kahlo a réalisé de très nombreux autoportraits."
+  },
+  {
+   "id": "QR-052",
+   "serie": "QR",
+   "num": 52,
+   "theme": "Culture générale",
+   "q": "Combien de couleurs trouve-t-on dans un sachet classique de M&M's ?",
+   "o": [
+    "Quatre",
+    "Cinq",
+    "Six",
+    "Huit"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Rouge, orange, jaune, vert, bleu et marron."
+  },
+  {
+   "id": "QR-053",
+   "serie": "QR",
+   "num": 53,
+   "theme": "Culture générale",
+   "q": "Quel pays a offert la statue de la Liberté aux États-Unis ?",
+   "o": [
+    "Le Royaume-Uni",
+    "La France",
+    "L'Espagne",
+    "L'Italie"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Œuvre de Bartholdi, avec une structure conçue par Gustave Eiffel, elle a été offerte par la France et inaugurée à New York en 1886."
+  },
+  {
+   "id": "QR-054",
+   "serie": "QR",
+   "num": 54,
+   "theme": "Culture générale",
+   "q": "Combien d'épouses le roi Henri VIII d'Angleterre a-t-il eues ?",
+   "o": [
+    "Quatre",
+    "Cinq",
+    "Six",
+    "Huit"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Catherine d'Aragon, Anne Boleyn, Jeanne Seymour, Anne de Clèves, Catherine Howard et Catherine Parr."
+  },
+  {
+   "id": "QR-055",
+   "serie": "QR",
+   "num": 55,
+   "theme": "Culture générale",
+   "q": "Quel est le groupe sanguin le plus rare parmi les groupes courants ?",
+   "o": [
+    "O négatif",
+    "AB négatif",
+    "B positif",
+    "A négatif"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "AB négatif est le plus rare des huit groupes ABO-Rhésus courants.",
+   "n": "Il existe des groupes encore plus rares, comme le « Rh nul »."
+  },
+  {
+   "id": "QR-056",
+   "serie": "QR",
+   "num": 56,
+   "theme": "Culture générale",
+   "q": "Quel célèbre mouvement artistique Pablo Picasso a-t-il cofondé ?",
+   "o": [
+    "Le surréalisme",
+    "Le fauvisme",
+    "Le cubisme",
+    "L'impressionnisme"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Picasso a fondé le cubisme avec Georges Braque, au début du XXe siècle."
+  },
+  {
+   "id": "QR-057",
+   "serie": "QR",
+   "num": 57,
+   "theme": "Culture générale",
+   "q": "Quel président américain figure sur le billet de 2 dollars ?",
+   "o": [
+    "George Washington",
+    "Abraham Lincoln",
+    "Thomas Jefferson",
+    "Benjamin Franklin"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Thomas Jefferson figure sur le billet de 2 dollars ; Washington est sur celui de 1 dollar, Lincoln sur celui de 5, et Franklin, qui ne fut pas président, sur celui de 100."
+  },
+  {
+   "id": "QR-058",
+   "serie": "QR",
+   "num": 58,
+   "theme": "Culture générale",
+   "q": "Dans quelle phase la Lune entre-t-elle après la pleine lune ?",
+   "o": [
+    "La nouvelle lune",
+    "Le premier quartier",
+    "La gibbeuse décroissante",
+    "Le croissant croissant"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Après la pleine lune, la partie éclairée diminue : c'est la phase gibbeuse décroissante, puis le dernier quartier."
+  },
+  {
+   "id": "QR-059",
+   "serie": "QR",
+   "num": 59,
+   "theme": "Culture générale",
+   "q": "Dans quel groupe l'aubergine figure-t-elle dans la pyramide alimentaire ?",
+   "o": [
+    "Parmi les fruits",
+    "Parmi les légumes",
+    "Parmi les féculents",
+    "Parmi les protéines"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "Les guides nutritionnels classent l'aubergine parmi les légumes.",
+   "n": "Le document répond « dans la section des fruits » : c'est vrai au sens botanique (l'aubergine est une baie), mais pas dans la pyramide alimentaire."
+  },
+  {
+   "id": "QR-060",
+   "serie": "QR",
+   "num": 60,
+   "theme": "Culture générale",
+   "q": "Quelle boisson alcoolisée est fabriquée à partir de baies de genévrier ?",
+   "o": [
+    "La vodka",
+    "Le gin",
+    "Le rhum",
+    "La tequila"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le gin est un alcool aromatisé aux baies de genévrier."
+  },
+  {
+   "id": "QR-061",
+   "serie": "QR",
+   "num": 61,
+   "theme": "Culture générale",
+   "q": "Combien de nuits dure la fête juive de Hanoukka ?",
+   "o": [
+    "Sept",
+    "Huit",
+    "Neuf",
+    "Douze"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Hanoukka, la fête des lumières, dure huit jours : on allume chaque soir une bougie de plus sur la hanoukia."
+  },
+  {
+   "id": "QR-062",
+   "serie": "QR",
+   "num": 62,
+   "theme": "Culture générale",
+   "q": "Quelle organisation religieuse et politique Malcolm X a-t-il rejointe en 1952, avant de rompre avec elle en 1964 ?",
+   "o": [
+    "Le Black Panther Party",
+    "La Nation de l'islam",
+    "La NAACP",
+    "La Southern Christian Leadership Conference"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Malcolm X fut l'un des principaux porte-parole de la Nation de l'islam avant de la quitter en 1964."
+  },
+  {
+   "id": "QR-063",
+   "serie": "QR",
+   "num": 63,
+   "theme": "Culture générale",
+   "q": "Quel pays compte la plus forte proportion de personnes âgées de plus de 65 ans ?",
+   "o": [
+    "La Chine",
+    "Le Japon",
+    "L'Italie",
+    "L'Allemagne"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "Près de trois Japonais sur dix ont plus de 65 ans.",
+   "n": "Le document demande « le plus grand nombre » : en nombre absolu, c'est la Chine ; c'est en proportion que le Japon arrive en tête. L'énoncé a été corrigé."
+  },
+  {
+   "id": "QR-064",
+   "serie": "QR",
+   "num": 64,
+   "theme": "Culture générale",
+   "q": "Dans quel État américain la zone 51 est-elle située ?",
+   "o": [
+    "L'Arizona",
+    "Le Nevada",
+    "Le Nouveau-Mexique",
+    "L'Utah"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "La zone 51 est une base militaire secrète située dans le désert du Nevada."
+  },
+  {
+   "id": "QR-065",
+   "serie": "QR",
+   "num": 65,
+   "theme": "Culture générale",
+   "q": "Quelle chaîne de restauration rapide américaine est réputée avoir introduit le premier guichet drive ?",
+   "o": [
+    "McDonald's",
+    "In-N-Out Burger",
+    "Burger King",
+    "Wendy's"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "In-N-Out Burger, fondée en Californie en 1948, est souvent présentée comme la pionnière du drive avec interphone.",
+   "n": "D'autres établissements revendiquent aussi cette invention."
+  },
+  {
+   "id": "QR-066",
+   "serie": "QR",
+   "num": 66,
+   "theme": "Culture générale",
+   "q": "Quelle est la température d'ébullition de l'eau au niveau de la mer ?",
+   "o": [
+    "90 °C",
+    "100 °C (212 °F)",
+    "110 °C",
+    "120 °C"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Sous la pression atmosphérique normale, l'eau bout à 100 °C, soit 212 °F."
+  },
+  {
+   "id": "QR-067",
+   "serie": "QR",
+   "num": 67,
+   "theme": "Culture générale",
+   "q": "Dans quelle ville et quel État se trouve l'université Harvard ?",
+   "o": [
+    "À Boston, dans le Massachusetts",
+    "À Cambridge, dans le Massachusetts",
+    "À New Haven, dans le Connecticut",
+    "À Princeton, dans le New Jersey"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Harvard se trouve à Cambridge, près de Boston ; Yale est à New Haven et Princeton dans le New Jersey."
+  },
+  {
+   "id": "QR-068",
+   "serie": "QR",
+   "num": 68,
+   "theme": "Culture générale",
+   "q": "Quelle actrice française a eu la carrière la plus longue à la télévision ?",
+   "o": [
+    "Jacqueline Maillan",
+    "Line Renaud",
+    "Michèle Morgan",
+    "Danielle Darrieux"
+   ],
+   "a": null,
+   "st": "averifier",
+   "x": "Réponse du document (« Jacqueline Maillan ») non confirmée : la question semble adaptée d'une question américaine et reste à vérifier."
+  },
+  {
+   "id": "QR-069",
+   "serie": "QR",
+   "num": 69,
+   "theme": "Culture générale",
+   "q": "Que signifie le sigle ADN ?",
+   "o": [
+    "Acide désoxyribonucléique",
+    "Acide ribonucléique",
+    "Acide aminé désoxydé",
+    "Adénosine diphosphate"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "ADN signifie acide désoxyribonucléique ; l'ARN est l'acide ribonucléique.",
+   "n": "Le document demande « l'autre nom de l'ADN » ; il s'agit de la signification du sigle."
+  },
+  {
+   "id": "QR-070",
+   "serie": "QR",
+   "num": 70,
+   "theme": "Culture générale",
+   "q": "Quelle est la plus longue série télévisée d'animation américaine ?",
+   "o": [
+    "Les Simpson",
+    "South Park",
+    "Les Griffin",
+    "Bob l'éponge"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Diffusés depuis 1989, « Les Simpson » détiennent le record de longévité des séries d'animation américaines."
+  },
+  {
+   "id": "QR-073",
+   "serie": "QR",
+   "num": 73,
+   "theme": "Culture générale",
+   "q": "Où se trouve le plus petit os du corps humain ?",
+   "o": [
+    "Dans l'oreille",
+    "Dans le pied",
+    "Dans la main",
+    "Dans le nez"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "L'étrier, dans l'oreille moyenne, mesure environ 3 mm.",
+   "n": "Le document passe de la question 70 à la question 73."
+  },
+  {
+   "id": "QR-074",
+   "serie": "QR",
+   "num": 74,
+   "theme": "Culture générale",
+   "q": "Quelle est la capitale du Canada ?",
+   "o": [
+    "Toronto",
+    "Ottawa",
+    "Montréal",
+    "Vancouver"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Ottawa, en Ontario, est la capitale fédérale du Canada ; Toronto en est la plus grande ville."
+  },
+  {
+   "id": "QR-075",
+   "serie": "QR",
+   "num": 75,
+   "theme": "Culture générale",
+   "q": "Quelle planète du système solaire possède le plus grand nombre de lunes connues ?",
+   "o": [
+    "Jupiter",
+    "Saturne",
+    "Uranus",
+    "Neptune"
+   ],
+   "a": 1,
+   "st": "corrigee",
+   "x": "Depuis 2023, Saturne compte le plus de satellites connus, avec plus de 270 lunes confirmées en 2025.",
+   "n": "Le document répond « Jupiter » : c'était vrai avant les découvertes de 2023, qui ont placé Saturne en tête."
+  },
+  {
+   "id": "QR-076",
+   "serie": "QR",
+   "num": 76,
+   "theme": "Culture générale",
+   "q": "Que signifie le sigle BMW, traduit en anglais ?",
+   "o": [
+    "Bavarian Motor Works",
+    "British Motor Works",
+    "Berlin Motor Wagon",
+    "Bavarian Mechanical Workshops"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "BMW signifie Bayerische Motoren Werke, soit « usines bavaroises de moteurs »."
+  },
+  {
+   "id": "QR-077",
+   "serie": "QR",
+   "num": 77,
+   "theme": "Culture générale",
+   "q": "En quelle année la contraception, et donc la pilule, a-t-elle été légalisée en France ?",
+   "o": [
+    "1960",
+    "1967",
+    "1975",
+    "1981"
+   ],
+   "a": 1,
+   "st": "nuance",
+   "x": "La loi Neuwirth du 28 décembre 1967 a légalisé la contraception ; 1975 est l'année de la loi Veil sur l'IVG.",
+   "n": "Le document parle de la pilule « mise à la disposition du public » : elle n'est réellement arrivée en pharmacie qu'après les décrets d'application de 1969."
+  },
+  {
+   "id": "QR-078",
+   "serie": "QR",
+   "num": 78,
+   "theme": "Culture générale",
+   "q": "Qui a écrit « Les Aventures de Sherlock Holmes » ?",
+   "o": [
+    "Agatha Christie",
+    "Arthur Conan Doyle",
+    "Edgar Allan Poe",
+    "Maurice Leblanc"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "L'Écossais Arthur Conan Doyle a créé Sherlock Holmes en 1887 ; Maurice Leblanc est le créateur d'Arsène Lupin."
+  },
+  {
+   "id": "QR-079",
+   "serie": "QR",
+   "num": 79,
+   "theme": "Culture générale",
+   "q": "Quelle ville a été construite sur les ruines de la cité aztèque de Tenochtitlan ?",
+   "o": [
+    "Mexico",
+    "Cancún",
+    "Guadalajara",
+    "Lima"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "Fondée vers 1325 sur une île du lac Texcoco, Tenochtitlan fut conquise par Cortés en 1521 ; Mexico s'est bâtie sur ses ruines."
+  },
+  {
+   "id": "QR-080",
+   "serie": "QR",
+   "num": 80,
+   "theme": "Culture générale",
+   "q": "Qui est le meilleur buteur de l'histoire de l'équipe de France de football ?",
+   "o": [
+    "Thierry Henry",
+    "Olivier Giroud",
+    "Kylian Mbappé",
+    "Antoine Griezmann"
+   ],
+   "a": 2,
+   "st": "corrigee",
+   "x": "Kylian Mbappé a dépassé les 57 buts d'Olivier Giroud le 16 juin 2026, lors du Mondial ; il en comptait 66 à l'issue du tournoi.",
+   "n": "Le document répond « Thierry Henry » (51 buts) : il a été dépassé par Olivier Giroud en 2022, puis par Kylian Mbappé en 2026."
+  },
+  {
+   "id": "QR-081",
+   "serie": "QR",
+   "num": 81,
+   "theme": "Culture générale",
+   "q": "Qui a été la première femme à remporter l'Oscar du meilleur réalisateur ?",
+   "o": [
+    "Sofia Coppola",
+    "Kathryn Bigelow",
+    "Jane Campion",
+    "Chloé Zhao"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Kathryn Bigelow l'a remporté en 2010 pour « Démineurs » ; Chloé Zhao a été la deuxième, en 2021."
+  },
+  {
+   "id": "QR-082",
+   "serie": "QR",
+   "num": 82,
+   "theme": "Culture générale",
+   "q": "Quel pays est surnommé le « pays du Soleil levant » ?",
+   "o": [
+    "La Chine",
+    "La Corée du Sud",
+    "Le Japon",
+    "La Thaïlande"
+   ],
+   "a": 2,
+   "st": "ok",
+   "x": "Le nom japonais du pays, Nihon, signifie littéralement « origine du soleil »."
+  },
+  {
+   "id": "QR-084",
+   "serie": "QR",
+   "num": 84,
+   "theme": "Culture générale",
+   "q": "En quelle année le parc Walt Disney World a-t-il ouvert ses portes en Floride ?",
+   "o": [
+    "1955",
+    "1971",
+    "1983",
+    "1992"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Walt Disney World a ouvert le 1er octobre 1971 près d'Orlando ; Disneyland, en Californie, date de 1955.",
+   "n": "Le document passe de la question 82 à la question 84."
+  },
+  {
+   "id": "QR-086",
+   "serie": "QR",
+   "num": 86,
+   "theme": "Culture générale",
+   "q": "Quel est le seul métal liquide à température ambiante ?",
+   "o": [
+    "Le plomb",
+    "Le mercure",
+    "Le gallium",
+    "L'étain"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le mercure fond à −39 °C ; le gallium, lui, ne devient liquide qu'à partir de 30 °C environ."
+  },
+  {
+   "id": "QR-087",
+   "serie": "QR",
+   "num": 87,
+   "theme": "Culture générale",
+   "q": "Quelle militante a été inscrite en 1970 sur la liste des personnes les plus recherchées par le FBI, après avoir été accusée à tort de complicité dans une tentative de libération de membres des Black Panthers ?",
+   "o": [
+    "Rosa Parks",
+    "Angela Davis",
+    "Assata Shakur",
+    "Kathleen Cleaver"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Arrêtée en 1970, Angela Davis a été acquittée en 1972, au terme d'un procès très médiatisé."
+  },
+  {
+   "id": "QR-088",
+   "serie": "QR",
+   "num": 88,
+   "theme": "Culture générale",
+   "q": "Quels sont les trois signes d'eau du zodiaque ?",
+   "o": [
+    "Le Bélier, le Lion et le Sagittaire",
+    "Les Poissons, le Cancer et le Scorpion",
+    "Les Gémeaux, la Balance et le Verseau",
+    "Le Taureau, la Vierge et le Capricorne"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Les signes d'eau sont le Cancer, le Scorpion et les Poissons ; le Bélier, le Lion et le Sagittaire sont les signes de feu."
+  },
+  {
+   "id": "QR-089",
+   "serie": "QR",
+   "num": 89,
+   "theme": "Culture générale",
+   "q": "Quel animal figure sur le logo de Porsche ?",
+   "o": [
+    "Un taureau",
+    "Un cheval",
+    "Un lion",
+    "Un jaguar"
+   ],
+   "a": 1,
+   "st": "ok",
+   "x": "Le cheval cabré est l'emblème de la ville de Stuttgart, siège de Porsche ; le taureau est celui de Lamborghini."
+  },
+  {
+   "id": "QR-090",
+   "serie": "QR",
+   "num": 90,
+   "theme": "Culture générale",
+   "q": "Quel est le célèbre slogan d'Apple ?",
+   "o": [
+    "« Think Different » (« Penser différemment »)",
+    "« Just Do It »",
+    "« Impossible Is Nothing »",
+    "« I'm Lovin' It »"
+   ],
+   "a": 0,
+   "st": "ok",
+   "x": "« Think Different » date de la campagne de 1997 ; « Just Do It » est le slogan de Nike, « Impossible Is Nothing » celui d'Adidas."
   }
  ]
 }

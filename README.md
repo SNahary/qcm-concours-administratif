@@ -67,6 +67,33 @@ La progression est enregistrée dans le navigateur de l'appareil utilisé ; elle
 - **Q32** : le syllogisme est un raisonnement plutôt qu'une figure de style, ce qui est signalé comme une nuance.
 - **Q49, Q66, Q70, Q78** : formulations ou options imprimées telles quelles (« résoudre l'équation », « triangle droit », « 79 », « 12/07/20 »), avec une note dans la question.
 
+**Sujet 3 – Livre « S'entraîner avec 2 500 QCM », auto-évaluation** (sujets n° 1 à 3), 48 questions à quatre options.
+
+- 48 questions transcrites depuis 7 photos. Elles préparent aux concours de catégorie B et C de la fonction publique **française** : les questions sur les institutions françaises sont signalées par le thème « Institutions et administration (France) ».
+- Les réponses suivent le **corrigé imprimé du livre**, et non les croix manuscrites sur les pages, qui sont parfois fausses (par exemple à la question 10 du sujet n° 1).
+- Aucun doublon avec les sujets 1 et 2.
+
+### Corrections et nuances (sujet 3)
+
+- **Sujet n° 1, Q13** : le corrigé du livre date le bombardement de Guernica du 1er mai 1937 ; il a eu lieu le 26 avril 1937.
+- **Sujet n° 1, Q6** : le déficit de 2015 est une donnée datée, propre à l'époque du livre.
+- **Sujet n° 2, Q10** : le classement des productions agricoles varie selon les années, ce qui est signalé comme une nuance.
+
+**Sujet 4 – Quiz de culture générale au format questions-réponses** (document imprimé, traduit de l'anglais), questions 1 à 90.
+
+- 85 questions transcrites depuis 6 photos. Il s'agit de questions ouvertes : pour l'entraînement, **les trois fausses réponses de chaque question ont été ajoutées**, ce qui est indiqué dans la source de chaque question.
+- La numérotation du document saute les numéros 39, 71, 72 et 83.
+- La question 85 (« la langue la plus parlée au monde ») n'a pas été reprise : elle fait doublon avec la question 16 du sujet 1.
+
+### Réponses du document corrigées (sujet 4)
+
+- **Q6** : le coup de feu de Sarajevo a été tiré par Gavrilo Princip ; l'archiduc François-Ferdinand en est la victime.
+- **Q75** : c'est Saturne, et non Jupiter, qui compte le plus de lunes depuis 2023.
+- **Q80** : le meilleur buteur des Bleus est Kylian Mbappé depuis le 16 juin 2026 ; le document donne Thierry Henry, dépassé dès 2022.
+- **Q15, Q28, Q59, Q63** : venaison plutôt que « chevreuil », yard traduit à tort par « cour », aubergine classée parmi les légumes, proportion (et non nombre) de personnes âgées au Japon.
+- **Nuances** : Q19 (Balzac), Q30 (hippopotame), Q46 (équinoxe de mars, qui marque l'automne à Madagascar), Q55, Q65 et Q77.
+- **Réponse à vérifier** : Q25 (personnages de la série « H ») et Q68 (actrice française à la plus longue carrière télévisée).
+
 ## Format des données
 
 Les questions se trouvent dans `index.html`, dans la balise `<script id="qcm-data">`. Une copie lisible est dans `data/questions.json`.
