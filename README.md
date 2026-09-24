@@ -53,6 +53,20 @@ La progression est enregistrée dans le navigateur de l'appareil utilisé ; elle
   - Q87 : quotidien publiant « Le naïf » ;
   - Q88 : émission de Haja Ratsimbazafy.
 
+**Sujet 2 – Série de tests en tableaux** (conjugaison, orthographe et grammaire, vocabulaire, mathématiques), 80 questions à trois options.
+
+- 80 questions transcrites depuis 9 photos, lues sur l'image car l'OCR ne reconnaît pas les tableaux.
+- Les réponses surlignées sur le document ont été contrôlées une à une, et une explication a été ajoutée à chaque question.
+- Aucun doublon avec le sujet 1.
+
+### Écarts avec le corrigé du document (sujet 2)
+
+- **Q71** : le document surligne « 2³ × 3³ », qui vaut 216. La bonne réponse est 2³ × 3² (8 × 9 = 72).
+- **Q62** : le document surligne 16, qui correspond au nombre de billes *après* le don ; avant le don, on en a 20. Les deux réponses sont acceptées.
+- **Q24** : « des abat-jours » (orthographe de 1990) et « des abat-jour » (orthographe traditionnelle) sont tous deux acceptés.
+- **Q32** : le syllogisme est un raisonnement plutôt qu'une figure de style, ce qui est signalé comme une nuance.
+- **Q49, Q66, Q70, Q78** : formulations ou options imprimées telles quelles (« résoudre l'équation », « triangle droit », « 79 », « 12/07/20 »), avec une note dans la question.
+
 ## Format des données
 
 Les questions se trouvent dans `index.html`, dans la balise `<script id="qcm-data">`. Une copie lisible est dans `data/questions.json`.
